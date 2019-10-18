@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Pinyin.PinduPage"
+	Title="拼读音节" >
+
+	<ContentPage.Content>
+		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" >
+			<!-- 标题，不滚动 -->
+			<!-- <Label x:Name="lblCaption" Text="  陪你读拼音" HeightRequest="50" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Style="{StaticResource caption2}" /> -->
+
+			<!-- 拼音，音调和解释，不滚动 -->
+			<ContentView BackgroundColor="#F8F8FF" Padding="0,0,0,0" Margin="0,0,0,0">
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="45"></RowDefinition>
+						<RowDefinition Height="60"></RowDefinition>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<!-- 
+					<ContentView Padding="0,0,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#F8F8FF">
+						<Label x:Name="lblYinjie" Text="拼音"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#E8AD00" BackgroundColor="#F8F8FF" FontSize="Large"  />
+					</ContentView>
+					-->
+					<ContentView Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" >
+						<Label x:Name="lblYinjie" Text="拼音" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#E8AD00" FontSize="Large"  />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="2" >
+						<Button x:Name="btnTone1" Text="－" Style="{StaticResource ToneButton}" Clicked="OnTone1Clicked" />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="3" >
+						<Button x:Name="btnTone2" Text="/" Style="{StaticResource ToneButton}" Clicked="OnTone2Clicked" />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="4" >
+						<Button x:Name="btnTone3" Text="∨" Style="{StaticResource ToneButton}" Clicked="OnTone3Clicked" />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="5" >
+						<Button x:Name="btnTone4" Text="\" Style="{StaticResource ToneButton}" Clicked="OnTone4Clicked" />
+					</ContentView>
+					<!--
+					<Button x:Name="btnTone1" Text="－" Grid.Row="0" Grid.Column="2" Style="{StaticResource orangeButton}" Clicked="OnTone1Clicked" />
+					<Button x:Name="btnTone2" Text="/" Grid.Row="0" Grid.Column="3" Style="{StaticResource orangeButton}" Clicked="OnTone2Clicked" />
+					<Button x:Name="btnTone3" Text="∨" Grid.Row="0" Grid.Column="4" Style="{StaticResource orangeButton}" Clicked="OnTone3Clicked" />
+					<Button x:Name="btnTone4" Text="\" Grid.Row="0" Grid.Column="5" Style="{StaticResource orangeButton}" Clicked="OnTone4Clicked" />
+					-->
+					<ContentView Padding="10,0,0,0" Grid.Row="1" Grid.ColumnSpan="6" BackgroundColor="White">
+						<Label x:Name="lblExplanation" Text=""  HorizontalTextAlignment="Start" VerticalTextAlignment="Start"  Style="{StaticResource tip}"/>
+					</ContentView>	
+				</Grid>
+			</ContentView>
+
+			<!-- 声母、韵母、整体认读音节，需要滚动 -->
+			
+			<ScrollView>
+				<Grid RowSpacing="1" ColumnSpacing="1"> 
+			<!-- 	<Grid>
+					<OnPlatform x:TypeArguments="RowSpacing"
+						Android="0"
+						iOS="1"
+					/>
+					<OnPlatform x:TypeArguments="ColumnSpacing"
+						Android="0"
+						iOS="1"
+					/> -->
+
+					<Grid.RowDefinitions>
+						<RowDefinition Height="20"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="20"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+					</Grid.RowDefinitions>
+
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Label Text="声母" Grid.Row="0" Grid.ColumnSpan="6" Style="{StaticResource shengYunMu}"/>
+					<Button x:Name="btnShengmuB" Text="b" Grid.Row="1" Grid.Column="0" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuP" Text="p" Grid.Row="1" Grid.Column="1" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuM" Text="m" Grid.Row="1" Grid.Column="2" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuF" Text="f" Grid.Row="1" Grid.Column="3" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuD" Text="d" Grid.Row="1" Grid.Column="4" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuT" Text="t" Grid.Row="1" Grid.Column="5" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuN" Text="n" Grid.Row="2" Grid.Column="0" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuL" Text="l" Grid.Row="2" Grid.Column="1" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuG" Text="g" Grid.Row="2" Grid.Column="2" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuK" Text="k" Grid.Row="2" Grid.Column="3" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuH" Text="h" Grid.Row="2" Grid.Column="4" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuJ" Text="j" Grid.Row="2" Grid.Column="5" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuQ" Text="q" Grid.Row="3" Grid.Column="0" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuX" Text="x" Grid.Row="3" Grid.Column="1" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuZH" Text="zh" Grid.Row="3" Grid.Column="2" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuCH" Text="ch" Grid.Row="3" Grid.Column="3" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuSH" Text="sh" Grid.Row="3" Grid.Column="4" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuR" Text="r" Grid.Row="3" Grid.Column="5" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuZ" Text="z" Grid.Row="4" Grid.Column="0" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuC" Text="c" Grid.Row="4" Grid.Column="1" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuS" Text="s" Grid.Row="4" Grid.Column="2" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuY" Text="y" Grid.Row="4" Grid.Column="3" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+					<Button x:Name="btnShengmuW" Text="w" Grid.Row="4" Grid.Column="4" Style="{StaticResource plainButton}" Clicked="OnClickShengmu" />
+
+					<Label Text="韵母" Grid.Row="5"  Grid.ColumnSpan="6" Style="{StaticResource shengYunMu}"/>
+					<Button x:Name="btnYunmuA" Text="a" Grid.Row="6" Grid.Column="0" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuO" Text="o" Grid.Row="6" Grid.Column="1" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuE" Text="e" Grid.Row="6" Grid.Column="2" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuI" Text="i" Grid.Row="6" Grid.Column="3" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuU" Text="u" Grid.Row="6" Grid.Column="4" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuV" Text="ü" Grid.Row="6" Grid.Column="5" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuAI" Text="ai" Grid.Row="7" Grid.Column="0" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuEI" Text="ei" Grid.Row="7" Grid.Column="1" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuUI" Text="ui" Grid.Row="7" Grid.Column="2" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuAO" Text="ao" Grid.Row="7" Grid.Column="3" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuOU" Text="ou" Grid.Row="7" Grid.Column="4" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuIU" Text="iu" Grid.Row="7" Grid.Column="5" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuIE" Text="ie" Grid.Row="8" Grid.Column="0" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuVE" Text="üe" Grid.Row="8" Grid.Column="1" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuER" Text="er" Grid.Row="8" Grid.Column="2" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuAN" Text="an" Grid.Row="8" Grid.Column="3" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuEN" Text="en" Grid.Row="8" Grid.Column="4" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuIN" Text="in" Grid.Row="8" Grid.Column="5" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuUN" Text="un" Grid.Row="9" Grid.Column="0" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuVN" Text="ün" Grid.Row="9" Grid.Column="1" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuANG" Text="ang" Grid.Row="9" Grid.Column="2" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuENG" Text="eng" Grid.Row="9" Grid.Column="3" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuING" Text="ing" Grid.Row="9" Grid.Column="4" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+					<Button x:Name="btnYunmuONG" Text="ong" Grid.Row="9" Grid.Column="5" Style="{StaticResource darkerButton}" Clicked="OnClickYunmu" />
+
+				</Grid>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

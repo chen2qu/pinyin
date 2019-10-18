@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Pinyin.ZhengTiRenDuPage"
+	Title="整体认读音节" >
+
+<!--	<ContentPage.Padding>
+	<OnPlatform x:TypeArguments="Thickness"
+	            iOS="0, 20, 0, 0" />
+	</ContentPage.Padding>-->
+	
+	<ContentPage.Content>
+		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" > 
+
+			<Label Text="关于整体认读音节" Style="{StaticResource shengYunMu}"/>
+			<ContentView Padding="10,0,0,0" BackgroundColor="White" >
+				<Label x:Name="lblIntroduction" Text="汉语拼音中有一些特殊的音节不按照声母和韵母分开拼读，而是整体拼读的，称为整体认读音节。"  
+						HorizontalTextAlignment="Start" VerticalTextAlignment="Start" /> 
+						<!-- Style="{StaticResource tip1}"/> -->
+			</ContentView>
+			<ContentView Padding="10,0,0,0" BackgroundColor="White" >
+				<Label x:Name="lblIntroduction2" Text="小学汉语拼音一共有16个这样的音节，都列在下面，选择一个，然后点击音调来听它的发音吧。"  
+						HorizontalTextAlignment="Start" VerticalTextAlignment="Start" /> 
+			</ContentView>
+			
+			<!-- <Label x:Name="lblIntroduction" Text="汉语拼音中有16个特殊的音节不按照声母和韵母分开拼读，而是整体拼读的，称为整体认读音节。"  HorizontalTextAlignment="Start" VerticalTextAlignment="Start"  Style="{StaticResource tip}"/> -->
+
+			<ContentView BackgroundColor="#F8F8FF" Padding="0,0,0,0" Margin="0,0,0,0" >
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="45"></RowDefinition>
+						<RowDefinition Height="45"></RowDefinition>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<!-- 
+					<ContentView Padding="0,0,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#F8F8FF">
+						<Label x:Name="lblYinjie" Text="拼音"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#E8AD00" BackgroundColor="#F8F8FF" FontSize="Large"  />
+					</ContentView>
+					-->
+					<ContentView Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" >
+						<Label x:Name="lblYinjie" Text="音节" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#E8AD00" FontSize="Large"  />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="2" >
+						<Button x:Name="btnTone1" Text="－" Style="{StaticResource ToneButton}" BackgroundColor="#F8F8FF" Clicked="OnTone1Clicked"  />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="3" >
+						<Button x:Name="btnTone2" Text="/" Style="{StaticResource ToneButton}" BackgroundColor="#F8F8FF" Clicked="OnTone2Clicked" />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="4" >
+						<Button x:Name="btnTone3" Text="∨" Style="{StaticResource ToneButton}" BackgroundColor="#F8F8FF" Clicked="OnTone3Clicked" />
+					</ContentView>
+					<ContentView Margin="0,0,0,0" Padding="0,0,0,0" Grid.Row="0" Grid.Column="5" >
+						<Button x:Name="btnTone4" Text="\" Style="{StaticResource ToneButton}" BackgroundColor="#F8F8FF" Clicked="OnTone4Clicked" />
+					</ContentView>
+
+					<ContentView Padding="10,0,0,0" Grid.Row="1" Grid.ColumnSpan="6" BackgroundColor="White">
+						<Label x:Name="lblExplanation" Text=""  HorizontalTextAlignment="Start" VerticalTextAlignment="Start"  Style="{StaticResource tip}"/>
+					</ContentView>	
+				</Grid>
+			</ContentView>
+
+			<!-- 声母、韵母、整体认读音节，需要滚动 -->
+			
+			<ScrollView>
+				<Grid RowSpacing="1" ColumnSpacing="1"> 
+			<!-- 	<Grid>
+					<OnPlatform x:TypeArguments="RowSpacing"
+						Android="0"
+						iOS="1"
+					/>
+					<OnPlatform x:TypeArguments="ColumnSpacing"
+						Android="0"
+						iOS="1"
+					/> -->
+
+					<Grid.RowDefinitions>
+						<RowDefinition Height="20"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
+					</Grid.RowDefinitions>
+
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Label Text="整体认读音节表" Grid.Row="0" Grid.ColumnSpan="4" Style="{StaticResource ZTRDYinjie}"/>
+					<Button x:Name="btnZhi" Text="zhi" Grid.Row="1" Grid.Column="0" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnChi" Text="chi" Grid.Row="1" Grid.Column="1" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnShi" Text="shi" Grid.Row="1" Grid.Column="2" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnRi" Text="ri" Grid.Row="1" Grid.Column="3" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnZi" Text="zi" Grid.Row="2" Grid.Column="0" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnCi" Text="ci" Grid.Row="2" Grid.Column="1" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnSi" Text="si" Grid.Row="2" Grid.Column="2" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYi" Text="yi" Grid.Row="2" Grid.Column="3" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnWu" Text="wu" Grid.Row="3" Grid.Column="0" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYu" Text="yu" Grid.Row="3" Grid.Column="1" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYe" Text="ye" Grid.Row="3" Grid.Column="2" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYue" Text="yue" Grid.Row="3" Grid.Column="3" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYuan" Text="yuan" Grid.Row="4" Grid.Column="0" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYin" Text="yin" Grid.Row="4" Grid.Column="1" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYun" Text="yun" Grid.Row="4" Grid.Column="2" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+					<Button x:Name="btnYing" Text="ying" Grid.Row="4" Grid.Column="3" Style="{StaticResource ZTYinjieButton}" Clicked="OnClickYinjie" />
+
+				</Grid>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

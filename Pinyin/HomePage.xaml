@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Pinyin.HomePage"
+	Title="读拼音" >
+	<ContentPage.Content>
+		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" >
+
+			<ScrollView BackgroundColor="White" >  <!-- remove this tag if you want two or more grids -->
+				<Grid x:Name="grid1" RowSpacing="1" ColumnSpacing="1"> 
+
+					<Grid.RowDefinitions>
+						<RowDefinition Height="200"></RowDefinition>
+						<RowDefinition Height="200"></RowDefinition>
+						<RowDefinition Height="10"></RowDefinition>
+						<RowDefinition Height="100"></RowDefinition> 
+					</Grid.RowDefinitions>
+
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="170" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image x:Name="imgShengmu" Grid.Row="0" Grid.Column="0" Source="tomato158.png" WidthRequest="170" HeightRequest="180" Aspect="AspectFit" HorizontalOptions="EndAndExpand"  />
+					<Image x:Name="imgYunmu" Grid.Row="0" Grid.Column="1" Source="orange158.png"  HeightRequest="180" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+					<Image x:Name="imgPindu" Grid.Row="1" Grid.Column="0" Source="pear158.png" WidthRequest="170" HeightRequest="180" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+					<Image x:Name="imgZhengti" Grid.Row="1" Grid.Column="1" Source="apple158.png"  HeightRequest="180" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+
+					<Label Grid.Row="2" Grid.ColumnSpan="2" BackgroundColor="Gray" /> <!-- "#87CEFA" /> -->
+
+
+					<Image x:Name="imgQA" Grid.Row="3" Grid.Column="0" Source="QA96.png" WidthRequest="170" HeightRequest="100" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+					<Image x:Name="imgThanks" Grid.Row="3" Grid.Column="1" Source="thanks96.png"  HeightRequest="180" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" />
+
+				</Grid>
+
+				<!-- temporarily not enable the share feature 
+				<Grid x:Name="grid2" RowSpacing="1" ColumnSpacing="1"> 
+
+					<Grid.RowDefinitions>
+						<RowDefinition Height="100"></RowDefinition>
+					</Grid.RowDefinitions>
+
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image x:Name="imgQA" Grid.Row="0" Grid.Column="0" Source="QA96.png"  />
+					<Image x:Name="imgThanks" Grid.Row="0" Grid.Column="1" Source="thanks96.png"  />
+					<Image x:Name="imgShare" Grid.Row="0" Grid.Column="2" Source="share158_2.png"  />
+
+				</Grid>
+				-->
+			</ScrollView>  
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

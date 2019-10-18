@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Pinyin.SharePage">
+	<ContentPage.Content>
+		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" >
+
+			<!-- <ScrollView BackgroundColor="White" >  -->
+
+				<ContentView Padding="10,10,0,0" BackgroundColor="White" >
+					<Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 
+						Text="请点击下面的二维码，将其保存成图片，就可以将它从微信或者QQ分享给好友了！" />
+				</ContentView>
+				<ContentView Padding="10,0,0,0" BackgroundColor="White" >
+					<Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 
+						Text="不管好友用的是安卓还是苹果手机都可以通过扫描这个二维码获取APP哦～～" />
+				</ContentView>
+
+				<ContentView Padding="50,10,50,10" BackgroundColor="White" >
+					<!-- <Image x:Name="imgQRCode" Source="QRCodeDuPinYin.png"  Aspect="AspectFit" HorizontalOptions="EndAndExpand" /> -->
+					<Image x:Name="imgQRCode" Source="qrcode_dupinyin512.jpg"  Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+				</ContentView>
+			<!-- </ScrollView>  -->
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

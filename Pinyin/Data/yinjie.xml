@@ -1,0 +1,3139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Yinjies>
+  <yinjie name="a">
+    <desc>单韵母a，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：啊，阿，腌，锕</tone1Samples>
+    <tone2Samples>阳平例字：啊</tone2Samples>
+    <tone3Samples>上声例字：啊，阿</tone3Samples>
+    <tone4Samples>去声例字：啊，阿</tone4Samples>
+  </yinjie>
+  <yinjie name="o">
+    <desc>单韵母o，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：喔，噢</tone1Samples>
+    <tone2Samples>阳平例字：哦</tone2Samples>
+    <tone3Samples>上声例字：嚄</tone3Samples>
+    <tone4Samples>去声例字：哦</tone4Samples>
+  </yinjie>
+  <yinjie name="e">
+    <desc>单韵母e，不用声母也能当音节</desc>
+    <tone1Samples>阴平例字：屙，阿，婀</tone1Samples>
+    <tone2Samples>阳平例字：讹，鹅，俄，娥，峨，蛾，额，哦</tone2Samples>
+    <tone3Samples>上声例字：恶</tone3Samples>
+    <tone4Samples>去声例字：恶，饿，扼，鳄，噩，鄂，颚，遏</tone4Samples>
+  </yinjie>
+  <yinjie name="i">
+    <desc>单韵母i，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="u">
+    <desc>单韵母u，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ü">
+    <desc>单韵母ü，需要声母；声母是j、q、x时，两点要挖去哦</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ai">
+    <desc>复韵母ai，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：哀，挨，埃，唉，哎，诶，溾</tone1Samples>
+    <tone2Samples>阳平例字：挨，捱，皑，癌，溰，嘊</tone2Samples>
+    <tone3Samples>上声例字：矮，蔼，霭</tone3Samples>
+    <tone4Samples>去声例字：爱，艾，唉，暧，嫒，隘，碍，礙</tone4Samples>
+  </yinjie>
+  <yinjie name="ei">
+    <desc>复韵母ei，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：诶，欸</tone1Samples>
+    <tone2Samples>阳平例字：诶，欸</tone2Samples>
+    <tone3Samples>上声例字：诶，欸</tone3Samples>
+    <tone4Samples>去声例字：诶，欸</tone4Samples>
+  </yinjie>
+  <yinjie name="ui">
+    <desc>复韵母ui，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ao">
+    <desc>复韵母ao，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：凹，熬，柪</tone1Samples>
+    <tone2Samples>阳平例字：熬，嗷，敖，獒，遨，翱，鳌，鏖</tone2Samples>
+    <tone3Samples>上声例字：袄，抝，媪，夭</tone3Samples>
+    <tone4Samples>去声例字：奥，澳，傲，懊，慠，岰，骜，垇</tone4Samples>
+  </yinjie>
+  <yinjie name="ou">
+    <desc>复韵母ou，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：欧，殴，鸥，讴，讴，沤，区</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：呕，偶，耦，蕅，藕，吘，禺</tone3Samples>
+    <tone4Samples>去声例字：怄，沤</tone4Samples>
+  </yinjie>
+  <yinjie name="iu">
+    <desc>复韵母iu，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ie">
+    <desc>复韵母ie，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="üe">
+    <desc>复韵母üe，需要声母；声母是j、q、x时，两点要挖去哦</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="er">
+    <desc>单韵母er，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：而，儿，鸸</tone2Samples>
+    <tone3Samples>上声例字：尔，耳，迩，饵，洱，珥</tone3Samples>
+    <tone4Samples>去声例字：二，貳</tone4Samples>
+  </yinjie>
+  <yinjie name="an">
+    <desc>前鼻韵母an，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：安，谙，庵，氨，鞍，桉，鹌</tone1Samples>
+    <tone2Samples>阳平例字：雸，玵</tone2Samples>
+    <tone3Samples>上声例字：俺，铵，唵，埯</tone3Samples>
+    <tone4Samples>去声例字：按，案，案，暗，岸，黯，胺，晻</tone4Samples>
+  </yinjie>
+  <yinjie name="en">
+    <desc>前鼻韵母en，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：恩，蒽，煾</tone1Samples>
+    <tone2Samples>阳平例字：嗯</tone2Samples>
+    <tone3Samples>上声例字：峎</tone3Samples>
+    <tone4Samples>去声例字：嗯，摁</tone4Samples>
+  </yinjie>
+  <yinjie name="in">
+    <desc>前鼻韵母in，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="un">
+    <desc>前鼻韵母un，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ün">
+    <desc>前鼻韵母ün，需要声母；声母是j、q、x时，两点要挖去哦</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ang">
+    <desc>后鼻韵母ang，不用声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：肮，骯</tone1Samples>
+    <tone2Samples>阳平例字：昂，昻</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：盎，醃，枊</tone4Samples>
+  </yinjie>
+  <yinjie name="eng">
+    <desc>后鼻韵母eng，不需要声母也能独立当音节</desc>
+    <tone1Samples>阴平例字：鞥</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ing">
+    <desc>后鼻韵母ing，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ong">
+    <desc>后鼻韵母ong，需要声母才能组成音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="b">
+    <desc>声母b，b开头的音节有16个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="p">
+    <desc>声母p，p开头的音节有17个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="m">
+    <desc>声母m，m开头的音节有19个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="f">
+    <desc>声母f，f开头的音节有10个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="d">
+    <desc>声母d，d开头的音节有23个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="t">
+    <desc>声母t，t开头的音节有20个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="n">
+    <desc>声母n，n开头的音节有25个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="l">
+    <desc>声母l，l开头的音节有26个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="g">
+    <desc>声母g，g开头的音节有19个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="k">
+    <desc>声母k，k开头的音节有19个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="h">
+    <desc>声母h，h开头的音节有19个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="j">
+    <desc>声母j，j开头的音节有14个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="q">
+    <desc>声母q，q开头的音节有14个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="x">
+    <desc>声母x，x开头的音节有14个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="zh">
+    <desc>声母zh，zh开头的音节有20个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ch">
+    <desc>声母ch，ch开头的音节有18个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="sh">
+    <desc>声母sh，sh开头的音节有19个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="r">
+    <desc>声母r，r开头的音节有15个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="z">
+    <desc>声母z，z开头的音节有17个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="c">
+    <desc>声母c，c开头的音节有16个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="s">
+    <desc>声母s，s开头的音节有16个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="y">
+    <desc>声母y，y开头的音节有15个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="w">
+    <desc>声母w，w开头的音节有9个</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ba">
+    <desc>声母：b，韵母：a</desc>
+    <tone1Samples>阴平例字：八，巴，扒，疤，芭，叭，笆，粑</tone1Samples>
+    <tone2Samples>阳平例字：拔，跋，魃</tone2Samples>
+    <tone3Samples>上声例字：把，靶，钯</tone3Samples>
+    <tone4Samples>去声例字：爸，鲅，叭，罢，霸，坝，灞，壩</tone4Samples>
+  </yinjie>
+  <yinjie name="bai">
+    <desc>声母：b，韵母：ai</desc>
+    <tone1Samples>阴平例字：掰，挀</tone1Samples>
+    <tone2Samples>阳平例字：白</tone2Samples>
+    <tone3Samples>上声例字：摆，柏，栢，捭</tone3Samples>
+    <tone4Samples>去声例字：拜，败，稗，庍，猈</tone4Samples>
+  </yinjie>
+  <yinjie name="ban">
+    <desc>声母：b，韵母：an</desc>
+    <tone1Samples>阴平例字：搬，班，般，斑，扳，颁，癍，褩</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：板，阪，坂，钣，舨</tone3Samples>
+    <tone4Samples>去声例字：办，伴，扮，拌，瓣，绊，跘，辦</tone4Samples>
+  </yinjie>
+  <yinjie name="bang">
+    <desc>声母：b，韵母：ang</desc>
+    <tone1Samples>阴平例字：帮，邦，浜，梆，捠</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：绑，榜，膀，牓</tone3Samples>
+    <tone4Samples>去声例字：棒，磅，蚌，傍，镑，谤，蜯，蒡</tone4Samples>
+  </yinjie>
+  <yinjie name="bao">
+    <desc>声母：b，韵母：ao</desc>
+    <tone1Samples>阴平例字：包，煲，胞，苞，剥，孢，褒</tone1Samples>
+    <tone2Samples>阳平例字：薄，雹，窇</tone2Samples>
+    <tone3Samples>上声例字：宝，保，饱，堡，葆，鸨，褓，媬</tone3Samples>
+    <tone4Samples>去声例字：包，爆，暴，抱，豹，鲍，曝，瀑</tone4Samples>
+  </yinjie>
+  <yinjie name="bei">
+    <desc>声母：b，韵母：ei</desc>
+    <tone1Samples>阴平例字：背，杯，悲，卑，碑，柸，盃</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：北</tone3Samples>
+    <tone4Samples>去声例字：背，倍，贝，备，辈，蓓，碚，狈</tone4Samples>
+  </yinjie>
+  <yinjie name="ben">
+    <desc>声母：b，韵母：en</desc>
+    <tone1Samples>阴平例字：奔，贲，犇，</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：本，苯，畚</tone3Samples>
+    <tone4Samples>去声例字：笨，夯，坌，捹</tone4Samples>
+  </yinjie>
+  <yinjie name="beng">
+    <desc>声母：b，韵母：eng</desc>
+    <tone1Samples>阴平例字：崩，绷，嘣，痭，伻，奟</tone1Samples>
+    <tone2Samples>阳平例字：甭，甮</tone2Samples>
+    <tone3Samples>上声例字：绷，埲，琣，琫，鞛</tone3Samples>
+    <tone4Samples>去声例字：泵，迸，蚌，蹦，塴</tone4Samples>
+  </yinjie>
+  <yinjie name="bi">
+    <desc>声母：b，韵母：i</desc>
+    <tone1Samples>阴平例字：逼</tone1Samples>
+    <tone2Samples>阳平例字：鼻，荸</tone2Samples>
+    <tone3Samples>上声例字：比，彼，笔，鄙，匕，吡，妣，俾</tone3Samples>
+    <tone4Samples>去声例字：币，必，闭，碧，毕，避，壁，臂</tone4Samples>
+  </yinjie>
+  <yinjie name="bian">
+    <desc>声母：b，韵母：元音i 附带鼻辅音an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：边，编，鞭，蝙，砭，牑，鳊</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：扁，贬，匾，褊</tone3Samples>
+    <tone4Samples>去声例字：变，遍，便，辩，卞，辨，辫，汴</tone4Samples>
+  </yinjie>
+  <yinjie name="biao">
+    <desc>声母：b，韵母：元音i 附带复韵母ao</desc>
+    <tone1Samples>阴平例字：标，彪，飙，膘，镖，骠，飈，杓</tone1Samples>
+    <tone2Samples>阳平例字：嫑</tone2Samples>
+    <tone3Samples>上声例字：表，裱，婊</tone3Samples>
+    <tone4Samples>去声例字：鳔，俵，摽</tone4Samples>
+  </yinjie>
+  <yinjie name="bie">
+    <desc>声母：b，韵母：ie</desc>
+    <tone1Samples>阴平例字：憋，鳖，蹩，瘪</tone1Samples>
+    <tone2Samples>阳平例字：别，襒，徶，蛂</tone2Samples>
+    <tone3Samples>上声例字：瘪</tone3Samples>
+    <tone4Samples>去声例字：别，彆</tone4Samples>
+  </yinjie>
+  <yinjie name="bin">
+    <desc>声母：b，韵母：in</desc>
+    <tone1Samples>阴平例字：斌，彬，宾，滨，玢，槟，缤，濒</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：殡，摈，鬓，髌，膑</tone4Samples>
+  </yinjie>
+  <yinjie name="bing">
+    <desc>声母：b，韵母：ing</desc>
+    <tone1Samples>阴平例字：冰，兵，槟，并，屏</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：柄，屏，饼，丙，秉，禀，炳，邴</tone3Samples>
+    <tone4Samples>去声例字：摒，病，并，併</tone4Samples>
+  </yinjie>
+  <yinjie name="bo">
+    <desc>声母：b，韵母：o</desc>
+    <tone1Samples>阴平例字：波，播，拨，剥，玻，钵，菠，饽</tone1Samples>
+    <tone2Samples>阳平例字：伯，勃，泊，搏，博，驳，脖，膊</tone2Samples>
+    <tone3Samples>上声例字：跛，簸，癷</tone3Samples>
+    <tone4Samples>去声例字：薄，簸，檗</tone4Samples>
+  </yinjie>
+  <yinjie name="bu">
+    <desc>声母：b，韵母：u</desc>
+    <tone1Samples>阴平例字：钸，逋，庯，峬</tone1Samples>
+    <tone2Samples>阳平例字：醭</tone2Samples>
+    <tone3Samples>上声例字：卜，补，捕，卟，哺，堡</tone3Samples>
+    <tone4Samples>去声例字：不，步，部，布，簿，埠，怖，钚</tone4Samples>
+  </yinjie>
+  <yinjie name="ca">
+    <desc>声母：c，韵母：a</desc>
+    <tone1Samples>阴平例字：擦，拆，嚓，攃</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：礤，礸</tone3Samples>
+    <tone4Samples>去声例字：遪</tone4Samples>
+  </yinjie>
+  <yinjie name="cai">
+    <desc>声母：c，韵母：ai</desc>
+    <tone1Samples>阴平例字：猜，偲</tone1Samples>
+    <tone2Samples>阳平例字：才，财，材，裁</tone2Samples>
+    <tone3Samples>上声例字：踩，采，睬，彩，採，啋，毝</tone3Samples>
+    <tone4Samples>去声例字：菜，蔡，宷</tone4Samples>
+  </yinjie>
+  <yinjie name="can">
+    <desc>声母：c，韵母：an</desc>
+    <tone1Samples>阴平例字：参，餐，骖</tone1Samples>
+    <tone2Samples>阳平例字：残，蚕，惭</tone2Samples>
+    <tone3Samples>上声例字：惨，黲，穇</tone3Samples>
+    <tone4Samples>去声例字：灿，孱，璨</tone4Samples>
+  </yinjie>
+  <yinjie name="cang">
+    <desc>声母：c，韵母：ang</desc>
+    <tone1Samples>阴平例字：仓，苍，沧，舱，蒼，伧，鸧</tone1Samples>
+    <tone2Samples>阳平例字：藏，臧</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="cao">
+    <desc>声母：c，韵母：ao</desc>
+    <tone1Samples>阴平例字：操，糙</tone1Samples>
+    <tone2Samples>阳平例字：曹，槽，嘈，漕，艚，螬</tone2Samples>
+    <tone3Samples>上声例字：草，艸，懆，愺</tone3Samples>
+    <tone4Samples>去声例字：襙，鄵，鼜</tone4Samples>
+  </yinjie>
+  <yinjie name="ce">
+    <desc>声母：c，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：测，册，侧，策，厕，恻，敇</tone4Samples>
+  </yinjie>
+  <yinjie name="cen">
+    <desc>声母：c，韵母：en</desc>
+    <tone1Samples>阴平例字：参，嵾</tone1Samples>
+    <tone2Samples>阳平例字：岑，涔，梣，笒，埁</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ceng">
+    <desc>声母：c，韵母：eng</desc>
+    <tone1Samples>阴平例字：噌</tone1Samples>
+    <tone2Samples>阳平例字：层，曾，竲，嶒</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：蹭</tone4Samples>
+  </yinjie>
+  <yinjie name="ci">
+    <desc>ci是整体认读音节</desc>
+    <tone1Samples>阴平例字：呲，疵，差，刺，玼，跐</tone1Samples>
+    <tone2Samples>阳平例字：词，辞，瓷，慈，雌，磁，茨，祠</tone2Samples>
+    <tone3Samples>上声例字：此，佌，泚，玼，跐</tone3Samples>
+    <tone4Samples>去声例字：次，刺，赐，伺，庛，佽</tone4Samples>
+  </yinjie>
+  <yinjie name="cong">
+    <desc>声母：c，韵母：ong</desc>
+    <tone1Samples>阴平例字：聪，葱，匆，苁，枞，骢，茐，囱</tone1Samples>
+    <tone2Samples>阳平例字：从，丛，琮，淙，悰，徖</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：愡，憁</tone4Samples>
+  </yinjie>
+  <yinjie name="cou">
+    <desc>声母：c，韵母：ou</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：凑，楱，湊，腠，辏</tone4Samples>
+  </yinjie>
+  <yinjie name="cu">
+    <desc>声母：c，韵母：u</desc>
+    <tone1Samples>阴平例字：粗，麤</tone1Samples>
+    <tone2Samples>阳平例字：殂，徂</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：醋，促，簇，猝，卒，蹴，蔟，酢</tone4Samples>
+  </yinjie>
+  <yinjie name="cuan">
+    <desc>声母：c，韵母：元音u 附带鼻辅音an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：蹿，汆，撺，镩</tone1Samples>
+    <tone2Samples>阳平例字：攒，櫕，菆，巑，穳</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：窜，篡，簒，镩，爨</tone4Samples>
+  </yinjie>
+  <yinjie name="cui">
+    <desc>声母：c，韵母：ui</desc>
+    <tone1Samples>阴平例字：催，崔，摧，槯，慛，墔</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：璀，漼，趡，皠</tone3Samples>
+    <tone4Samples>去声例字：翠，脆，粹，萃，淬，啐，悴，焠</tone4Samples>
+  </yinjie>
+  <yinjie name="cun">
+    <desc>声母：c，韵母：un</desc>
+    <tone1Samples>阴平例字：村，踆，邨，澊，皴</tone1Samples>
+    <tone2Samples>阳平例字：存，侟，拵，蹲</tone2Samples>
+    <tone3Samples>上声例字：忖，刌</tone3Samples>
+    <tone4Samples>去声例字：寸</tone4Samples>
+  </yinjie>
+  <yinjie name="cuo">
+    <desc>声母：c，韵母：元音u附带元音o</desc>
+    <tone1Samples>阴平例字：搓，撮，磋，醝，瑳</tone1Samples>
+    <tone2Samples>阳平例字：嵯，矬，痤，睉</tone2Samples>
+    <tone3Samples>上声例字：脞</tone3Samples>
+    <tone4Samples>去声例字：错，挫，锉，措，剉，厝，剒</tone4Samples>
+  </yinjie>
+  <yinjie name="cha">
+    <desc>声母：ch，韵母：a</desc>
+    <tone1Samples>阴平例字：插，叉，差，杈，臿，馇，碴，喳</tone1Samples>
+    <tone2Samples>阳平例字：查，茶，茬，察，碴，搽，槎，檫</tone2Samples>
+    <tone3Samples>上声例字：衩，蹅，镲，叉</tone3Samples>
+    <tone4Samples>去声例字：差，叉，岔，刹，诧，汊，姹，咤</tone4Samples>
+  </yinjie>
+  <yinjie name="chai">
+    <desc>声母：ch，韵母：ai</desc>
+    <tone1Samples>阴平例字：拆，差，钗，芆</tone1Samples>
+    <tone2Samples>阳平例字：豺，柴，侪，犲，祡</tone2Samples>
+    <tone3Samples>上声例字：茝</tone3Samples>
+    <tone4Samples>去声例字：虿，瘥，袃</tone4Samples>
+  </yinjie>
+  <yinjie name="chan">
+    <desc>声母：ch，韵母：an</desc>
+    <tone1Samples>阴平例字：掺，搀，觇，辿，幨，梴</tone1Samples>
+    <tone2Samples>阳平例字：缠，禅，馋，蝉，婵，谗，阐，蟾</tone2Samples>
+    <tone3Samples>上声例字：产，谄，浐，铲</tone3Samples>
+    <tone4Samples>去声例字：颤，忏，羼，硟，韂</tone4Samples>
+  </yinjie>
+  <yinjie name="chang">
+    <desc>声母：ch，韵母：ang</desc>
+    <tone1Samples>阴平例字：昌，猖，菖，伥，娼，倡，琩，鲳</tone1Samples>
+    <tone2Samples>阳平例字：长，常，尝，肠，偿，嫦，徜，瑺</tone2Samples>
+    <tone3Samples>上声例字：厂，场，昶，敞，氅，惝</tone3Samples>
+    <tone4Samples>去声例字：唱，畅，怅，倡，玚，焻</tone4Samples>
+  </yinjie>
+  <yinjie name="chao">
+    <desc>声母：ch，韵母：ao</desc>
+    <tone1Samples>阴平例字：吵，抄，超，钞，焯，绰，弨，</tone1Samples>
+    <tone2Samples>阳平例字：朝，潮，嘲，巢，晁，</tone2Samples>
+    <tone3Samples>上声例字：吵，炒，眧</tone3Samples>
+    <tone4Samples>去声例字：仦，仯，耖，觘</tone4Samples>
+  </yinjie>
+  <yinjie name="che">
+    <desc>声母：ch，韵母：e</desc>
+    <tone1Samples>阴平例字：车，伡，砗 ，莗</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：扯，尺，偖</tone3Samples>
+    <tone4Samples>去声例字：撤，彻，澈，掣，坼 ，徹，屮，</tone4Samples>
+  </yinjie>
+  <yinjie name="chen">
+    <desc>声母：ch，韵母：en</desc>
+    <tone1Samples>阴平例字：抻，琛，嗔，郴，棽</tone1Samples>
+    <tone2Samples>阳平例字：陈，晨，沉，尘，辰，臣，忱</tone2Samples>
+    <tone3Samples>上声例字：趻 ，碜，踸</tone3Samples>
+    <tone4Samples>去声例字：衬，称，趁，疢 ，龀，谶，榇</tone4Samples>
+  </yinjie>
+  <yinjie name="cheng">
+    <desc>声母：ch，韵母：eng</desc>
+    <tone1Samples>阴平例字：称，撑，瞠，秤，铛，琤</tone1Samples>
+    <tone2Samples>阳平例字：成，乘，城，诚，承，盛，程，惩</tone2Samples>
+    <tone3Samples>上声例字：逞，骋，侱，庱，裎</tone3Samples>
+    <tone4Samples>去声例字：称，秤，牚</tone4Samples>
+  </yinjie>
+  <yinjie name="chi">
+    <desc>chi是整体认读音节</desc>
+    <tone1Samples>阴平例字：吃，痴，媸 ，哧，嗤，笞</tone1Samples>
+    <tone2Samples>阳平例字：迟，池，驰，弛，持，匙，踟</tone2Samples>
+    <tone3Samples>上声例字：尺，齿，侈，耻，豉，伬，褫</tone3Samples>
+    <tone4Samples>去声例字：翅，斥，赤，炽，啻，彳，敕 ，</tone4Samples>
+  </yinjie>
+  <yinjie name="chong">
+    <desc>声母：ch，韵母：ong</desc>
+    <tone1Samples>阴平例字：冲，充，沖，忡，憧，舂 ，浺</tone1Samples>
+    <tone2Samples>阳平例字：虫，重，崇，漴</tone2Samples>
+    <tone3Samples>上声例字：宠，埫</tone3Samples>
+    <tone4Samples>去声例字：冲，铳，揰</tone4Samples>
+  </yinjie>
+  <yinjie name="chou">
+    <desc>声母：ch，韵母：ou</desc>
+    <tone1Samples>阴平例字：抽，，瘳</tone1Samples>
+    <tone2Samples>阳平例字：愁，仇，筹，绸，酬，踌，稠，畴</tone2Samples>
+    <tone3Samples>上声例字：丑，瞅，杻，偢</tone3Samples>
+    <tone4Samples>去声例字：臭</tone4Samples>
+  </yinjie>
+  <yinjie name="chu">
+    <desc>声母：ch，韵母：u</desc>
+    <tone1Samples>阴平例字：出，初，摴</tone1Samples>
+    <tone2Samples>阳平例字：厨，除，雏，锄，刍，蒢 ，滁</tone2Samples>
+    <tone3Samples>上声例字：处，楚，杵，础，储</tone3Samples>
+    <tone4Samples>去声例字：处，怵，畜，亍 ，绌</tone4Samples>
+  </yinjie>
+  <yinjie name="chua">
+    <desc>声母：ch，韵母：元音u 附带元音a</desc>
+    <tone1Samples>阴平例字：欻</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="chuai">
+    <desc>声母：ch，韵母：元音u 附带复韵母ai</desc>
+    <tone1Samples>阴平例字：揣，搋</tone1Samples>
+    <tone2Samples>阳平例字：膗</tone2Samples>
+    <tone3Samples>上声例字：揣</tone3Samples>
+    <tone4Samples>去声例字：揣，踹，啜</tone4Samples>
+  </yinjie>
+  <yinjie name="chuan">
+    <desc>声母：ch，韵母：元音u 附带鼻辅音an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：川，穿，氚 ，瑏</tone1Samples>
+    <tone2Samples>阳平例字：传，船，剶，遄 ，椽</tone2Samples>
+    <tone3Samples>上声例字：喘，舛，荈</tone3Samples>
+    <tone4Samples>去声例字：串，汌，钏，猭</tone4Samples>
+  </yinjie>
+  <yinjie name="chuang">
+    <desc>声母：ch，韵母：元音u 附带鼻韵母ang</desc>
+    <tone1Samples>阴平例字：创，疮，窗</tone1Samples>
+    <tone2Samples>阳平例字：床，幢，噇</tone2Samples>
+    <tone3Samples>上声例字：闯，傸</tone3Samples>
+    <tone4Samples>去声例字：创，怆</tone4Samples>
+  </yinjie>
+  <yinjie name="chui">
+    <desc>声母：ch，韵母：ui</desc>
+    <tone1Samples>阴平例字：吹，炊</tone1Samples>
+    <tone2Samples>阳平例字：垂，锤，槌，陲，椎，圌，倕</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="chun">
+    <desc>声母：ch，韵母：un</desc>
+    <tone1Samples>阴平例字：春，椿，鰆</tone1Samples>
+    <tone2Samples>阳平例字：纯，唇，淳，鹑，莼</tone2Samples>
+    <tone3Samples>上声例字：蠢，偆</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="chuo">
+    <desc>声母：ch，韵母：元音u 附带元音o</desc>
+    <tone1Samples>阴平例字：戳，踔</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：婥，啜，龊</tone4Samples>
+  </yinjie>
+  <yinjie name="da">
+    <desc>声母：d，韵母：a</desc>
+    <tone1Samples>阴平例字：答，搭，哒，嗒，耷，笚</tone1Samples>
+    <tone2Samples>阳平例字：打，达，妲，沓，瘩，惮</tone2Samples>
+    <tone3Samples>上声例字：打</tone3Samples>
+    <tone4Samples>去声例字：大</tone4Samples>
+  </yinjie>
+  <yinjie name="dai">
+    <desc>声母：d，韵母：ai</desc>
+    <tone1Samples>阴平例字：呆，待，呔</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：歹，逮，傣</tone3Samples>
+    <tone4Samples>去声例字：袋，带，代，贷，黛，玳，殆，怠</tone4Samples>
+  </yinjie>
+  <yinjie name="dan">
+    <desc>声母：d，韵母：an</desc>
+    <tone1Samples>阴平例字：单，丹，担，郸，耽，殚</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：胆，掸，抌，刐</tone3Samples>
+    <tone4Samples>去声例字：旦，但，担，蛋，淡，弹，啖，氮</tone4Samples>
+  </yinjie>
+  <yinjie name="dang">
+    <desc>声母：d，韵母：ang</desc>
+    <tone1Samples>阴平例字：当，铛，珰，筜</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：党，挡，谠</tone3Samples>
+    <tone4Samples>去声例字：当，荡，挡，宕，凼</tone4Samples>
+  </yinjie>
+  <yinjie name="dao">
+    <desc>声母：d，韵母：ao</desc>
+    <tone1Samples>阴平例字：刀，叨，忉</tone1Samples>
+    <tone2Samples>阳平例字：捯</tone2Samples>
+    <tone3Samples>上声例字：岛，导，捣，蹈，倒，祷</tone3Samples>
+    <tone4Samples>去声例字：道，到，倒，稻，盗，悼</tone4Samples>
+  </yinjie>
+  <yinjie name="de">
+    <desc>声母：d，韵母：e</desc>
+    <tone1Samples>阴平例字：嘚</tone1Samples>
+    <tone2Samples>阳平例字：得，德，棏</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="dei">
+    <desc>声母：d，韵母：ei</desc>
+    <tone1Samples>阴平例字：嘚</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：得</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="den">
+    <desc>声母：d，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：扽</tone4Samples>
+  </yinjie>
+  <yinjie name="deng">
+    <desc>声母：d，韵母：eng</desc>
+    <tone1Samples>阴平例字：灯，登，噔，蹬</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：等，戥</tone3Samples>
+    <tone4Samples>去声例字：瞪，邓，凳，澄</tone4Samples>
+  </yinjie>
+  <yinjie name="di">
+    <desc>声母：d，韵母：i</desc>
+    <tone1Samples>阴平例字：低，堤，滴，提，嘀，岻，趆</tone1Samples>
+    <tone2Samples>阳平例字：迪，敌，笛，狄，的，涤，籴，翟</tone2Samples>
+    <tone3Samples>上声例字：底，抵，邸，氐</tone3Samples>
+    <tone4Samples>去声例字：第，弟，地，帝，娣，蒂，的</tone4Samples>
+  </yinjie>
+  <yinjie name="dia">
+    <desc>声母：d，韵母：元音i 附带元音a</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：嗲</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="dian">
+    <desc>声母：d，韵母：元音i 附带鼻辅音an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：颠，掂，滇，巅，蹎</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：点，典，碘，踮</tone3Samples>
+    <tone4Samples>去声例字：电，店，垫，淀，奠，靛，甸，佃</tone4Samples>
+  </yinjie>
+  <yinjie name="diao">
+    <desc>声母：d，韵母：ao</desc>
+    <tone1Samples>阴平例字：刁，叼，凋，碉，雕，鲷</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：扚，屌</tone3Samples>
+    <tone4Samples>去声例字：吊，钓，调</tone4Samples>
+  </yinjie>
+  <yinjie name="die">
+    <desc>声母：d，韵母：ie</desc>
+    <tone1Samples>阴平例字：爹，跌</tone1Samples>
+    <tone2Samples>阳平例字：迭，谍，叠，碟，耋，牒</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：哋</tone4Samples>
+  </yinjie>
+  <yinjie name="ding">
+    <desc>声母：d，韵母：ing</desc>
+    <tone1Samples>阴平例字：丁，盯，叮，钉，酊</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：顶，鼎，酊</tone3Samples>
+    <tone4Samples>去声例字：订，定，钉，腚，锭</tone4Samples>
+  </yinjie>
+  <yinjie name="diu">
+    <desc>声母：d，韵母：iu</desc>
+    <tone1Samples>阴平例字：丢，铥</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="dong">
+    <desc>声母：d，韵母：ong</desc>
+    <tone1Samples>阴平例字：东，冬，咚，氡，鸫</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：董，懂</tone3Samples>
+    <tone4Samples>去声例字：动，冻，洞，侗 ，恫，胴</tone4Samples>
+  </yinjie>
+  <yinjie name="dou">
+    <desc>声母：d，韵母：ou</desc>
+    <tone1Samples>阴平例字：都，兜</tone1Samples>
+    <tone2Samples>阳平例字：唞</tone2Samples>
+    <tone3Samples>上声例字：斗，抖，陡，</tone3Samples>
+    <tone4Samples>去声例字：斗，豆，痘，窦</tone4Samples>
+  </yinjie>
+  <yinjie name="du">
+    <desc>声母：d，韵母：u</desc>
+    <tone1Samples>阴平例字：都，督，嘟</tone1Samples>
+    <tone2Samples>阳平例字：读，独，毒，渎，犊</tone2Samples>
+    <tone3Samples>上声例字：肚，笃，堵，赌，睹</tone3Samples>
+    <tone4Samples>去声例字：杜，肚，度，渡，镀，妒</tone4Samples>
+  </yinjie>
+  <yinjie name="duan">
+    <desc>声母：d，韵母：元音u 附带鼻辅音an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：端，偳，褍</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：短</tone3Samples>
+    <tone4Samples>去声例字：断，段，缎，锻，煅</tone4Samples>
+  </yinjie>
+  <yinjie name="dui">
+    <desc>声母：d ，韵母：ui</desc>
+    <tone1Samples>阴平例字：堆</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：頧</tone3Samples>
+    <tone4Samples>去声例字：队，对，兑，怼，敦</tone4Samples>
+  </yinjie>
+  <yinjie name="dun">
+    <desc>声母：d，韵母：un</desc>
+    <tone1Samples>阴平例字：吨，蹲，敦，惇，墩，礅</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：盹，趸</tone3Samples>
+    <tone4Samples>去声例字：顿，盾，沌，炖，钝，遁</tone4Samples>
+  </yinjie>
+  <yinjie name="duo">
+    <desc>声母：d，韵母：元音u 附带元音o</desc>
+    <tone1Samples>阴平例字：多，咄，哆，剟，掇</tone1Samples>
+    <tone2Samples>阳平例字：夺，度，踱，铎</tone2Samples>
+    <tone3Samples>上声例字：朵，躲</tone3Samples>
+    <tone4Samples>去声例字：堕，跺，驮，舵，剁</tone4Samples>
+  </yinjie>
+  <yinjie name="fa">
+    <desc>声母：f，韵母：a</desc>
+    <tone1Samples>阴平例字：发，發</tone1Samples>
+    <tone2Samples>阳平例字：罚，伐，乏，阀，筏，垡</tone2Samples>
+    <tone3Samples>上声例字：法，砝</tone3Samples>
+    <tone4Samples>去声例字：发，珐，琺，髮</tone4Samples>
+  </yinjie>
+  <yinjie name="fan">
+    <desc>声母：f，韵母：an</desc>
+    <tone1Samples>阴平例字：翻，帆，番，幡，藩，蕃，憣，勫</tone1Samples>
+    <tone2Samples>阳平例字：凡，烦，樊，繁，矾，舤，璠，钒</tone2Samples>
+    <tone3Samples>上声例字：返，反，橎，払，仮</tone3Samples>
+    <tone4Samples>去声例字：饭，范，梵，泛，贩，畈</tone4Samples>
+  </yinjie>
+  <yinjie name="fang">
+    <desc>声母：f，韵母：ang</desc>
+    <tone1Samples>阴平例字：方，芳，坊，邡，汸，牥，钫</tone1Samples>
+    <tone2Samples>阳平例字：防，妨，房，坊，肪，鲂</tone2Samples>
+    <tone3Samples>上声例字：访，仿，纺，舫，昉，瓬，旊</tone3Samples>
+    <tone4Samples>去声例字：放</tone4Samples>
+  </yinjie>
+  <yinjie name="fei">
+    <desc>声母：f，韵母：ei</desc>
+    <tone1Samples>阴平例字：飞，妃，非，菲，蜚，绯，扉，霏</tone1Samples>
+    <tone2Samples>阳平例字：肥，淝，腓，蜰</tone2Samples>
+    <tone3Samples>上声例字：斐，匪，翡，诽，悱，菲，朏，榧</tone3Samples>
+    <tone4Samples>去声例字：吠，费，废，肺，沸，狒，痱，怫</tone4Samples>
+  </yinjie>
+  <yinjie name="fen">
+    <desc>声母：f，韵母：en</desc>
+    <tone1Samples>阴平例字：分，芬，纷，吩，氛，玢，酚，帉</tone1Samples>
+    <tone2Samples>阳平例字：坟，汾，焚，岎，妢，朌</tone2Samples>
+    <tone3Samples>上声例字：粉</tone3Samples>
+    <tone4Samples>去声例字：分，份，奋，愤，粪，忿，鲼</tone4Samples>
+  </yinjie>
+  <yinjie name="feng">
+    <desc>声母：f，韵母：eng</desc>
+    <tone1Samples>阴平例字：丰，风，封，峰，疯，枫，锋，蜂</tone1Samples>
+    <tone2Samples>阳平例字：冯，缝，逢，夆</tone2Samples>
+    <tone3Samples>上声例字：讽，唪，覂</tone3Samples>
+    <tone4Samples>去声例字：奉，凤，俸，缝，赗</tone4Samples>
+  </yinjie>
+  <yinjie name="fiao">
+    <desc>声母：f，韵母：元音i附带复韵母ao</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：覅</tone4Samples>
+  </yinjie>
+  <yinjie name="fo">
+    <desc>声母：f，韵母：o</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：佛，坲</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="fou">
+    <desc>声母：f，韵母：ou</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：否，缶，殕，缻，妚，缹</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="fu">
+    <desc>声母：f，韵母：u</desc>
+    <tone1Samples>阴平例字：夫，敷，肤，孵，麸，衭，柎，跗</tone1Samples>
+    <tone2Samples>阳平例字：夫，服，福，符，扶，浮，伏，佛</tone2Samples>
+    <tone3Samples>上声例字：府，斧，腐，甫，辅，抚，俯，釜</tone3Samples>
+    <tone4Samples>去声例字：付，副，父，服，富，复，负，赴</tone4Samples>
+  </yinjie>
+  <yinjie name="ga">
+    <desc>声母：g，韵母：a</desc>
+    <tone1Samples>阴平例字：嘎，呷，旮，夹，咖，伽</tone1Samples>
+    <tone2Samples>阳平例字：噶，轧，钆</tone2Samples>
+    <tone3Samples>上声例字：嘎，尕</tone3Samples>
+    <tone4Samples>去声例字：尬，</tone4Samples>
+  </yinjie>
+  <yinjie name="gai">
+    <desc>声母：g，韵母：ai</desc>
+    <tone1Samples>阴平例字：该，赅，垓，陔，峐，侅</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：改，忋</tone3Samples>
+    <tone4Samples>去声例字：盖，钙，丐，溉，概，芥</tone4Samples>
+  </yinjie>
+  <yinjie name="gan">
+    <desc>声母：g，韵母：an</desc>
+    <tone1Samples>阴平例字：干，甘，杆，肝，竿，柑，泔，尴</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：敢，杆，感，赶，擀，秆，橄，鳡</tone3Samples>
+    <tone4Samples>去声例字：干，赣，旰，绀，淦，盰，檊</tone4Samples>
+  </yinjie>
+  <yinjie name="gang">
+    <desc>声母：g，韵母：ang</desc>
+    <tone1Samples>阴平例字：刚，钢，缸，纲，冈，岗，肛，罡</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：岗，港</tone3Samples>
+    <tone4Samples>去声例字：杠，钢</tone4Samples>
+  </yinjie>
+  <yinjie name="gao">
+    <desc>声母：g，韵母：ao</desc>
+    <tone1Samples>阴平例字：高，膏，糕，羔，篙，皋，睾，槔</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：搞，稿，镐，缟，槁，杲</tone3Samples>
+    <tone4Samples>去声例字：告，郜，锆，诰，祰</tone4Samples>
+  </yinjie>
+  <yinjie name="ge">
+    <desc>声母：g，韵母：e</desc>
+    <tone1Samples>阴平例字：戈，哥，歌，咯，割，搁，鸽，胳</tone1Samples>
+    <tone2Samples>阳平例字：格，隔，阁，革，嗝，蛤，镉，骼</tone2Samples>
+    <tone3Samples>上声例字：个，葛，舸，盖</tone3Samples>
+    <tone4Samples>去声例字：个，各，铬，硌，虼，箇</tone4Samples>
+  </yinjie>
+  <yinjie name="gei">
+    <desc>声母：g，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：给</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="gen">
+    <desc>声母：g，韵母：en</desc>
+    <tone1Samples>阴平例字：跟，根</tone1Samples>
+    <tone2Samples>阳平例字：哏</tone2Samples>
+    <tone3Samples>上声例字：艮</tone3Samples>
+    <tone4Samples>去声例字：亘，茛，艮</tone4Samples>
+  </yinjie>
+  <yinjie name="geng">
+    <desc>声母：g，韵母：eng</desc>
+    <tone1Samples>阴平例字：更，庚，耕，羹，赓，浭</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：哽，耿，梗，埂，绠，峺</tone3Samples>
+    <tone4Samples>去声例字：更</tone4Samples>
+  </yinjie>
+  <yinjie name="gong">
+    <desc>声母：g，韵母：ong</desc>
+    <tone1Samples>阴平例字：工，公，功，宫，供，攻，弓，恭</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：拱，汞，巩，栱，珙</tone3Samples>
+    <tone4Samples>去声例字：共，供，贡，唝</tone4Samples>
+  </yinjie>
+  <yinjie name="gou">
+    <desc>声母：g，韵母：ou</desc>
+    <tone1Samples>阴平例字：勾，沟，钩，芶，佝，句，痀，篝</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：狗，苟，枸，豿，笱，耇</tone3Samples>
+    <tone4Samples>去声例字：够，购，构，垢，媾，彀</tone4Samples>
+  </yinjie>
+  <yinjie name="gu">
+    <desc>声母：g，韵母：u</desc>
+    <tone1Samples>阴平例字：姑，孤，估，菇，咕，辜，箍，鸪</tone1Samples>
+    <tone2Samples>阳平例字：鹘</tone2Samples>
+    <tone3Samples>上声例字：古，谷，骨，鼓，蛊，毂，贾，牯</tone3Samples>
+    <tone4Samples>去声例字：故，顾，固，雇，牿，崮，痼，梏</tone4Samples>
+  </yinjie>
+  <yinjie name="gua">
+    <desc>声母：g，韵母：元音u附带元音a</desc>
+    <tone1Samples>阴平例字：瓜，刮，呱，栝，鸹，胍</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：寡，剐</tone3Samples>
+    <tone4Samples>去声例字：挂，褂，卦，诖，坬</tone4Samples>
+  </yinjie>
+  <yinjie name="guai">
+    <desc>声母：g，韵母：元音u附带韵母ai</desc>
+    <tone1Samples>阴平例字：乖，掴</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：拐，柺</tone3Samples>
+    <tone4Samples>去声例字：怪</tone4Samples>
+  </yinjie>
+  <yinjie name="guan">
+    <desc>声母：g，韵母：元音u附带韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：关，官，观，冠，棺，倌，纶，莞</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：管，莞，馆，琯</tone3Samples>
+    <tone4Samples>去声例字：观，惯，灌，罐，贯，掼，冠，盥</tone4Samples>
+  </yinjie>
+  <yinjie name="guang">
+    <desc>声母：g，韵母：元音u附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：光，咣，胱，桄，珖，洸</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：广，犷</tone3Samples>
+    <tone4Samples>去声例字：逛，桄，俇</tone4Samples>
+  </yinjie>
+  <yinjie name="gui">
+    <desc>声母：g，韵母：ui</desc>
+    <tone1Samples>阴平例字：归，龟，规，闺，瑰，硅，圭，鲑</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：鬼，轨，诡，氿，宄，垝</tone3Samples>
+    <tone4Samples>去声例字：贵，跪，桂，柜，刿，刽，桧</tone4Samples>
+  </yinjie>
+  <yinjie name="gun">
+    <desc>声母：g，韵母：un</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：滚，衮，磙，绲，惃，辊，棍</tone3Samples>
+    <tone4Samples>去声例字：棍</tone4Samples>
+  </yinjie>
+  <yinjie name="guo">
+    <desc>声母：g，韵母：元音u附带元音o</desc>
+    <tone1Samples>阴平例字：郭，锅，蝈，啯，聒，崞</tone1Samples>
+    <tone2Samples>阳平例字：国，掴，帼，腘，虢</tone2Samples>
+    <tone3Samples>上声例字：果，裹，粿，馃，椁，蜾</tone3Samples>
+    <tone4Samples>去声例字：过，腂</tone4Samples>
+  </yinjie>
+  <yinjie name="ha">
+    <desc>声母：h，韵母：a</desc>
+    <tone1Samples>阴平例字：哈，铪，呵</tone1Samples>
+    <tone2Samples>阳平例字：蛤，</tone2Samples>
+    <tone3Samples>上声例字：哈</tone3Samples>
+    <tone4Samples>去声例字：哈</tone4Samples>
+  </yinjie>
+  <yinjie name="hai">
+    <desc>声母：j，韵母：ai</desc>
+    <tone1Samples>阴平例字：咍，咳，嗨</tone1Samples>
+    <tone2Samples>阳平例字：还，孩，咳，骸</tone2Samples>
+    <tone3Samples>上声例字：海，胲，醢，酼</tone3Samples>
+    <tone4Samples>去声例字：亥，害，氦，骇，嗐</tone4Samples>
+  </yinjie>
+  <yinjie name="han">
+    <desc>声母：h，韵母：an</desc>
+    <tone1Samples>阴平例字：憨，酣，鼾，犴，蚶，馠</tone1Samples>
+    <tone2Samples>阳平例字：汗，韩，含，寒，涵，函，晗，邯</tone2Samples>
+    <tone3Samples>上声例字：喊，罕</tone3Samples>
+    <tone4Samples>去声例字：汗，汉，翰，旱，焊，瀚，悍，憾</tone4Samples>
+  </yinjie>
+  <yinjie name="hang">
+    <desc>声母：h，韵母：ang</desc>
+    <tone1Samples>阴平例字：夯</tone1Samples>
+    <tone2Samples>阳平例字：行，航，杭，绗，桁，吭</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：沆，巷</tone4Samples>
+  </yinjie>
+  <yinjie name="hao">
+    <desc>声母：h，韵母：ao</desc>
+    <tone1Samples>阴平例字：蒿，薅</tone1Samples>
+    <tone2Samples>阳平例字：豪，嚎，毫，壕，濠，蚝，号</tone2Samples>
+    <tone3Samples>上声例字：好，郝</tone3Samples>
+    <tone4Samples>去声例字：好，号，浩，耗，昊，皓，悎，恏</tone4Samples>
+  </yinjie>
+  <yinjie name="he">
+    <desc>声母：h，韵母：e</desc>
+    <tone1Samples>阴平例字：呵，诃，喝，抲，嗬</tone1Samples>
+    <tone2Samples>阳平例字：荷，和，合，何，河，盒，核，禾</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：荷，和，贺，鹤，赫，吓，褐，壑</tone4Samples>
+  </yinjie>
+  <yinjie name="hei">
+    <desc>声母：h，韵母：ei</desc>
+    <tone1Samples>阴平例字：黑，嘿，嗨，潶</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="hen">
+    <desc>声母h，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：痕，拫，鞎</tone2Samples>
+    <tone3Samples>上声例字：很，狠，佷，哏</tone3Samples>
+    <tone4Samples>去声例字：恨</tone4Samples>
+  </yinjie>
+  <yinjie name="heng">
+    <desc>声母：h，韵母：eng</desc>
+    <tone1Samples>阴平例字：哼，亨，涥，悙，脝</tone1Samples>
+    <tone2Samples>阳平例字：横，恒，衡，蘅，珩，桁</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：啈，横</tone4Samples>
+  </yinjie>
+  <yinjie name="hong">
+    <desc>声母：h，韵母：ong</desc>
+    <tone1Samples>阴平例字：哄，轰，烘，薨，訇，吽，焢</tone1Samples>
+    <tone2Samples>阳平例字：红，宏，洪，鸿，虹，弘，闳，仜</tone2Samples>
+    <tone3Samples>上声例字：哄，晎</tone3Samples>
+    <tone4Samples>去声例字：哄，讧</tone4Samples>
+  </yinjie>
+  <yinjie name="hou">
+    <desc>声母：h，韵母：ou</desc>
+    <tone1Samples>阴平例字：齁</tone1Samples>
+    <tone2Samples>阳平例字：侯，猴，喉，帿，瘊，骺</tone2Samples>
+    <tone3Samples>上声例字：吼，犼</tone3Samples>
+    <tone4Samples>去声例字：候，后，逅，厚，鲎，洉，堠</tone4Samples>
+  </yinjie>
+  <yinjie name="hu">
+    <desc>声母：h，韵母：u</desc>
+    <tone1Samples>阴平例字：呼，乎，糊，忽，唿，惚，滹，烀</tone1Samples>
+    <tone2Samples>阳平例字：糊，胡，湖，壶，狐，弧，蝴，葫</tone2Samples>
+    <tone3Samples>上声例字：虎，唬，浒，琥</tone3Samples>
+    <tone4Samples>去声例字：糊，户，护，互，沪，扈，怙，岵</tone4Samples>
+  </yinjie>
+  <yinjie name="hua">
+    <desc>声母：h，韵母：u附带元音a</desc>
+    <tone1Samples>阴平例字：花，哗</tone1Samples>
+    <tone2Samples>阳平例字：华，哗，划，滑，骅，猾</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：话，华，划，画，化，桦</tone4Samples>
+  </yinjie>
+  <yinjie name="huai">
+    <desc>声母：h，韵母：u附带韵母ai</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：怀，淮，槐，踝，徊</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：坏</tone4Samples>
+  </yinjie>
+  <yinjie name="huan">
+    <desc>声母：h，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：欢，獾</tone1Samples>
+    <tone2Samples>阳平例字：还，环，桓，寰，洹，鹮，峘，鬟</tone2Samples>
+    <tone3Samples>上声例字：缓，睆</tone3Samples>
+    <tone4Samples>去声例字：换，幻，患，焕，唤，浣，宦，痪</tone4Samples>
+  </yinjie>
+  <yinjie name="huang">
+    <desc>声母：h，韵母：u附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：慌，荒，肓，塃</tone1Samples>
+    <tone2Samples>阳平例字：黄，皇，煌，凰，簧，璜，惶，蝗</tone2Samples>
+    <tone3Samples>上声例字：谎，恍，幌，晃</tone3Samples>
+    <tone4Samples>去声例字：晃，滉，榥</tone4Samples>
+  </yinjie>
+  <yinjie name="hui">
+    <desc>声母：h，韵母：ui</desc>
+    <tone1Samples>阴平例字：灰，挥，晖，戏，辉，徽，恢，诙</tone1Samples>
+    <tone2Samples>阳平例字：回，茴，洄，恛，蛔</tone2Samples>
+    <tone3Samples>上声例字：毁，悔，虺，檓</tone3Samples>
+    <tone4Samples>去声例字：会，慧，汇，惠，绘，卉，惠，荟</tone4Samples>
+  </yinjie>
+  <yinjie name="hun">
+    <desc>声母：h，韵母：un</desc>
+    <tone1Samples>阴平例字：婚，昏，荤，阍，棔，睧</tone1Samples>
+    <tone2Samples>阳平例字：魂，浑，馄，混，珲，忶</tone2Samples>
+    <tone3Samples>上声例字：混</tone3Samples>
+    <tone4Samples>去声例字：诨，倱，俒</tone4Samples>
+  </yinjie>
+  <yinjie name="huo">
+    <desc>声母：h，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：豁，劐，耠，锪，嚄，吙</tone1Samples>
+    <tone2Samples>阳平例字：活，和，佸，秳</tone2Samples>
+    <tone3Samples>上声例字：火，伙，钬，漷</tone3Samples>
+    <tone4Samples>去声例字：货，豁，或，获，祸，霍，惑，蠖</tone4Samples>
+  </yinjie>
+  <yinjie name="ji">
+    <desc>声母：j，韵母：i</desc>
+    <tone1Samples>阴平例字：机，几，基，鸡，击，激，积，姬</tone1Samples>
+    <tone2Samples>阳平例字：即，及，级，吉，集，急，极，籍</tone2Samples>
+    <tone3Samples>上声例字：几，挤，己，脊，济，给，麂，戟</tone3Samples>
+    <tone4Samples>去声例字：记，既，继，计，季，际，寄，纪</tone4Samples>
+  </yinjie>
+  <yinjie name="jia">
+    <desc>声母：j，韵母：i附带元音a</desc>
+    <tone1Samples>阴平例字：加，夹，家，佳，嘉，枷，迦，痂</tone1Samples>
+    <tone2Samples>阳平例字：夹，荚，颊，郏，戛，蛱，忦</tone2Samples>
+    <tone3Samples>上声例字：假，甲，贾，钾，胛，岬，瘕，玾</tone3Samples>
+    <tone4Samples>去声例字：假，价，架，稼，嫁，驾，幏</tone4Samples>
+  </yinjie>
+  <yinjie name="jian">
+    <desc>声母：j，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：兼，间，奸，尖，肩，坚，煎，监</tone1Samples>
+    <tone2Samples>阳平例字：暕</tone2Samples>
+    <tone3Samples>上声例字：减，捡，剪，检，简，拣，茧，俭</tone3Samples>
+    <tone4Samples>去声例字：键，件，见，建，剑，贱，健，箭</tone4Samples>
+  </yinjie>
+  <yinjie name="jiang">
+    <desc>声母：j，韵母：i附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：将，江，姜，僵，疆，浆，缰，豇</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：讲，奖，蒋，桨，膙</tone3Samples>
+    <tone4Samples>去声例字：匠，降，酱，犟，绛，强，糨，将</tone4Samples>
+  </yinjie>
+  <yinjie name="jiao">
+    <desc>声母：j，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：教，交，娇，浇，焦，胶，姣，蕉</tone1Samples>
+    <tone2Samples>阳平例字：嚼，矫</tone2Samples>
+    <tone3Samples>上声例字：脚，角，缴，搅，绞，饺，狡，佼</tone3Samples>
+    <tone4Samples>去声例字：教，叫，觉，较，轿，窖，校，酵</tone4Samples>
+  </yinjie>
+  <yinjie name="jie">
+    <desc>声母：j，韵母：ie</desc>
+    <tone1Samples>阴平例字：接，结，街，皆，阶，揭，嗟，秸</tone1Samples>
+    <tone2Samples>阳平例字：结，节，杰，截，洁，劫，捷，竭</tone2Samples>
+    <tone3Samples>上声例字：姐，解，檞</tone3Samples>
+    <tone4Samples>去声例字：借，界，届，戒，介，诫，芥，藉</tone4Samples>
+  </yinjie>
+  <yinjie name="jin">
+    <desc>声母：j，韵母：in</desc>
+    <tone1Samples>阴平例字：金，今，斤，禁，筋，巾，津，襟</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：仅，尽，紧，锦，瑾，谨，槿，堇</tone3Samples>
+    <tone4Samples>去声例字：禁，尽，进，近，劲，晋，浸，靳</tone4Samples>
+  </yinjie>
+  <yinjie name="jing">
+    <desc>声母：j，韵母：ing</desc>
+    <tone1Samples>阴平例字：经，精，晶，京，惊，睛，荆，鲸</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：井，警，颈，景，憬，阱，儆，璥</tone3Samples>
+    <tone4Samples>去声例字：静，竟，镜，净，敬，靖，境，竞</tone4Samples>
+  </yinjie>
+  <yinjie name="jiong">
+    <desc>声母：j，韵母：i附带后鼻韵母ong</desc>
+    <tone1Samples>阴平例字：冂，坰，扃</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：炯，冏，囧，窘，炅，迥，烱</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="jiu">
+    <desc>声母：j，韵母：iu</desc>
+    <tone1Samples>阴平例字：鸠，揪，究，纠，啾，纠，赳，阄</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：九，酒，久，玖，灸，韭，氿</tone3Samples>
+    <tone4Samples>去声例字：就，旧，咎，救，舅，疚，僦，鹫</tone4Samples>
+  </yinjie>
+  <yinjie name="ju">
+    <desc>声母：j，韵母：ü去掉两点后变成u</desc>
+    <tone1Samples>阴平例字：居，狙，驹，鞠，拘，车，据，雎</tone1Samples>
+    <tone2Samples>阳平例字：鞠，局，菊，橘，桔，焗，锔，跼</tone2Samples>
+    <tone3Samples>上声例字：举，矩，咀，莒，沮，榉，踽，龃</tone3Samples>
+    <tone4Samples>去声例字：句，据，具，距，巨，剧，聚，拒</tone4Samples>
+  </yinjie>
+  <yinjie name="juan">
+    <desc>声母：j，韵母：üan碰到j写成uan，并且拼读时会变音，按照yuan的音拼读</desc>
+    <tone1Samples>阴平例字：娟，捐，鹃，裐，涓，镌，圈</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：卷，帣，锩，埍</tone3Samples>
+    <tone4Samples>去声例字：卷，圈，倦，眷，帣，绢，悁，隽</tone4Samples>
+  </yinjie>
+  <yinjie name="jue">
+    <desc>声母：j，韵母：üe写成ue</desc>
+    <tone1Samples>阴平例字：撅，噘</tone1Samples>
+    <tone2Samples>阳平例字：绝，觉，决，倔，厥，掘，爵，诀</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：倔</tone4Samples>
+  </yinjie>
+  <yinjie name="jun">
+    <desc>声母：j，韵母：ün写成un</desc>
+    <tone1Samples>阴平例字：均，军，君，菌，钧，龟，皲，筠</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：俊，骏，郡，竣，隽，珺，浚，峻</tone4Samples>
+  </yinjie>
+  <yinjie name="ka">
+    <desc>声母：k，韵母：a</desc>
+    <tone1Samples>阴平例字：咔，咖，喀</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：卡，咔，咯，佧，胩</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="kai">
+    <desc>声母：k，韵母：ai</desc>
+    <tone1Samples>阴平例字：开，揩</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：凯，楷，铠，慨，恺，剀，锴，蒈</tone3Samples>
+    <tone4Samples>去声例字：忾，炌，烗</tone4Samples>
+  </yinjie>
+  <yinjie name="kan">
+    <desc>声母：k，韵母：an</desc>
+    <tone1Samples>阴平例字：看，堪，刊，勘，龛，戡，嵁</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：砍，坎，侃，槛，莰，惂，欿，歁</tone3Samples>
+    <tone4Samples>去声例字：看，阚，瞰，磡，崁，衎，墈</tone4Samples>
+  </yinjie>
+  <yinjie name="kang">
+    <desc>声母：k，韵母：ang</desc>
+    <tone1Samples>阴平例字：康，糠，慷，槺，砊</tone1Samples>
+    <tone2Samples>阳平例字：扛</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：抗，炕，亢，伉，钪，犺</tone4Samples>
+  </yinjie>
+  <yinjie name="kao">
+    <desc>声母：k，韵母：ao</desc>
+    <tone1Samples>阴平例字：尻，嵪</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：考，烤，拷，栲，洘</tone3Samples>
+    <tone4Samples>去声例字：靠，拷，铐，犒，鲓</tone4Samples>
+  </yinjie>
+  <yinjie name="ke">
+    <desc>声母：k，韵母：e</desc>
+    <tone1Samples>阴平例字：科，颗，棵，柯，磕，嗑，苛，轲</tone1Samples>
+    <tone2Samples>阳平例字：咳，壳，揢</tone2Samples>
+    <tone3Samples>上声例字：可，渴，坷，岢，嵑</tone3Samples>
+    <tone4Samples>去声例字：克，课，客，刻，氪，恪，可，溘</tone4Samples>
+  </yinjie>
+  <yinjie name="kei">
+    <desc>声母：k，韵母：ei</desc>
+    <tone1Samples>阴平例字：剋，尅</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ken">
+    <desc>声母：k，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：肯，啃，垦，恳</tone3Samples>
+    <tone4Samples>去声例字：掯，硍，裉</tone4Samples>
+  </yinjie>
+  <yinjie name="keng">
+    <desc>声母：k，韵母：eng</desc>
+    <tone1Samples>阴平例字：坑，吭，铿，妔，阬，坈，硁</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="kong">
+    <desc>声母：k，韵母：ong</desc>
+    <tone1Samples>阴平例字：空，箜，崆，涳，倥，埪，悾</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：孔，恐</tone3Samples>
+    <tone4Samples>去声例字：空，控，鞚</tone4Samples>
+  </yinjie>
+  <yinjie name="kou">
+    <desc>声母：k，韵母：ou</desc>
+    <tone1Samples>阴平例字：抠，眍，芤</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：口，劶</tone3Samples>
+    <tone4Samples>去声例字：扣，寇，叩，蔻，筘，蔻，怐</tone4Samples>
+  </yinjie>
+  <yinjie name="ku">
+    <desc>声母：k，韵母：u</desc>
+    <tone1Samples>阴平例字：哭，枯，窟，骷，刳，郀，矻，堀</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：苦，楛，狜</tone3Samples>
+    <tone4Samples>去声例字：库，酷，裤，绔，秙，喾</tone4Samples>
+  </yinjie>
+  <yinjie name="kua">
+    <desc>声母：k，韵母：u附带元音a</desc>
+    <tone1Samples>阴平例字：夸，姱</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：垮，侉</tone3Samples>
+    <tone4Samples>去声例字：跨，胯，挎</tone4Samples>
+  </yinjie>
+  <yinjie name="kuai">
+    <desc>声母：k，韵母：u附带韵母ai</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：蒯，</tone3Samples>
+    <tone4Samples>去声例字：块，快，筷，会，侩，脍，哙，狯</tone4Samples>
+  </yinjie>
+  <yinjie name="kuan">
+    <desc>声母：k，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：宽，髋</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：款，梡，窾</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="kuang">
+    <desc>声母：k，韵母：u附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：筐，匡，哐，诓，劻，恇</tone1Samples>
+    <tone2Samples>阳平例字：狂，诳，狅，抂，鵟</tone2Samples>
+    <tone3Samples>上声例字：夼</tone3Samples>
+    <tone4Samples>去声例字：框，矿，况，旷，邝，圹，眶，眖</tone4Samples>
+  </yinjie>
+  <yinjie name="kui">
+    <desc>声母：k，韵母：ui</desc>
+    <tone1Samples>阴平例字：亏，盔，窥，岿，刲，悝</tone1Samples>
+    <tone2Samples>阳平例字：奎，葵，蝰，逵，睽，魁，揆，喹</tone2Samples>
+    <tone3Samples>上声例字：傀，跬，煃，磈</tone3Samples>
+    <tone4Samples>去声例字：溃，馈，匮，愧，聩，愦，篑</tone4Samples>
+  </yinjie>
+  <yinjie name="kun">
+    <desc>声母：k，韵母：un</desc>
+    <tone1Samples>阴平例字：坤，坤，琨，鲲，裈，焜</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：捆，悃，壸，梱，稇</tone3Samples>
+    <tone4Samples>去声例字：困，涃</tone4Samples>
+  </yinjie>
+  <yinjie name="kuo">
+    <desc>声母：k，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：扩，阔，括，廓，栝，蛞，筈，髺</tone4Samples>
+  </yinjie>
+  <yinjie name="la">
+    <desc>声母：l，韵母：a</desc>
+    <tone1Samples>阴平例字：啦，拉，喇，垃，柆，邋</tone1Samples>
+    <tone2Samples>阳平例字：旯，拉，剌，砬，喇</tone2Samples>
+    <tone3Samples>上声例字：拉，喇，藞</tone3Samples>
+    <tone4Samples>去声例字：辣，腊，蜡，落，剌，瘌，蝲，揧</tone4Samples>
+  </yinjie>
+  <yinjie name="lai">
+    <desc>声母：l，韵母：ai</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：来，莱，徕，崃，涞</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：籁，赖，濑，癞，睐</tone4Samples>
+  </yinjie>
+  <yinjie name="lan">
+    <desc>声母：l，韵母：an</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：蓝，兰，栏，拦，岚，篮，斓，婪</tone2Samples>
+    <tone3Samples>上声例字：懒，揽，览，缆，榄，浨</tone3Samples>
+    <tone4Samples>去声例字：烂，滥</tone4Samples>
+  </yinjie>
+  <yinjie name="lang">
+    <desc>声母：l，韵母：ang</desc>
+    <tone1Samples>阴平例字：啷</tone1Samples>
+    <tone2Samples>阳平例字：狼，郎，廊，琅，榔，螂，锒，稂</tone2Samples>
+    <tone3Samples>上声例字：朗，蓢，塱</tone3Samples>
+    <tone4Samples>去声例字：浪，阆，崀，埌</tone4Samples>
+  </yinjie>
+  <yinjie name="lao">
+    <desc>声母：l，韵母：ao</desc>
+    <tone1Samples>阴平例字：捞</tone1Samples>
+    <tone2Samples>阳平例字：劳，牢，唠，痨，涝，崂</tone2Samples>
+    <tone3Samples>上声例字：老，佬，姥，咾，铑，恅，潦</tone3Samples>
+    <tone4Samples>去声例字：涝，落，烙，酪，唠，嫪，耢</tone4Samples>
+  </yinjie>
+  <yinjie name="le">
+    <desc>声母：l，韵母：e</desc>
+    <tone1Samples>阴平例字：肋，嘞，了*</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：乐，勒，忇，扐，氻</tone4Samples>
+  </yinjie>
+  <yinjie name="lei">
+    <desc>声母：l，韵母：ei</desc>
+    <tone1Samples>阴平例字：勒</tone1Samples>
+    <tone2Samples>阳平例字：累，雷，蕾，擂，镭，嫘，礌</tone2Samples>
+    <tone3Samples>上声例字：磊，垒，耒，儡，诔，累，蕾</tone3Samples>
+    <tone4Samples>去声例字：类，累，擂，泪，嘞，肋，檑</tone4Samples>
+  </yinjie>
+  <yinjie name="leng">
+    <desc>声母：l，韵母：eng</desc>
+    <tone1Samples>阴平例字：棱</tone1Samples>
+    <tone2Samples>阳平例字：棱，楞，塄</tone2Samples>
+    <tone3Samples>上声例字：冷</tone3Samples>
+    <tone4Samples>去声例字：愣，堎，倰，睖，踜</tone4Samples>
+  </yinjie>
+  <yinjie name="li">
+    <desc>声母：l，韵母：i</desc>
+    <tone1Samples>阴平例字：哩</tone1Samples>
+    <tone2Samples>阳平例字：离，狸，黎，梨，喱，厘，璃，犁</tone2Samples>
+    <tone3Samples>上声例字：里，李，理，礼，锂，俚，鲤，澧</tone3Samples>
+    <tone4Samples>去声例字：例，力，利，立，丽，莉，历，粒</tone4Samples>
+  </yinjie>
+  <yinjie name="lia">
+    <desc>声母：l，韵母：i附带元音a</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：俩</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="lian">
+    <desc>声母：l，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：连，联，莲，怜，帘，廉，涟，镰</tone2Samples>
+    <tone3Samples>上声例字：脸，敛，琏，裣</tone3Samples>
+    <tone4Samples>去声例字：链，练，恋，炼，殓，楝，潋</tone4Samples>
+  </yinjie>
+  <yinjie name="liang">
+    <desc>声母：l，韵母：i附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：量，梁，良，凉，粮，粱</tone2Samples>
+    <tone3Samples>上声例字：两，俩，魉</tone3Samples>
+    <tone4Samples>去声例字：亮，辆，量，靓，晾，谅，踉，凉</tone4Samples>
+  </yinjie>
+  <yinjie name="liao">
+    <desc>声母：l，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：撩，蹽</tone1Samples>
+    <tone2Samples>阳平例字：聊，辽，疗，潦，寥，嘹，僚，撩</tone2Samples>
+    <tone3Samples>上声例字：了，燎，钌，蓼</tone3Samples>
+    <tone4Samples>去声例字：料，廖，撂，瞭，镣，尥，钌</tone4Samples>
+  </yinjie>
+  <yinjie name="lie">
+    <desc>声母：l，韵母：ie</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：裂</tone3Samples>
+    <tone4Samples>去声例字：列，咧，裂，烈，猎，劣，洌，冽</tone4Samples>
+  </yinjie>
+  <yinjie name="lin">
+    <desc>声母：l，韵母：in</desc>
+    <tone1Samples>阴平例字：拎</tone1Samples>
+    <tone2Samples>阳平例字：霖，林，临，琳，淋，磷，麟，邻</tone2Samples>
+    <tone3Samples>上声例字：凛，檩，懔，僯，廪</tone3Samples>
+    <tone4Samples>去声例字：蔺，赁，吝，躏，淋，膦</tone4Samples>
+  </yinjie>
+  <yinjie name="ling">
+    <desc>声母：l，韵母：ing</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：灵，零，玲，凌，铃，龄，菱，令</tone2Samples>
+    <tone3Samples>上声例字：领，岭，岺，令</tone3Samples>
+    <tone4Samples>去声例字：令，另，呤，炩</tone4Samples>
+  </yinjie>
+  <yinjie name="liu">
+    <desc>声母：l，韵母：iu</desc>
+    <tone1Samples>阴平例字：溜，熘，蹓</tone1Samples>
+    <tone2Samples>阳平例字：留，刘，流，馏，榴，硫，浏，琉</tone2Samples>
+    <tone3Samples>上声例字：柳，绺，珋，锍</tone3Samples>
+    <tone4Samples>去声例字：遛，六，陆，溜，馏，蹓，翏，鹨</tone4Samples>
+  </yinjie>
+  <yinjie name="lo">
+    <desc>声母：l，韵母：o</desc>
+    <tone1Samples>阴平例字：咯*</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="long">
+    <desc>声母：l，韵母：ong</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：龙，隆，笼，聋，珑，泷，砻，窿</tone2Samples>
+    <tone3Samples>上声例字：陇，拢，垄，笼</tone3Samples>
+    <tone4Samples>去声例字：弄，哢，梇</tone4Samples>
+  </yinjie>
+  <yinjie name="lou">
+    <desc>声母：l，韵母：ou</desc>
+    <tone1Samples>阴平例字：搂</tone1Samples>
+    <tone2Samples>阳平例字：楼，喽，娄，偻，溇，蝼，髅</tone2Samples>
+    <tone3Samples>上声例字：搂，篓，嵝</tone3Samples>
+    <tone4Samples>去声例字：漏，露，陋，镂，瘘</tone4Samples>
+  </yinjie>
+  <yinjie name="lu">
+    <desc>声母：l，韵母：u</desc>
+    <tone1Samples>阴平例字：噜，撸</tone1Samples>
+    <tone2Samples>阳平例字：卢，炉，芦，庐，泸，颅，鸬，栌</tone2Samples>
+    <tone3Samples>上声例字：鲁，卤，掳，虏，橹，镥</tone3Samples>
+    <tone4Samples>去声例字：录，路，陆，露，鹿，璐，禄，碌</tone4Samples>
+  </yinjie>
+  <yinjie name="luan">
+    <desc>声母：l，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：栾，鸾，銮，滦，孪，娈，挛，峦</tone2Samples>
+    <tone3Samples>上声例字：卵</tone3Samples>
+    <tone4Samples>去声例字：乱</tone4Samples>
+  </yinjie>
+  <yinjie name="lüe">
+    <desc>声母：l，韵母：üe</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：略，掠，锊</tone4Samples>
+  </yinjie>
+  <yinjie name="lun">
+    <desc>声母：l，韵母：un</desc>
+    <tone1Samples>阴平例字：抡</tone1Samples>
+    <tone2Samples>阳平例字：论，轮，伦，仑，纶，沦，囵，抡</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：论</tone4Samples>
+  </yinjie>
+  <yinjie name="luo">
+    <desc>声母：l，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：落，啰，捋</tone1Samples>
+    <tone2Samples>阳平例字：罗，螺，萝，锣，箩，逻，啰，骡</tone2Samples>
+    <tone3Samples>上声例字：裸，瘰</tone3Samples>
+    <tone4Samples>去声例字：落，洛，咯，骆，络，烙，摞，漯</tone4Samples>
+  </yinjie>
+  <yinjie name="lü">
+    <desc>声母：l，韵母：ü</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：驴，榈，闾</tone2Samples>
+    <tone3Samples>上声例字：吕，旅，铝，侣，缕，履，捋，屡</tone3Samples>
+    <tone4Samples>去声例字：率，绿，律，虑，氯，滤，垏</tone4Samples>
+  </yinjie>
+  <yinjie name="ma">
+    <desc>声母：m，韵母：a</desc>
+    <tone1Samples>阴平例字：吗，妈，抹，摩</tone1Samples>
+    <tone2Samples>阳平例字：吗，麻，蟆</tone2Samples>
+    <tone3Samples>上声例字：吗，码，马，玛，蚂，犸</tone3Samples>
+    <tone4Samples>去声例字：骂，蚂，杩，唛</tone4Samples>
+  </yinjie>
+  <yinjie name="mai">
+    <desc>声母：m，韵母：ai</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：埋，霾</tone2Samples>
+    <tone3Samples>上声例字：买</tone3Samples>
+    <tone4Samples>去声例字：卖，麦，迈，脉，佅</tone4Samples>
+  </yinjie>
+  <yinjie name="man">
+    <desc>声母：m，韵母：an</desc>
+    <tone1Samples>阴平例字：颟，嫚</tone1Samples>
+    <tone2Samples>阳平例字：蛮，瞒，馒，埋，鳗，悗，谩，鬘</tone2Samples>
+    <tone3Samples>上声例字：满，螨，娨</tone3Samples>
+    <tone4Samples>去声例字：蔓，慢，曼，漫，嫚，谩，缦，墁</tone4Samples>
+  </yinjie>
+  <yinjie name="mang">
+    <desc>声母：m，韵母：ang</desc>
+    <tone1Samples>阴平例字：牤</tone1Samples>
+    <tone2Samples>阳平例字：忙，盲，芒，茫，氓，邙，硭，铓</tone2Samples>
+    <tone3Samples>上声例字：莽，蟒，漭</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="mao">
+    <desc>声母：m，韵母：ao</desc>
+    <tone1Samples>阴平例字：猫</tone1Samples>
+    <tone2Samples>阳平例字：毛，矛，茅，锚，髦，牦，旄，蝥</tone2Samples>
+    <tone3Samples>上声例字：卯，泖，铆，冇</tone3Samples>
+    <tone4Samples>去声例字：冒，帽，茂，貌，贸，懋，瑁，耄</tone4Samples>
+  </yinjie>
+  <yinjie name="me">
+    <desc>声母：m，韵母：e</desc>
+    <tone1Samples>阴平例字：么*</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：嚰</tone4Samples>
+  </yinjie>
+  <yinjie name="mei">
+    <desc>声母：m，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：没，梅，霉，煤，眉，枚，媒，玫</tone2Samples>
+    <tone3Samples>上声例字：美，每，镁，浼</tone3Samples>
+    <tone4Samples>去声例字：妹，魅，昧，寐，猸，袂，煝，蝞</tone4Samples>
+  </yinjie>
+  <yinjie name="men">
+    <desc>声母：m，韵母：en</desc>
+    <tone1Samples>阴平例字：闷</tone1Samples>
+    <tone2Samples>阳平例字：们，门，扪，钔</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：闷，焖，懑</tone4Samples>
+  </yinjie>
+  <yinjie name="meng">
+    <desc>声母：m，韵母：eng</desc>
+    <tone1Samples>阴平例字：蒙，掹</tone1Samples>
+    <tone2Samples>阳平例字：盟，萌，朦，檬，濛，虻，甍，艨</tone2Samples>
+    <tone3Samples>上声例字：蒙，猛，懵，艋，锰，蜢，勐，蠓</tone3Samples>
+    <tone4Samples>去声例字：梦，孟</tone4Samples>
+  </yinjie>
+  <yinjie name="mi">
+    <desc>声母：m，韵母：i</desc>
+    <tone1Samples>阴平例字：咪，眯</tone1Samples>
+    <tone2Samples>阳平例字：迷，谜，麋，糜，弥，靡，猕，醚</tone2Samples>
+    <tone3Samples>上声例字：米，芈，靡，沵，洣，弭，脒</tone3Samples>
+    <tone4Samples>去声例字：密，蜜，秘，觅，幂，泌，谧，汨</tone4Samples>
+  </yinjie>
+  <yinjie name="mian">
+    <desc>声母：m，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：棉，眠，绵，芇，杣，蝒</tone2Samples>
+    <tone3Samples>上声例字：免，勉，冕，缅，娩，腼，沔，愐</tone3Samples>
+    <tone4Samples>去声例字：面</tone4Samples>
+  </yinjie>
+  <yinjie name="miao">
+    <desc>声母：m，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：喵</tone1Samples>
+    <tone2Samples>阳平例字：苗，瞄，描，鹋，媌</tone2Samples>
+    <tone3Samples>上声例字：秒，淼，渺，邈，缈，藐，杪，眇</tone3Samples>
+    <tone4Samples>去声例字：妙，庙，缪</tone4Samples>
+  </yinjie>
+  <yinjie name="mie">
+    <desc>声母：m，韵母：ie</desc>
+    <tone1Samples>阴平例字：咩，乜</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：灭，蔑，篾，蠛</tone4Samples>
+  </yinjie>
+  <yinjie name="min">
+    <desc>声母：m，韵母：in</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：民 ，泯，岷，珉，旻，旼</tone2Samples>
+    <tone3Samples>上声例字：泯，敏，闽，闵，抿，皿，悯，慜</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ming">
+    <desc>声母：m，韵母：ing</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：名，明，铭，鸣，冥，茗，瞑，溟</tone2Samples>
+    <tone3Samples>上声例字：凕，慏，酩</tone3Samples>
+    <tone4Samples>去声例字：命</tone4Samples>
+  </yinjie>
+  <yinjie name="miu">
+    <desc>声母：m，韵母：iu</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：谬，缪</tone4Samples>
+  </yinjie>
+  <yinjie name="mo">
+    <desc>声母：m，韵母：o</desc>
+    <tone1Samples>阴平例字：摸，嚤</tone1Samples>
+    <tone2Samples>阳平例字：魔，磨，膜，摩，模，馍，蘑，摹</tone2Samples>
+    <tone3Samples>上声例字：抹，懡</tone3Samples>
+    <tone4Samples>去声例字：墨，沫，磨，莫，末，默，陌，漠</tone4Samples>
+  </yinjie>
+  <yinjie name="mou">
+    <desc>声母：m，韵母：ou</desc>
+    <tone1Samples>阴平例字：哞</tone1Samples>
+    <tone2Samples>阳平例字：谋，牟，眸，缪，鍪，侔，劺</tone2Samples>
+    <tone3Samples>上声例字：某</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="mu">
+    <desc>声母：m，韵母：u</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：模，毪，氁</tone2Samples>
+    <tone3Samples>上声例字：母，姆，亩，牡，拇，姥，牳，砪</tone3Samples>
+    <tone4Samples>去声例字：木，目，牧，幕，墓，慕，穆，沐</tone4Samples>
+  </yinjie>
+  <yinjie name="na">
+    <desc>声母：n，韵母：a</desc>
+    <tone1Samples>阴平例字：南，那</tone1Samples>
+    <tone2Samples>阳平例字：拿，镎</tone2Samples>
+    <tone3Samples>上声例字：哪</tone3Samples>
+    <tone4Samples>去声例字：那，纳，娜，呐，钠，捺，衲，肭</tone4Samples>
+  </yinjie>
+  <yinjie name="nai">
+    <desc>声母：n，韵母：ai</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：腉</tone2Samples>
+    <tone3Samples>上声例字：乃，奶，氖，艿，哪，疓</tone3Samples>
+    <tone4Samples>去声例字：耐，奈，萘，渿，鼐，褦</tone4Samples>
+  </yinjie>
+  <yinjie name="nan">
+    <desc>声母：n，韵母：an</desc>
+    <tone1Samples>阴平例字：囡</tone1Samples>
+    <tone2Samples>阳平例字：难，南，男，楠，喃，抩，莮</tone2Samples>
+    <tone3Samples>上声例字：赧，萳，揇，湳，煵，腩，蝻</tone3Samples>
+    <tone4Samples>去声例字：难，婻</tone4Samples>
+  </yinjie>
+  <yinjie name="nang">
+    <desc>声母：n，韵母：ang</desc>
+    <tone1Samples>阴平例字：囊，囔</tone1Samples>
+    <tone2Samples>阳平例字：囊，蠰，馕</tone2Samples>
+    <tone3Samples>上声例字：曩，馕，攮，灢</tone3Samples>
+    <tone4Samples>去声例字：齉</tone4Samples>
+  </yinjie>
+  <yinjie name="nao">
+    <desc>声母：n，韵母：ao</desc>
+    <tone1Samples>阴平例字：孬</tone1Samples>
+    <tone2Samples>阳平例字：挠，铙，硇，蛲，猱</tone2Samples>
+    <tone3Samples>上声例字：脑，恼，瑙</tone3Samples>
+    <tone4Samples>去声例字：闹，淖</tone4Samples>
+  </yinjie>
+  <yinjie name="ne">
+    <desc>声母：n，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：哪</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：呐，讷，那，抐</tone4Samples>
+  </yinjie>
+  <yinjie name="nei">
+    <desc>声母：n，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：馁，哪，娞，腇</tone3Samples>
+    <tone4Samples>去声例字：内，那</tone4Samples>
+  </yinjie>
+  <yinjie name="nen">
+    <desc>声母：n，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：嫩，恁</tone4Samples>
+  </yinjie>
+  <yinjie name="neng">
+    <desc>声母：n，韵母：eng</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：能</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ni">
+    <desc>声母：n，韵母：i</desc>
+    <tone1Samples>阴平例字：妮</tone1Samples>
+    <tone2Samples>阳平例字：尼，泥，倪，呢，猊，霓，鲵，怩</tone2Samples>
+    <tone3Samples>上声例字：你，拟，旎，晲，柅，苨</tone3Samples>
+    <tone4Samples>去声例字：昵，睨，腻，逆，溺，匿，泥，堄</tone4Samples>
+  </yinjie>
+  <yinjie name="nian">
+    <desc>声母：n，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：蔫，拈</tone1Samples>
+    <tone2Samples>阳平例字：年，粘，黏，鲇，鲶，秥</tone2Samples>
+    <tone3Samples>上声例字：撵，捻，碾，辇，涊，淰</tone3Samples>
+    <tone4Samples>去声例字：廿，念，埝，惗，艌</tone4Samples>
+  </yinjie>
+  <yinjie name="niang">
+    <desc>声母：n，韵母：i附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：娘</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：酿</tone4Samples>
+  </yinjie>
+  <yinjie name="niao">
+    <desc>声母：n，韵母：i附带元音ao</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：鸟，袅，茑</tone3Samples>
+    <tone4Samples>去声例字：尿，脲</tone4Samples>
+  </yinjie>
+  <yinjie name="nie">
+    <desc>声母：n，韵母：ie</desc>
+    <tone1Samples>阴平例字：捏</tone1Samples>
+    <tone2Samples>阳平例字：苶</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：聂，孽，涅，镍，嗫，臬，蹑，啮</tone4Samples>
+  </yinjie>
+  <yinjie name="nin">
+    <desc>声母：n，韵母：in</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：您</tone2Samples>
+    <tone3Samples>上声例字：拰</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ning">
+    <desc>声母：n，韵母：ing</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：宁，拧，凝，柠，咛，狞，聍</tone2Samples>
+    <tone3Samples>上声例字：拧</tone3Samples>
+    <tone4Samples>去声例字：宁，拧，佞，泞</tone4Samples>
+  </yinjie>
+  <yinjie name="niu">
+    <desc>声母：n，韵母iu</desc>
+    <tone1Samples>阴平例字：妞</tone1Samples>
+    <tone2Samples>阳平例字：牛</tone2Samples>
+    <tone3Samples>上声例字：扭，纽，钮，忸，狃</tone3Samples>
+    <tone4Samples>去声例字：拗</tone4Samples>
+  </yinjie>
+  <yinjie name="nong">
+    <desc>声母：n，韵母：ong</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：农，浓，侬，脓，哝，秾</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：弄</tone4Samples>
+  </yinjie>
+  <yinjie name="nou">
+    <desc>声母：n，韵母：ou</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：羺</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：耨，檽，獳</tone4Samples>
+  </yinjie>
+  <yinjie name="nu">
+    <desc>声母：n，韵母：u</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：奴，伮，驽，孥，笯</tone2Samples>
+    <tone3Samples>上声例字：努，弩，胬，砮</tone3Samples>
+    <tone4Samples>去声例字：怒，傉，搙</tone4Samples>
+  </yinjie>
+  <yinjie name="nuan">
+    <desc>声母：n，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：奻</tone2Samples>
+    <tone3Samples>上声例字：暖</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="nüe">
+    <desc>声母：n，韵母：üe</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：虐，疟</tone4Samples>
+  </yinjie>
+  <yinjie name="nun">
+    <desc>声母：n，韵母：un</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：黁</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="nuo">
+    <desc>声母：n，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：挪，娜，那，傩，梛</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：诺，喏，懦，掿，搦，锘，糑，糯</tone4Samples>
+  </yinjie>
+  <yinjie name="nü">
+    <desc>声母：n，韵母：ü</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：女，钕，籹</tone3Samples>
+    <tone4Samples>去声例字：沑，衄，恧，朒</tone4Samples>
+  </yinjie>
+  <yinjie name="pa">
+    <desc>声母：p，韵母：a</desc>
+    <tone1Samples>阴平例字：趴，啪，葩，舥</tone1Samples>
+    <tone2Samples>阳平例字：爬，扒，耙，琶，杷，筢，潖</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：怕，帕</tone4Samples>
+  </yinjie>
+  <yinjie name="pai">
+    <desc>声母：p，韵母：ai</desc>
+    <tone1Samples>阴平例字：拍</tone1Samples>
+    <tone2Samples>阳平例字：牌，排，徘，棑，俳，箄</tone2Samples>
+    <tone3Samples>上声例字：迫，排</tone3Samples>
+    <tone4Samples>去声例字：派，湃，哌，蒎</tone4Samples>
+  </yinjie>
+  <yinjie name="pan">
+    <desc>声母：p，韵母：an</desc>
+    <tone1Samples>阴平例字：潘，攀，番，萠，眅</tone1Samples>
+    <tone2Samples>阳平例字：盘，磐，蟠，槃，蹒，胖，跘，磻</tone2Samples>
+    <tone3Samples>上声例字：坢</tone3Samples>
+    <tone4Samples>去声例字：盼，判，叛，畔，泮，牉</tone4Samples>
+  </yinjie>
+  <yinjie name="pang">
+    <desc>声母：p，韵母：ang</desc>
+    <tone1Samples>阴平例字：乓，滂，雱，膀，霶</tone1Samples>
+    <tone2Samples>阳平例字：旁，庞，螃，彷，逄，鳑，膀</tone2Samples>
+    <tone3Samples>上声例字：嗙，耪</tone3Samples>
+    <tone4Samples>去声例字：胖，炐</tone4Samples>
+  </yinjie>
+  <yinjie name="pao">
+    <desc>声母：p，韵母：ao</desc>
+    <tone1Samples>阴平例字：抛，泡，脬，萢</tone1Samples>
+    <tone2Samples>阳平例字：炮，袍，刨，咆，庖，跑，匏，狍</tone2Samples>
+    <tone3Samples>上声例字：跑</tone3Samples>
+    <tone4Samples>去声例字：炮，泡，疱，奅</tone4Samples>
+  </yinjie>
+  <yinjie name="pei">
+    <desc>声母：p，韵母：ei</desc>
+    <tone1Samples>阴平例字：呸，胚，怌，衃，醅</tone1Samples>
+    <tone2Samples>阳平例字：赔，陪，培，裴，锫，毰</tone2Samples>
+    <tone3Samples>上声例字：俖</tone3Samples>
+    <tone4Samples>去声例字：配，佩，沛，珮，帔，辔，霈，旆</tone4Samples>
+  </yinjie>
+  <yinjie name="pen">
+    <desc>声母：p，韵母：en</desc>
+    <tone1Samples>阴平例字：喷</tone1Samples>
+    <tone2Samples>阳平例字：盆，葐，湓</tone2Samples>
+    <tone3Samples>上声例字：呠</tone3Samples>
+    <tone4Samples>去声例字：喷</tone4Samples>
+  </yinjie>
+  <yinjie name="peng">
+    <desc>声母：p，韵母：eng</desc>
+    <tone1Samples>阴平例字：砰，嘭，烹，抨，怦，泙，恲，漰</tone1Samples>
+    <tone2Samples>阳平例字：朋，鹏，彭，棚，蓬，澎，硼，膨</tone2Samples>
+    <tone3Samples>上声例字：捧，淎，皏</tone3Samples>
+    <tone4Samples>去声例字：碰，椪，槰</tone4Samples>
+  </yinjie>
+  <yinjie name="pi">
+    <desc>声母：p，韵母：i</desc>
+    <tone1Samples>阴平例字：批，披，劈，丕，坯，霹，纰，噼</tone1Samples>
+    <tone2Samples>阳平例字：皮，脾，啤，疲，陂，貔，琵，毗</tone2Samples>
+    <tone3Samples>上声例字：匹，痞，劈，圮，吡，否，痞，癖</tone3Samples>
+    <tone4Samples>去声例字：屁，辟，僻，睥，譬，媲，潎，埤</tone4Samples>
+  </yinjie>
+  <yinjie name="pian">
+    <desc>声母：p，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：篇，片，偏，扁，翩，犏，囨，媥</tone1Samples>
+    <tone2Samples>阳平例字：便，骈，蹁，胼，楄，跰</tone2Samples>
+    <tone3Samples>上声例字：谝</tone3Samples>
+    <tone4Samples>去声例字：片，骗</tone4Samples>
+  </yinjie>
+  <yinjie name="piao">
+    <desc>声母：p，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：飘，漂，缥，嘌，螵，剽，彯</tone1Samples>
+    <tone2Samples>阳平例字：螵，朴，瓢，薸</tone2Samples>
+    <tone3Samples>上声例字：殍，瞟，漂，缥，醥</tone3Samples>
+    <tone4Samples>去声例字：票，漂，嘌，僄，骠</tone4Samples>
+  </yinjie>
+  <yinjie name="pie">
+    <desc>声母：p，韵母：ie</desc>
+    <tone1Samples>阴平例字：撇，暼，瞥，氕</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：苤，撇，鐅</tone3Samples>
+    <tone4Samples>去声例字：嫳</tone4Samples>
+  </yinjie>
+  <yinjie name="pin">
+    <desc>声母：p，韵母：in</desc>
+    <tone1Samples>阴平例字：拼，姘，砏</tone1Samples>
+    <tone2Samples>阳平例字：频，贫，颦，嫔，玭</tone2Samples>
+    <tone3Samples>上声例字：品，榀</tone3Samples>
+    <tone4Samples>去声例字：牝，娉，聘</tone4Samples>
+  </yinjie>
+  <yinjie name="ping">
+    <desc>声母：p，韵母：ing</desc>
+    <tone1Samples>阴平例字：乒，甹，俜，娉，聠</tone1Samples>
+    <tone2Samples>阳平例字：平，瓶，凭，萍，屏，评，坪，苹</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="po">
+    <desc>声母：p，韵母：o</desc>
+    <tone1Samples>阴平例字：泼，坡，颇，泊，钋，陂</tone1Samples>
+    <tone2Samples>阳平例字：婆，嘙，蔢，鄱，皤，繁</tone2Samples>
+    <tone3Samples>上声例字：叵，钷，笸</tone3Samples>
+    <tone4Samples>去声例字：破，迫，魄，珀，朴，粕，洦</tone4Samples>
+  </yinjie>
+  <yinjie name="pou">
+    <desc>声母：p，韵母：ou</desc>
+    <tone1Samples>阴平例字：剖，娝</tone1Samples>
+    <tone2Samples>阳平例字：抔，捊，垺，掊，裒，箁</tone2Samples>
+    <tone3Samples>上声例字：婄，掊，犃</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="pu">
+    <desc>声母：p，韵母：u</desc>
+    <tone1Samples>阴平例字：扑，铺，噗，仆，抪，炇，潽，陠</tone1Samples>
+    <tone2Samples>阳平例字：仆，蒲，葡，莆，脯，菩，匍，璞</tone2Samples>
+    <tone3Samples>上声例字：普，浦，谱，朴，埔，溥，蹼，圃</tone3Samples>
+    <tone4Samples>去声例字：瀑，曝，堡，铺</tone4Samples>
+  </yinjie>
+  <yinjie name="qi">
+    <desc>声母：q，韵母：i</desc>
+    <tone1Samples>阴平例字：七，期，妻，漆，欺，凄，沏，栖</tone1Samples>
+    <tone2Samples>阳平例字：奇，齐，骑，其，祈，棋，旗，歧</tone2Samples>
+    <tone3Samples>上声例字：起，企，启，岂，乞，杞，绮，玘</tone3Samples>
+    <tone4Samples>去声例字：气，器，弃，汽，泣，戚，契，砌</tone4Samples>
+  </yinjie>
+  <yinjie name="qia">
+    <desc>声母：q，韵母：i附带元音a</desc>
+    <tone1Samples>阴平例字：掐，袷，葜，擖</tone1Samples>
+    <tone2Samples>阳平例字：拤</tone2Samples>
+    <tone3Samples>上声例字：卡，酠，跒</tone3Samples>
+    <tone4Samples>去声例字：恰，帢，洽，硈，髂</tone4Samples>
+  </yinjie>
+  <yinjie name="qian">
+    <desc>声母：q，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：千，签，牵，迁，谦，铅，芊，阡</tone1Samples>
+    <tone2Samples>阳平例字：前，钱，潜，乾，黔，虔，钳，掮</tone2Samples>
+    <tone3Samples>上声例字：浅，遣，谴，肷，槏，缱</tone3Samples>
+    <tone4Samples>去声例字：纤，欠，倩，茜，歉，嵌，芡，堑</tone4Samples>
+  </yinjie>
+  <yinjie name="qiang">
+    <desc>声母：q，韵母：i附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：枪，呛，腔，羌，锵，戗，跄，抢</tone1Samples>
+    <tone2Samples>阳平例字：强，墙，蔷，嫱，樯，蔃</tone2Samples>
+    <tone3Samples>上声例字：抢，羟，强，襁，镪</tone3Samples>
+    <tone4Samples>去声例字：呛，戗，炝，唴，跄</tone4Samples>
+  </yinjie>
+  <yinjie name="qiao">
+    <desc>声母：q，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：悄，锹，跷，敲，硗，橇，缲，幧</tone1Samples>
+    <tone2Samples>阳平例字：桥，瞧，乔，侨，樵，憔，荞，翘</tone2Samples>
+    <tone3Samples>上声例字：巧，悄，雀，愀</tone3Samples>
+    <tone4Samples>去声例字：翘，俏，撬，窍，壳，鞘，峭，诮</tone4Samples>
+  </yinjie>
+  <yinjie name="qie">
+    <desc>声母：q，韵母：ie</desc>
+    <tone1Samples>阴平例字：切</tone1Samples>
+    <tone2Samples>阳平例字：茄，伽，癿</tone2Samples>
+    <tone3Samples>上声例字：且</tone3Samples>
+    <tone4Samples>去声例字：切，妾，窃，怯，惬，挈，趄，锲</tone4Samples>
+  </yinjie>
+  <yinjie name="qin">
+    <desc>声母：q，韵母：in</desc>
+    <tone1Samples>阴平例字：亲，钦，侵，衾，骎</tone1Samples>
+    <tone2Samples>阳平例字：芹，秦，琴，勤，禽，覃，噙，擒</tone2Samples>
+    <tone3Samples>上声例字：寝，坅，笉，赾，梫，锓，螼</tone3Samples>
+    <tone4Samples>去声例字：沁，吣，抋，揿</tone4Samples>
+  </yinjie>
+  <yinjie name="qing">
+    <desc>声母：q，韵母：ing</desc>
+    <tone1Samples>阴平例字：轻，清，青，倾，氢，卿，蜻，鲭</tone1Samples>
+    <tone2Samples>阳平例字：情，晴，擎，氰，勍，黥</tone2Samples>
+    <tone3Samples>上声例字：请，顷，苘，庼，謦</tone3Samples>
+    <tone4Samples>去声例字：庆，亲，磬，罄，綮，箐，靘</tone4Samples>
+  </yinjie>
+  <yinjie name="qiong">
+    <desc>声母：q，韵母：i附带后鼻韵母ong</desc>
+    <tone1Samples>阴平例字：銎</tone1Samples>
+    <tone2Samples>阳平例字：穷，琼，穹，邛，茕，穹，蛩，焪</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="qiu">
+    <desc>声母：q，韵母：iu</desc>
+    <tone1Samples>阴平例字：秋，邱，丘，湫，楸，蚯，鳅，恘</tone1Samples>
+    <tone2Samples>阳平例字：求，球，囚，裘，仇，逑，虬，酋</tone2Samples>
+    <tone3Samples>上声例字：糗，搝</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="qu">
+    <desc>声母q，韵母：ü去掉两点后变成u</desc>
+    <tone1Samples>阴平例字：曲，屈，区，驱，趋，躯，蛐，岖</tone1Samples>
+    <tone2Samples>阳平例字：渠，瞿，臞，欋，磲，蠼，劬，鸲</tone2Samples>
+    <tone3Samples>上声例字：曲，苣，取，娶，竘，龋，蝺，竬</tone3Samples>
+    <tone4Samples>去声例字：去，趣，祛，觑，耝，阒</tone4Samples>
+  </yinjie>
+  <yinjie name="quan">
+    <desc>声母：q，韵母：üan碰到q写成uan，并且拼读时会变音，按照yuan的音拼读</desc>
+    <tone1Samples>阴平例字：圈，弮，悛，棬，箞</tone1Samples>
+    <tone2Samples>阳平例字：全，权，泉，拳，荃，蜷，诠，醛</tone2Samples>
+    <tone3Samples>上声例字：犬，畎，烇，绻</tone3Samples>
+    <tone4Samples>去声例字：劝，券，牶</tone4Samples>
+  </yinjie>
+  <yinjie name="que">
+    <desc>声母：q，韵母：üe写成ue</desc>
+    <tone1Samples>阴平例字：缺，阙，蒛，炔</tone1Samples>
+    <tone2Samples>阳平例字：瘸</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：却，阙，确，雀，鹊，阕，燩</tone4Samples>
+  </yinjie>
+  <yinjie name="qun">
+    <desc>声母：q，韵母：ün写成un</desc>
+    <tone1Samples>阴平例字：夋，逡，囷</tone1Samples>
+    <tone2Samples>阳平例字：群，裙，宭</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ran">
+    <desc>声母：r，韵母：an</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：然，燃，髯，呥，蚺</tone2Samples>
+    <tone3Samples>上声例字：冉，苒，姌，染，珃</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="rang">
+    <desc>声母：r，韵母：ang</desc>
+    <tone1Samples>阴平例字：嚷</tone1Samples>
+    <tone2Samples>阳平例字：瓤，儴，蘘，瀼，禳，穰</tone2Samples>
+    <tone3Samples>上声例字：壤，嚷，攘，爙</tone3Samples>
+    <tone4Samples>去声例字：让</tone4Samples>
+  </yinjie>
+  <yinjie name="rao">
+    <desc>声母：r，韵母：ao</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：饶，娆，荛，桡</tone2Samples>
+    <tone3Samples>上声例字：扰，娆</tone3Samples>
+    <tone4Samples>去声例字：绕</tone4Samples>
+  </yinjie>
+  <yinjie name="re">
+    <desc>声母：r，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：惹，若，喏</tone3Samples>
+    <tone4Samples>去声例字：热</tone4Samples>
+  </yinjie>
+  <yinjie name="ren">
+    <desc>声母：r，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：人，任，仁，壬</tone2Samples>
+    <tone3Samples>上声例字：忍，荏，栣，秹，稔</tone3Samples>
+    <tone4Samples>去声例字：认，刃，韧，仞，妊，纫，饪，葚</tone4Samples>
+  </yinjie>
+  <yinjie name="reng">
+    <desc>声母：r，韵母：eng</desc>
+    <tone1Samples>阴平例字：扔</tone1Samples>
+    <tone2Samples>阳平例字：仍，辸，礽，芿</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ri">
+    <desc>ri是整体认读音节</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：日，衵</tone4Samples>
+  </yinjie>
+  <yinjie name="rong">
+    <desc>声母：r，韵母：ong</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：荣，容，蓉，融，绒，溶，榕，戎</tone2Samples>
+    <tone3Samples>上声例字：冗，氄</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="rou">
+    <desc>声母：r，韵母：ou</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：柔，揉，蹂，鞣，葇，糅，蝚</tone2Samples>
+    <tone3Samples>上声例字：韖</tone3Samples>
+    <tone4Samples>去声例字：肉</tone4Samples>
+  </yinjie>
+  <yinjie name="ru">
+    <desc>声母：r，韵母：u</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：如，茹，儒，濡，孺，蠕，铷，筎</tone2Samples>
+    <tone3Samples>上声例字：乳，汝，辱，擩，肗</tone3Samples>
+    <tone4Samples>去声例字：入，洳，溽，缛，蓐，褥</tone4Samples>
+  </yinjie>
+  <yinjie name="rua">
+    <desc>声母：r，韵母：u附带元音a</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：挼</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="ruan">
+    <desc>声母：r，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：堧</tone2Samples>
+    <tone3Samples>上声例字：软，阮，朊</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="rui">
+    <desc>声母：r，韵母：ui</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：甤，蕤</tone2Samples>
+    <tone3Samples>上声例字：蕊，桵</tone3Samples>
+    <tone4Samples>去声例字：瑞，锐，睿，芮，蚋，枘，汭</tone4Samples>
+  </yinjie>
+  <yinjie name="run">
+    <desc>声母：r，韵母：un</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：润，闰</tone4Samples>
+  </yinjie>
+  <yinjie name="ruo">
+    <desc>声母：r，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：挼，捼</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：若，弱，偌，鄀，渃，焫，楉，箬</tone4Samples>
+  </yinjie>
+  <yinjie name="sa">
+    <desc>声母：s，韵母：a</desc>
+    <tone1Samples>阴平例字：仨，撒</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：洒，撒，靸，潵</tone3Samples>
+    <tone4Samples>去声例字：萨，卅，飒，钑，脎，摋</tone4Samples>
+  </yinjie>
+  <yinjie name="sai">
+    <desc>声母：s，韵母：ai</desc>
+    <tone1Samples>阴平例字：塞，腮，鳃，噻</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：赛，塞</tone4Samples>
+  </yinjie>
+  <yinjie name="san">
+    <desc>声母：s，韵母：an</desc>
+    <tone1Samples>阴平例字：三，叁，犙，鬖</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：散，伞，馓，糁</tone3Samples>
+    <tone4Samples>去声例字：散</tone4Samples>
+  </yinjie>
+  <yinjie name="sang">
+    <desc>声母：s，韵母：ang</desc>
+    <tone1Samples>阴平例字：丧，桑</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：嗓，搡，磉</tone3Samples>
+    <tone4Samples>去声例字：丧</tone4Samples>
+  </yinjie>
+  <yinjie name="sao">
+    <desc>声母：s，韵母：ao</desc>
+    <tone1Samples>阴平例字：骚，搔，梢，臊，缫，溞</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：扫，嫂</tone3Samples>
+    <tone4Samples>去声例字：扫，埽，瘙，臊，矂</tone4Samples>
+  </yinjie>
+  <yinjie name="se">
+    <desc>声母：s，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：色，涩，瑟，铯，塞，啬，洓，穑</tone4Samples>
+  </yinjie>
+  <yinjie name="sen">
+    <desc>声母：s，韵母：en</desc>
+    <tone1Samples>阴平例字：森，椮</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="seng">
+    <desc>声母：s，韵母：eng</desc>
+    <tone1Samples>阴平例字：僧，鬙</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="si">
+    <desc>si是整体认读音节</desc>
+    <tone1Samples>阴平例字：思，斯，丝，私，司，撕，嘶，厮</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：死</tone3Samples>
+    <tone4Samples>去声例字：四，似，寺，肆，巳，饲，泗，嗣</tone4Samples>
+  </yinjie>
+  <yinjie name="song">
+    <desc>声母：s，韵母：ong</desc>
+    <tone1Samples>阴平例字：松，嵩，淞，凇，忪，菘，檧</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：怂，耸，悚，竦，楤</tone3Samples>
+    <tone4Samples>去声例字：送，宋，颂，诵，讼</tone4Samples>
+  </yinjie>
+  <yinjie name="sou">
+    <desc>声母：s，韵母：ou</desc>
+    <tone1Samples>阴平例字：搜，艘，馊，嗖，飕，溲，锼</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：叟，擞，嗾，瞍，薮</tone3Samples>
+    <tone4Samples>去声例字：嗽，擞</tone4Samples>
+  </yinjie>
+  <yinjie name="su">
+    <desc>声母：s，韵母：u</desc>
+    <tone1Samples>阴平例字：苏，酥，窣，稣</tone1Samples>
+    <tone2Samples>阳平例字：俗</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：素，速，诉，宿，塑，粟，肃，溯</tone4Samples>
+  </yinjie>
+  <yinjie name="suan">
+    <desc>声母：s，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：酸，狻</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：匴</tone3Samples>
+    <tone4Samples>去声例字：算，蒜</tone4Samples>
+  </yinjie>
+  <yinjie name="sui">
+    <desc>声母：s，韵母：ui</desc>
+    <tone1Samples>阴平例字：虽，尿，浽，睢，鞖，濉</tone1Samples>
+    <tone2Samples>阳平例字：绥，随，隋，遂</tone2Samples>
+    <tone3Samples>上声例字：髓</tone3Samples>
+    <tone4Samples>去声例字：岁，碎，遂，穗，隧，祟，谇，邃</tone4Samples>
+  </yinjie>
+  <yinjie name="sun">
+    <desc>声母：s，韵母：un</desc>
+    <tone1Samples>阴平例字：孙，荪，狲，飧</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：损，笋，隼，榫</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="suo">
+    <desc>声母：s，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：唆，蓑，娑，桫，梭，挲，缩</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：锁，索，所，琐，唢，暛</tone3Samples>
+    <tone4Samples>去声例字：逤</tone4Samples>
+  </yinjie>
+  <yinjie name="sha">
+    <desc>声母：sh，韵母：a</desc>
+    <tone1Samples>阴平例字：杀，沙，莎，纱，刹，砂，鲨，铩</tone1Samples>
+    <tone2Samples>阳平例字：啥</tone2Samples>
+    <tone3Samples>上声例字：傻</tone3Samples>
+    <tone4Samples>去声例字：厦，霎，沙，嗄，煞，歃，翣，箑</tone4Samples>
+  </yinjie>
+  <yinjie name="shai">
+    <desc>声母：sh，韵母：ai</desc>
+    <tone1Samples>阴平例字：筛，酾</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：色</tone3Samples>
+    <tone4Samples>去声例字：晒</tone4Samples>
+  </yinjie>
+  <yinjie name="shan">
+    <desc>声母：sh，韵母：an</desc>
+    <tone1Samples>阴平例字：山，删，扇，珊，衫，煽，姗，杉</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：陕，闪，掺</tone3Samples>
+    <tone4Samples>去声例字：扇，汕，单，善，膳，擅，鳝，讪</tone4Samples>
+  </yinjie>
+  <yinjie name="shang">
+    <desc>声母：sh，韵母：ang</desc>
+    <tone1Samples>阴平例字：商，伤，殇，裳，熵，汤，觞，墒</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：上，赏，晌，垧</tone3Samples>
+    <tone4Samples>去声例字：上，尚，绱</tone4Samples>
+  </yinjie>
+  <yinjie name="shao">
+    <desc>声母：sh，韵母：ao</desc>
+    <tone1Samples>阴平例字：烧，稍，捎，梢，艄，弰，筲，鞘</tone1Samples>
+    <tone2Samples>阳平例字：勺，苕，芍，韶，柖，玿</tone2Samples>
+    <tone3Samples>上声例字：少</tone3Samples>
+    <tone4Samples>去声例字：少，哨，绍，邵，劭，捎，稍，潲</tone4Samples>
+  </yinjie>
+  <yinjie name="she">
+    <desc>声母：sh，韵母：e</desc>
+    <tone1Samples>阴平例字：赊，奢，猞，畬，畲</tone1Samples>
+    <tone2Samples>阳平例字：蛇，舌，折，佘</tone2Samples>
+    <tone3Samples>上声例字：舍</tone3Samples>
+    <tone4Samples>去声例字：设，社，摄，射，舍，涉，赦，麝</tone4Samples>
+  </yinjie>
+  <yinjie name="shei">
+    <desc>声母：sh，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：谁</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="shen">
+    <desc>声母：sh，韵母：en</desc>
+    <tone1Samples>阴平例字：身，深，申，伸，参，绅，呻，砷</tone1Samples>
+    <tone2Samples>阳平例字：什，神，甚</tone2Samples>
+    <tone3Samples>上声例字：沈，婶，审，哂，谂，矧，瞫</tone3Samples>
+    <tone4Samples>去声例字：甚，肾，慎，渗，葚，蜃，椹，瘆</tone4Samples>
+  </yinjie>
+  <yinjie name="sheng">
+    <desc>声母：sh，韵母：eng</desc>
+    <tone1Samples>阴平例字：生，声，升，笙，甥，牲，鼪，焺</tone1Samples>
+    <tone2Samples>阳平例字：绳</tone2Samples>
+    <tone3Samples>上声例字：省，偗</tone3Samples>
+    <tone4Samples>去声例字：胜，圣，盛，剩，晟，乘，嵊，墭</tone4Samples>
+  </yinjie>
+  <yinjie name="shi">
+    <desc>shi是整体认读音节</desc>
+    <tone1Samples>阴平例字：师，施，诗，失，湿，尸，狮，虱</tone1Samples>
+    <tone2Samples>阳平例字：十，实，石，食，识，时，拾，什</tone2Samples>
+    <tone3Samples>上声例字：使，史，始，屎，矢，驶，豕</tone3Samples>
+    <tone4Samples>去声例字：是，事，释，市，式，士，世，室</tone4Samples>
+  </yinjie>
+  <yinjie name="shou">
+    <desc>声母：sh，韵母：ou</desc>
+    <tone1Samples>阴平例字：收</tone1Samples>
+    <tone2Samples>阳平例字：熟</tone2Samples>
+    <tone3Samples>上声例字：手，首，守，艏</tone3Samples>
+    <tone4Samples>去声例字：受，瘦，兽，售，寿，授，狩，绶</tone4Samples>
+  </yinjie>
+  <yinjie name="shu">
+    <desc>声母：sh，韵母：u</desc>
+    <tone1Samples>阴平例字：书，输，叔，舒，淑，梳，疏，殊</tone1Samples>
+    <tone2Samples>阳平例字：赎，孰，塾，秫，熟</tone2Samples>
+    <tone3Samples>上声例字：数，属，鼠，蜀，薯，暑，曙，黍</tone3Samples>
+    <tone4Samples>去声例字：树，数，术，束，竖，述，恕，墅</tone4Samples>
+  </yinjie>
+  <yinjie name="shua">
+    <desc>声母：sh，韵母：u附带元音a</desc>
+    <tone1Samples>阴平例字：刷，唰</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：耍</tone3Samples>
+    <tone4Samples>去声例字：刷</tone4Samples>
+  </yinjie>
+  <yinjie name="shuai">
+    <desc>声母：sh，韵母：u附带韵母ai</desc>
+    <tone1Samples>阴平例字：摔，衰</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：甩</tone3Samples>
+    <tone4Samples>去声例字：帅，率，蟀</tone4Samples>
+  </yinjie>
+  <yinjie name="shuan">
+    <desc>声母：sh，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：栓，拴，闩</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：涮，腨</tone4Samples>
+  </yinjie>
+  <yinjie name="shuang">
+    <desc>声母：sh，韵母：u附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：双，霜，孀，泷，礵</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：爽，慡，塽，漺</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="shui">
+    <desc>声母：sh，韵母：ui</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：谁，脽</tone2Samples>
+    <tone3Samples>上声例字：水</tone3Samples>
+    <tone4Samples>去声例字：睡，税，说，帨，涚</tone4Samples>
+  </yinjie>
+  <yinjie name="shun">
+    <desc>声母：sh，韵母：un</desc>
+    <tone1Samples>阴平例字：楯</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：吮，楯</tone3Samples>
+    <tone4Samples>去声例字：顺，瞬，舜，瞬，鬊</tone4Samples>
+  </yinjie>
+  <yinjie name="shuo">
+    <desc>声母：sh，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：说</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：硕，烁，朔，数，铄，搠，蒴，欶</tone4Samples>
+  </yinjie>
+  <yinjie name="ta">
+    <desc>声母：t，韵母：a</desc>
+    <tone1Samples>阴平例字：他，她，它，塌，遢，溻，铊，踏</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：塔，獭，鳎，溚</tone3Samples>
+    <tone4Samples>去声例字：踏，榻，蹋，沓，挞，拓</tone4Samples>
+  </yinjie>
+  <yinjie name="tai">
+    <desc>声母：t，韵母：ai</desc>
+    <tone1Samples>阴平例字：台，胎，苔</tone1Samples>
+    <tone2Samples>阳平例字：台，抬，邰，苔，跆，骀，炱，鲐</tone2Samples>
+    <tone3Samples>上声例字：呔</tone3Samples>
+    <tone4Samples>去声例字：太，泰，态，钛，汰，肽，酞</tone4Samples>
+  </yinjie>
+  <yinjie name="tan">
+    <desc>声母：t，韵母：an</desc>
+    <tone1Samples>阴平例字：贪，摊，滩，瘫，坍，怹，啴</tone1Samples>
+    <tone2Samples>阳平例字：谈，弹，谭，坛，痰，檀，昙，潭</tone2Samples>
+    <tone3Samples>上声例字：坦，毯，袒，忐，钽，璮</tone3Samples>
+    <tone4Samples>去声例字：叹，探，炭，碳</tone4Samples>
+  </yinjie>
+  <yinjie name="tang">
+    <desc>声母：t，韵母：ang</desc>
+    <tone1Samples>阴平例字：汤，趟，镗，嘡，蹚</tone1Samples>
+    <tone2Samples>阳平例字：唐，堂，糖，塘，棠，膛，搪，镗</tone2Samples>
+    <tone3Samples>上声例字：躺，帑，倘，淌，惝，傥，镋，耥</tone3Samples>
+    <tone4Samples>去声例字：烫，趟</tone4Samples>
+  </yinjie>
+  <yinjie name="tao">
+    <desc>声母：t，韵母：ao</desc>
+    <tone1Samples>阴平例字：涛，掏，滔，韬，焘，弢，绦，饕</tone1Samples>
+    <tone2Samples>阳平例字：逃，桃，陶，淘，萄，啕，梼，醄</tone2Samples>
+    <tone3Samples>上声例字：讨</tone3Samples>
+    <tone4Samples>去声例字：套</tone4Samples>
+  </yinjie>
+  <yinjie name="te">
+    <desc>声母：t，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：特，忑，忒，铽，慝</tone4Samples>
+  </yinjie>
+  <yinjie name="tei">
+    <desc>声母：t，韵母：ei</desc>
+    <tone1Samples>阴平例字：忒</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="teng">
+    <desc>声母：t，韵母：eng</desc>
+    <tone1Samples>阴平例字：膯</tone1Samples>
+    <tone2Samples>阳平例字：疼，腾，藤，滕，誊，漛</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：霯</tone4Samples>
+  </yinjie>
+  <yinjie name="ti">
+    <desc>声母：t，韵母：i</desc>
+    <tone1Samples>阴平例字：踢，梯，剔，体，锑</tone1Samples>
+    <tone2Samples>阳平例字：题，提，蹄，啼，缇，鹈，醍，媞</tone2Samples>
+    <tone3Samples>上声例字：体，挮，醍</tone3Samples>
+    <tone4Samples>去声例字：替，剃，涕，悌，屉，惕，嚏，倜</tone4Samples>
+  </yinjie>
+  <yinjie name="tian">
+    <desc>声母：t，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：天，添，酟，黇</tone1Samples>
+    <tone2Samples>阳平例字：田，填，甜，恬，沺，畋，阗，磌</tone2Samples>
+    <tone3Samples>上声例字：舔，腆，殄，忝，淟，觍，瑱，睓</tone3Samples>
+    <tone4Samples>去声例字：掭，舚</tone4Samples>
+  </yinjie>
+  <yinjie name="tiao">
+    <desc>声母：t，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：挑，佻，祧，聎，庣</tone1Samples>
+    <tone2Samples>阳平例字：调，条，迢，笤，龆，蜩，鲦，髫</tone2Samples>
+    <tone3Samples>上声例字：挑，窕，宨，朓，晀，嬥</tone3Samples>
+    <tone4Samples>去声例字：跳，眺，粜</tone4Samples>
+  </yinjie>
+  <yinjie name="tie">
+    <desc>声母：t，韵母：ie</desc>
+    <tone1Samples>阴平例字：贴，帖，怗，萜，聑</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：铁，帖，僣</tone3Samples>
+    <tone4Samples>去声例字：帖，餮</tone4Samples>
+  </yinjie>
+  <yinjie name="ting">
+    <desc>声母：t，韵母：ing</desc>
+    <tone1Samples>阴平例字：听，厅，汀，町，烃，桯，鞓</tone1Samples>
+    <tone2Samples>阳平例字：停，婷，庭，亭，廷，霆，蜓，渟</tone2Samples>
+    <tone3Samples>上声例字：挺，艇，铤，梃，圢，侹，珽，涏</tone3Samples>
+    <tone4Samples>去声例字：梃</tone4Samples>
+  </yinjie>
+  <yinjie name="tong">
+    <desc>声母：t，韵母：ong</desc>
+    <tone1Samples>阴平例字：通，恫，炵，嗵</tone1Samples>
+    <tone2Samples>阳平例字：同，童，铜，彤，桐，瞳，佟，潼</tone2Samples>
+    <tone3Samples>上声例字：桶，捅，筒，统</tone3Samples>
+    <tone4Samples>去声例字：痛，恸，同，通</tone4Samples>
+  </yinjie>
+  <yinjie name="tou">
+    <desc>声母：t，韵母：ou</desc>
+    <tone1Samples>阴平例字：偷</tone1Samples>
+    <tone2Samples>阳平例字：头，投，骰</tone2Samples>
+    <tone3Samples>上声例字：敨，妵，黈，蘣</tone3Samples>
+    <tone4Samples>去声例字：透</tone4Samples>
+  </yinjie>
+  <yinjie name="tu">
+    <desc>声母：t，韵母：u</desc>
+    <tone1Samples>阴平例字：凸，突，秃，怢，湥，嶀</tone1Samples>
+    <tone2Samples>阳平例字：图，涂，途，徒，屠，荼，酴，悇</tone2Samples>
+    <tone3Samples>上声例字：土，吐，钍</tone3Samples>
+    <tone4Samples>去声例字：兔，菟，吐，迌，堍</tone4Samples>
+  </yinjie>
+  <yinjie name="tuan">
+    <desc>声母：t，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：湍，貒，煓</tone1Samples>
+    <tone2Samples>阳平例字：团，抟</tone2Samples>
+    <tone3Samples>上声例字：疃</tone3Samples>
+    <tone4Samples>去声例字：彖，湪，褖</tone4Samples>
+  </yinjie>
+  <yinjie name="tui">
+    <desc>声母：t，韵母：ui</desc>
+    <tone1Samples>阴平例字：推，忒，蓷</tone1Samples>
+    <tone2Samples>阳平例字：颓，橔</tone2Samples>
+    <tone3Samples>上声例字：腿，俀</tone3Samples>
+    <tone4Samples>去声例字：退，褪，蜕，侻，娧，煺</tone4Samples>
+  </yinjie>
+  <yinjie name="tun">
+    <desc>声母：t，韵母：un</desc>
+    <tone1Samples>阴平例字：吞，涒，焞，朜，噋，暾</tone1Samples>
+    <tone2Samples>阳平例字：屯，臀，豚，囤，饨，鲀，芚</tone2Samples>
+    <tone3Samples>上声例字：氽</tone3Samples>
+    <tone4Samples>去声例字：褪</tone4Samples>
+  </yinjie>
+  <yinjie name="tuo">
+    <desc>声母：t，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：托，脱，拖，咜，莌，袥</tone1Samples>
+    <tone2Samples>阳平例字：陀，坨，驼，驮，沱，佗，鸵，跎</tone2Samples>
+    <tone3Samples>上声例字：妥，椭</tone3Samples>
+    <tone4Samples>去声例字：拓，唾，柝，萚，跅，箨</tone4Samples>
+  </yinjie>
+  <yinjie name="wa">
+    <desc>声母：w，韵母：a</desc>
+    <tone1Samples>阴平例字：哇，挖，蛙，洼，娲，凹，窐</tone1Samples>
+    <tone2Samples>阳平例字：娃</tone2Samples>
+    <tone3Samples>上声例字：瓦，佤，邷，砙</tone3Samples>
+    <tone4Samples>去声例字：瓦，袜，嗢 ，腽，聉</tone4Samples>
+  </yinjie>
+  <yinjie name="wai">
+    <desc>声母：w，韵母：ai</desc>
+    <tone1Samples>阴平例字：歪</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：崴</tone3Samples>
+    <tone4Samples>去声例字：外</tone4Samples>
+  </yinjie>
+  <yinjie name="wan">
+    <desc>声母：w，韵母：an</desc>
+    <tone1Samples>阴平例字：弯，湾，剜，帵，婠，蜿，豌，塆</tone1Samples>
+    <tone2Samples>阳平例字：玩，完，丸，顽，刓，纨，芄，烷</tone2Samples>
+    <tone3Samples>上声例字：晚，碗，婉，挽，皖，宛，莞，惋</tone3Samples>
+    <tone4Samples>去声例字：万，腕，妧，脕，蔓，瞣</tone4Samples>
+  </yinjie>
+  <yinjie name="wang">
+    <desc>声母：w，韵母：ang</desc>
+    <tone1Samples>阴平例字：汪，尪</tone1Samples>
+    <tone2Samples>阳平例字：王，亡，仼，蚟</tone2Samples>
+    <tone3Samples>上声例字：往，网，枉，罔，惘，辋，菵，魍</tone3Samples>
+    <tone4Samples>去声例字：王，望，忘，旺，妄，迋</tone4Samples>
+  </yinjie>
+  <yinjie name="wei">
+    <desc>声母：w，韵母：ei</desc>
+    <tone1Samples>阴平例字：微，威，薇，危，巍，煨，偎，隈</tone1Samples>
+    <tone2Samples>阳平例字：为，维，围，唯，韦，惟，违，桅</tone2Samples>
+    <tone3Samples>上声例字：伟，尾，伪，委，萎，纬，猥，苇</tone3Samples>
+    <tone4Samples>去声例字：为，位，未，喂，味，卫，魏，胃</tone4Samples>
+  </yinjie>
+  <yinjie name="wen">
+    <desc>声母：w，韵母：en</desc>
+    <tone1Samples>阴平例字：温，瘟，辒，殟，榅，鳁</tone1Samples>
+    <tone2Samples>阳平例字：文，闻，雯，纹，蚊，玟，炆，芠</tone2Samples>
+    <tone3Samples>上声例字：稳，吻，刎，紊，抆，伆</tone3Samples>
+    <tone4Samples>去声例字：问，揾，汶，莬</tone4Samples>
+  </yinjie>
+  <yinjie name="weng">
+    <desc>声母：w，韵母：eng</desc>
+    <tone1Samples>阴平例字：翁，嗡，瓮，滃，鹟，螉，聬</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：蓊，滃，勜，塕，暡，瞈</tone3Samples>
+    <tone4Samples>去声例字：瓮，蕹，齆</tone4Samples>
+  </yinjie>
+  <yinjie name="wo">
+    <desc>声母：w，韵母：o</desc>
+    <tone1Samples>阴平例字：喔，窝，蜗，涡，倭，莴，挝，踒</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：我，婑，捰</tone3Samples>
+    <tone4Samples>去声例字：握，卧，沃，渥，龌，斡，硪，幄</tone4Samples>
+  </yinjie>
+  <yinjie name="wu">
+    <desc>wu是整体认读音节</desc>
+    <tone1Samples>阴平例字：乌，呜，屋，巫，污，钨，邬，洿</tone1Samples>
+    <tone2Samples>阳平例字：无，吴，吾，芜，毋，梧，蜈，鼯</tone2Samples>
+    <tone3Samples>上声例字：五，武，舞，午，伍，捂，侮，忤</tone3Samples>
+    <tone4Samples>去声例字：物，务，勿，雾，误，悟，晤，恶</tone4Samples>
+  </yinjie>
+  <yinjie name="xi">
+    <desc>声母：x，韵母：i</desc>
+    <tone1Samples>阴平例字：西，希，息，吸，熙，夕，惜，溪</tone1Samples>
+    <tone2Samples>阳平例字：习，席，袭，媳，檄，觋，蒵</tone2Samples>
+    <tone3Samples>上声例字：洗，喜，禧，玺，徙，铣，枲，葸</tone3Samples>
+    <tone4Samples>去声例字：系，戏，细，隙，恄，郤，屃，饩</tone4Samples>
+  </yinjie>
+  <yinjie name="xia">
+    <desc>声母：x，韵母：i附带元音a</desc>
+    <tone1Samples>阴平例字：瞎，虾，呷，煆</tone1Samples>
+    <tone2Samples>阳平例字：霞，侠，峡，狭，匣，暇，辖，瑕</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：下，夏，吓，厦，疜，睱，罅</tone4Samples>
+  </yinjie>
+  <yinjie name="xian">
+    <desc>声母：x，韵母：i附带前鼻韵母an；ian拼读时会变音，按照yan的音拼读</desc>
+    <tone1Samples>阴平例字：先，仙，鲜，掀，纤，氙，籼，暹</tone1Samples>
+    <tone2Samples>阳平例字：闲，嫌，咸，贤，弦，娴，衔，涎</tone2Samples>
+    <tone3Samples>上声例字：显，险，冼，鲜，藓，蚬，猃，铣</tone3Samples>
+    <tone4Samples>去声例字：现，线，县，限，献，陷，馅，宪</tone4Samples>
+  </yinjie>
+  <yinjie name="xiang">
+    <desc>声母：x，韵母：i附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：香，相，乡，箱，湘，镶，厢，襄</tone1Samples>
+    <tone2Samples>阳平例字：翔，祥，详，降，瓨，庠，栙</tone2Samples>
+    <tone3Samples>上声例字：想，响，享，饷，飨，鲞，蚃</tone3Samples>
+    <tone4Samples>去声例字：相，向，像，象，项，巷，橡，珦</tone4Samples>
+  </yinjie>
+  <yinjie name="xiao">
+    <desc>声母：x，韵母：i附带韵母ao</desc>
+    <tone1Samples>阴平例字：肖，消，萧，销，宵，削，潇，霄</tone1Samples>
+    <tone2Samples>阳平例字：淆，洨，崤</tone2Samples>
+    <tone3Samples>上声例字：小，筱，晓</tone3Samples>
+    <tone4Samples>去声例字：肖，笑，孝，啸，哮，校，效，恔</tone4Samples>
+  </yinjie>
+  <yinjie name="xie">
+    <desc>声母：x，韵母：ie</desc>
+    <tone1Samples>阴平例字：些，蝎，歇，楔，揳，娎，猲</tone1Samples>
+    <tone2Samples>阳平例字：携，鞋，邪，斜，协，谐，挟，胁</tone2Samples>
+    <tone3Samples>上声例字：写，血</tone3Samples>
+    <tone4Samples>去声例字：谢，卸，蟹，泄，屑，泻，械，懈</tone4Samples>
+  </yinjie>
+  <yinjie name="xin">
+    <desc>声母：x，韵母：in</desc>
+    <tone1Samples>阴平例字：新，心，欣，鑫，辛，芯，馨，薪</tone1Samples>
+    <tone2Samples>阳平例字：枔，镡</tone2Samples>
+    <tone3Samples>上声例字：伈</tone3Samples>
+    <tone4Samples>去声例字：信，衅，囟，芯，脪，焮</tone4Samples>
+  </yinjie>
+  <yinjie name="xing">
+    <desc>声母：x，韵母：ing</desc>
+    <tone1Samples>阴平例字：星，兴，腥，猩，惺，垶</tone1Samples>
+    <tone2Samples>阳平例字：行，形，型，刑，邢，荥，饧，陉</tone2Samples>
+    <tone3Samples>上声例字：醒，省，擤，睲</tone3Samples>
+    <tone4Samples>去声例字：姓，兴，幸，杏，悻，倖，性，荇</tone4Samples>
+  </yinjie>
+  <yinjie name="xiong">
+    <desc>声母：x，韵母：i附带后鼻韵母ong</desc>
+    <tone1Samples>阴平例字：兄，凶，胸，汹，匈，芎，讻，恟</tone1Samples>
+    <tone2Samples>阳平例字：熊，雄</tone2Samples>
+    <tone3Samples>上声例字：焸</tone3Samples>
+    <tone4Samples>去声例字：诇，夐</tone4Samples>
+  </yinjie>
+  <yinjie name="xiu">
+    <desc>声母：x，韵母：iu</desc>
+    <tone1Samples>阴平例字：修，休，羞，馐，咻，貅，庥</tone1Samples>
+    <tone2Samples>阳平例字：苬</tone2Samples>
+    <tone3Samples>上声例字：朽，宿</tone3Samples>
+    <tone4Samples>去声例字：秀，绣，袖，锈，嗅，宿，臭，岫</tone4Samples>
+  </yinjie>
+  <yinjie name="xu">
+    <desc>声母：x，韵母：u</desc>
+    <tone1Samples>阴平例字：需，须，虚，嘘，胥，圩，墟，戌</tone1Samples>
+    <tone2Samples>阳平例字：徐</tone2Samples>
+    <tone3Samples>上声例字：许，栩，诩，浒，呴，姁，湑，糈</tone3Samples>
+    <tone4Samples>去声例字：续，旭，恤，序，绪，絮，蓄，叙</tone4Samples>
+  </yinjie>
+  <yinjie name="xuan">
+    <desc>声母：x，韵母：üan碰到x写成uan，并且拼读时会变音，按照yuan的音拼读</desc>
+    <tone1Samples>阴平例字：轩，宣，萱，喧，瑄，谖，揎，暄</tone1Samples>
+    <tone2Samples>阳平例字：玄，悬，旋，璇，漩，玹，嫙，檈</tone2Samples>
+    <tone3Samples>上声例字：选，癣，咺，烜，晅</tone3Samples>
+    <tone4Samples>去声例字：炫，眩，铉，旋，绚，泫，渲，楦</tone4Samples>
+  </yinjie>
+  <yinjie name="xue">
+    <desc>声母：x，韵母：ue</desc>
+    <tone1Samples>阴平例字：薛，靴，削</tone1Samples>
+    <tone2Samples>阳平例字：学，穴，踅，泶，茓，鸴</tone2Samples>
+    <tone3Samples>上声例字：雪，鳕</tone3Samples>
+    <tone4Samples>去声例字：谑，狘，桖</tone4Samples>
+  </yinjie>
+  <yinjie name="xun">
+    <desc>声母：x，韵母：un</desc>
+    <tone1Samples>阴平例字：熏，勋，薰，醺，埙</tone1Samples>
+    <tone2Samples>阳平例字：寻，巡，旬，询，循，荨，鲟，浔</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：讯，逊，训，迅，驯，殉，汛，巽</tone4Samples>
+  </yinjie>
+  <yinjie name="ya">
+    <desc>声母：y，韵母：a</desc>
+    <tone1Samples>阴平例字：呀，鸭，压，丫，押，鸦，吖，桠</tone1Samples>
+    <tone2Samples>阳平例字：牙，崖，涯，芽，伢，衙，琊，睚</tone2Samples>
+    <tone3Samples>上声例字：哑，雅，庌</tone3Samples>
+    <tone4Samples>去声例字：压，亚，娅，轧，讶，垭，氩，揠</tone4Samples>
+  </yinjie>
+  <yinjie name="yan">
+    <desc>声母：y，韵母：an</desc>
+    <tone1Samples>阴平例字：烟，淹，咽，嫣，腌，焉，胭，燕</tone1Samples>
+    <tone2Samples>阳平例字：言，严，炎，盐，颜，岩，研，延</tone2Samples>
+    <tone3Samples>上声例字：演，眼，奄，掩，衍，偃，兖，弇</tone3Samples>
+    <tone4Samples>去声例字：咽，燕，艳，验，厌，雁，焰，谚</tone4Samples>
+  </yinjie>
+  <yinjie name="yang">
+    <desc>声母：y，韵母：ang</desc>
+    <tone1Samples>阴平例字：央，秧，殃，鸯，泱，抰</tone1Samples>
+    <tone2Samples>阳平例字：阳，杨，羊，洋，扬，炀，佯，徉</tone2Samples>
+    <tone3Samples>上声例字：痒，养，氧，仰，坱，炴，慃，咉</tone3Samples>
+    <tone4Samples>去声例字：样，漾，炀，烊，恙，怏</tone4Samples>
+  </yinjie>
+  <yinjie name="yao">
+    <desc>声母：y，韵母：ao</desc>
+    <tone1Samples>阴平例字：要，妖，腰，邀，幺，吆，夭，约</tone1Samples>
+    <tone2Samples>阳平例字：摇，姚，尧，遥，窑，谣，徭，瑶</tone2Samples>
+    <tone3Samples>上声例字：咬，舀，杳，窈，窅，偠</tone3Samples>
+    <tone4Samples>去声例字：要，鹞，药，耀，曜，钥，袎，筄</tone4Samples>
+  </yinjie>
+  <yinjie name="ye">
+    <desc>ye是整体认读音节</desc>
+    <tone1Samples>阴平例字：噎，椰，耶，掖，倻</tone1Samples>
+    <tone2Samples>阳平例字：爷，揶，耶，铘</tone2Samples>
+    <tone3Samples>上声例字：也，冶，野</tone3Samples>
+    <tone4Samples>去声例字：夜，页，业，液，谒，叶，咽，曳</tone4Samples>
+  </yinjie>
+  <yinjie name="yi">
+    <desc>yi是整体认读音节</desc>
+    <tone1Samples>阴平例字：一，衣，依，伊，医，揖，漪，祎</tone1Samples>
+    <tone2Samples>阳平例字：咦，姨，怡，移，宜，仪，疑，遗</tone2Samples>
+    <tone3Samples>上声例字：以，已，乙，倚，椅，苡，蚁，旖</tone3Samples>
+    <tone4Samples>去声例字：亿，意，易，义，亦，艺，翼，益</tone4Samples>
+  </yinjie>
+  <yinjie name="yin">
+    <desc>yin是整体认读音节</desc>
+    <tone1Samples>阴平例字：因，音，阴，殷，茵，荫，姻，喑</tone1Samples>
+    <tone2Samples>阳平例字：银，淫，吟，寅，垠，霪，龈，崟</tone2Samples>
+    <tone3Samples>上声例字：引，隐，瘾，尹，饮，蚓，吲，靷</tone3Samples>
+    <tone4Samples>去声例字：饮，印，荫，胤，窨，，茚</tone4Samples>
+  </yinjie>
+  <yinjie name="ying">
+    <desc>ying是整体认读音节</desc>
+    <tone1Samples>阴平例字：应，鹰，樱，婴，瑛，莺，缨，鹦</tone1Samples>
+    <tone2Samples>阳平例字：赢，莹，营，迎，盈，蝇，荧，萦</tone2Samples>
+    <tone3Samples>上声例字：影，郢，颍，瘿</tone3Samples>
+    <tone4Samples>去声例字：应，硬，映，媵，膡</tone4Samples>
+  </yinjie>
+  <yinjie name="yo">
+    <desc>声母：y，韵母：o</desc>
+    <tone1Samples>阴平例字：哟，唷，育</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="yong">
+    <desc>声母：y，韵母：ong</desc>
+    <tone1Samples>阴平例字：拥，庸，雍，佣，墉，臃，痈，壅</tone1Samples>
+    <tone2Samples>阳平例字：喁，颙</tone2Samples>
+    <tone3Samples>上声例字：永，勇，泳，咏，涌，蛹，俑，甬</tone3Samples>
+    <tone4Samples>去声例字：用，佣</tone4Samples>
+  </yinjie>
+  <yinjie name="you">
+    <desc>声母：y，韵母：ou</desc>
+    <tone1Samples>阴平例字：优，呦，幽，忧，悠，攸，麀</tone1Samples>
+    <tone2Samples>阳平例字：油，游，由，邮，尤，犹，莜，鱿</tone2Samples>
+    <tone3Samples>上声例字：有，友，酉，莠，聈，牖，黝，铕</tone3Samples>
+    <tone4Samples>去声例字：又，右，幼，佑，鼬，诱，囿，宥</tone4Samples>
+  </yinjie>
+  <yinjie name="yu">
+    <desc>yu是整体认读音节</desc>
+    <tone1Samples>阴平例字：迂，淤，纡，瘀，箊</tone1Samples>
+    <tone2Samples>阳平例字：于，鱼，余，愉，瑜，竽，愚，娱</tone2Samples>
+    <tone3Samples>上声例字：与，雨，语，宇，羽，禹，屿，予</tone3Samples>
+    <tone4Samples>去声例字：玉，遇，欲，育，域，预，郁，浴</tone4Samples>
+  </yinjie>
+  <yinjie name="yuan">
+    <desc>yuan是整体认读音节</desc>
+    <tone1Samples>阴平例字：冤，渊，鸢，鸳，剈，鹓，裷，蜎</tone1Samples>
+    <tone2Samples>阳平例字：员，原，元，园，缘，圆，源，袁</tone2Samples>
+    <tone3Samples>上声例字：远，盶</tone3Samples>
+    <tone4Samples>去声例字：院，愿，怨，苑，垸，媛，掾，瑗</tone4Samples>
+  </yinjie>
+  <yinjie name="yue">
+    <desc>yue是整体认读音节</desc>
+    <tone1Samples>阴平例字：约，曰，矱</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：哕</tone3Samples>
+    <tone4Samples>去声例字：月，越，悦，岳，乐，粤，跃，阅</tone4Samples>
+  </yinjie>
+  <yinjie name="yun">
+    <desc>yun是整体认读音节</desc>
+    <tone1Samples>阴平例字：晕，氲，蒀，煴，蝹，赟，馧</tone1Samples>
+    <tone2Samples>阳平例字：云，芸，纭，匀，昀，耘，筠，眃</tone2Samples>
+    <tone3Samples>上声例字：允，陨，殒，阭，狁，抎，夽，荺</tone3Samples>
+    <tone4Samples>去声例字：晕，运，韵，孕，蕴，熨，愠，酝</tone4Samples>
+  </yinjie>
+  <yinjie name="za">
+    <desc>声母：z，韵母：a</desc>
+    <tone1Samples>阴平例字：咂，扎，匝，臜</tone1Samples>
+    <tone2Samples>阳平例字：杂，砸，沯</tone2Samples>
+    <tone3Samples>上声例字：咋</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="zai">
+    <desc>声母：z，韵母：ai</desc>
+    <tone1Samples>阴平例字：栽，哉，灾，甾，渽，睵</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：仔，宰，崽，载</tone3Samples>
+    <tone4Samples>去声例字：在，再，载，洅，傤</tone4Samples>
+  </yinjie>
+  <yinjie name="zan">
+    <desc>声母：z，韵母：an</desc>
+    <tone1Samples>阴平例字：簪，糌</tone1Samples>
+    <tone2Samples>阳平例字：咱</tone2Samples>
+    <tone3Samples>上声例字：攒，拶，昝，撍，噆</tone3Samples>
+    <tone4Samples>去声例字：赞，暂，瓒，錾</tone4Samples>
+  </yinjie>
+  <yinjie name="zang">
+    <desc>声母：z，韵母：ang</desc>
+    <tone1Samples>阴平例字：脏，臧，赃，牂，羘</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：驵</tone3Samples>
+    <tone4Samples>去声例字：脏，葬，奘，藏</tone4Samples>
+  </yinjie>
+  <yinjie name="zao">
+    <desc>声母：z，韵母：ao</desc>
+    <tone1Samples>阴平例字：遭，糟，蹧</tone1Samples>
+    <tone2Samples>阳平例字：凿</tone2Samples>
+    <tone3Samples>上声例字：早，澡，枣，藻，蚤，璪</tone3Samples>
+    <tone4Samples>去声例字：造，燥，灶，躁，皂，噪，唣，慥</tone4Samples>
+  </yinjie>
+  <yinjie name="ze">
+    <desc>声母：z，韵母：e</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：则，泽，择，责，啧，迮，帻，舴</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：仄，汄，昃</tone4Samples>
+  </yinjie>
+  <yinjie name="zei">
+    <desc>声母：z，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：贼，鲗</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="zen">
+    <desc>声母：z，韵母：en</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：怎</tone3Samples>
+    <tone4Samples>去声例字：谮</tone4Samples>
+  </yinjie>
+  <yinjie name="zeng">
+    <desc>声母：z，韵母：eng</desc>
+    <tone1Samples>阴平例字：曾，增，鄫，缯，憎，橧，磳，矰</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：赠，综，锃，缯，甑，熷</tone4Samples>
+  </yinjie>
+  <yinjie name="zi">
+    <desc>zi是整体认读音节</desc>
+    <tone1Samples>阴平例字：姿，咨，兹，滋，资，淄，锱，辎</tone1Samples>
+    <tone2Samples>阳平例字：蓻</tone2Samples>
+    <tone3Samples>上声例字：子，紫，仔，梓，籽，姊，秭，滓</tone3Samples>
+    <tone4Samples>去声例字：自，字，渍，龇，恣，茡，胔</tone4Samples>
+  </yinjie>
+  <yinjie name="zong">
+    <desc>声母：z，韵母：ong</desc>
+    <tone1Samples>阴平例字：宗，棕，踪，综，鬃，枞，腙，稯</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：总，偬，倊</tone3Samples>
+    <tone4Samples>去声例字：纵，粽，碂</tone4Samples>
+  </yinjie>
+  <yinjie name="zou">
+    <desc>声母：z，韵母：ou</desc>
+    <tone1Samples>阴平例字：邹，驺，陬，诹，菆，掫，鲰</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：走</tone3Samples>
+    <tone4Samples>去声例字：揍，奏</tone4Samples>
+  </yinjie>
+  <yinjie name="zu">
+    <desc>声母：z，韵母：u</desc>
+    <tone1Samples>阴平例字：租，菹</tone1Samples>
+    <tone2Samples>阳平例字：足，族，卒，箤，踤，镞，崒，椊</tone2Samples>
+    <tone3Samples>上声例字：组，祖，阻，诅，俎，珇，靻</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="zuan">
+    <desc>声母：z，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：钻，躜</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：缵，纂</tone3Samples>
+    <tone4Samples>去声例字：钻，赚，攥</tone4Samples>
+  </yinjie>
+  <yinjie name="zui">
+    <desc>声母：z，韵母：ui</desc>
+    <tone1Samples>阴平例字：嗺，樶，蟕</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：嘴，咀，嶊，噿，璻</tone3Samples>
+    <tone4Samples>去声例字：罪，醉，最，栬，晬，稡，槜</tone4Samples>
+  </yinjie>
+  <yinjie name="zun">
+    <desc>声母：z，韵母：un</desc>
+    <tone1Samples>阴平例字：尊，遵，樽，鳟，嶟</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：僔，噂，撙</tone3Samples>
+    <tone4Samples>去声例字：捘</tone4Samples>
+  </yinjie>
+  <yinjie name="zuo">
+    <desc>声母：z，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：作，嘬</tone1Samples>
+    <tone2Samples>阳平例字：昨，秨，笮，捽，琢</tone2Samples>
+    <tone3Samples>上声例字：左，佐，撮</tone3Samples>
+    <tone4Samples>去声例字：做，坐，作，座，阼，怍，祚，葄</tone4Samples>
+  </yinjie>
+  <yinjie name="zha">
+    <desc>声母：zh，韵母：a</desc>
+    <tone1Samples>阴平例字：扎，渣，喳，楂，奓，吒，査，咋</tone1Samples>
+    <tone2Samples>阳平例字：扎，札，炸，闸，轧，铡</tone2Samples>
+    <tone3Samples>上声例字：眨，拃，砟，鲊</tone3Samples>
+    <tone4Samples>去声例字：乍，诈，榨，咤，栅，蚱，咋，奓</tone4Samples>
+  </yinjie>
+  <yinjie name="zhai">
+    <desc>声母：zh，韵母：ai</desc>
+    <tone1Samples>阴平例字：摘，斋，侧，捚</tone1Samples>
+    <tone2Samples>阳平例字：宅，翟，择</tone2Samples>
+    <tone3Samples>上声例字：窄</tone3Samples>
+    <tone4Samples>去声例字：债，寨</tone4Samples>
+  </yinjie>
+  <yinjie name="zhan">
+    <desc>声母：zh，韵母：an</desc>
+    <tone1Samples>阴平例字：占，沾，粘，詹，瞻，毡，鹯，谵</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：展，斩，盏，崭，辗，搌</tone3Samples>
+    <tone4Samples>去声例字：占，战，站，湛，蘸，栈，绽，颤</tone4Samples>
+  </yinjie>
+  <yinjie name="zhang">
+    <desc>声母：zh，韵母：ang</desc>
+    <tone1Samples>阴平例字：张，章，樟，漳，彰，蟑，獐，璋</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：长，涨，掌，礃</tone3Samples>
+    <tone4Samples>去声例字：涨，帐，仗，杖，账，胀，丈，障</tone4Samples>
+  </yinjie>
+  <yinjie name="zhao">
+    <desc>声母：zh，韵母：ao</desc>
+    <tone1Samples>阴平例字：招，朝，昭，钊，着</tone1Samples>
+    <tone2Samples>阳平例字：着</tone2Samples>
+    <tone3Samples>上声例字：找，爪，沼，瑵</tone3Samples>
+    <tone4Samples>去声例字：召，照，赵，兆，罩，肇，诏，棹</tone4Samples>
+  </yinjie>
+  <yinjie name="zhe">
+    <desc>声母：zh，韵母：e</desc>
+    <tone1Samples>阴平例字：遮，蜇，折，螫，嗻，嫬</tone1Samples>
+    <tone2Samples>阳平例字：折，哲，辙，喆，蛰，谪，辄，蜇</tone2Samples>
+    <tone3Samples>上声例字：者，锗，赭，褶</tone3Samples>
+    <tone4Samples>去声例字：这，浙，蔗，柘，嗻，鹧</tone4Samples>
+  </yinjie>
+  <yinjie name="zhei">
+    <desc>声母：zh，韵母：ei</desc>
+    <tone1Samples>阴平例字：无</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：这</tone4Samples>
+  </yinjie>
+  <yinjie name="zhen">
+    <desc>声母：zh，韵母：en</desc>
+    <tone1Samples>阴平例字：真，针，珍，贞，甄，帧，侦，斟</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：枕，诊，疹，缜，轸，眕，畛，稹</tone3Samples>
+    <tone4Samples>去声例字：镇，阵，震，振，朕，诊，鸩，赈</tone4Samples>
+  </yinjie>
+  <yinjie name="zheng">
+    <desc>声母：zh，韵母：eng</desc>
+    <tone1Samples>阴平例字：挣，争，蒸，征，睁，铮，筝，症</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：整，拯，抍，掟</tone3Samples>
+    <tone4Samples>去声例字：正，挣，政，症，郑，证，铮，诤</tone4Samples>
+  </yinjie>
+  <yinjie name="zhi">
+    <desc>zhi是整体认读音节</desc>
+    <tone1Samples>阴平例字：之，知，支，只，芝，枝，汁，吱</tone1Samples>
+    <tone2Samples>阳平例字：值，直，职，执，植，殖，侄，踯</tone2Samples>
+    <tone3Samples>上声例字：只，指，纸，址，止，芷，旨，趾</tone3Samples>
+    <tone4Samples>去声例字：至，制，质，志，治，智，致，置</tone4Samples>
+  </yinjie>
+  <yinjie name="zhong">
+    <desc>声母：zh，韵母：ong</desc>
+    <tone1Samples>阴平例字：中，终，钟，忠，盅，衷，舯，柊</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：种，肿，冢，踵，喠</tone3Samples>
+    <tone4Samples>去声例字：中，重，众，仲，种，堹，茽</tone4Samples>
+  </yinjie>
+  <yinjie name="zhou">
+    <desc>声母：zh，韵母：ou</desc>
+    <tone1Samples>阴平例字：周，州，粥，洲，舟，赒，诌，啁</tone1Samples>
+    <tone2Samples>阳平例字：妯，轴</tone2Samples>
+    <tone3Samples>上声例字：肘，帚，疛，睭</tone3Samples>
+    <tone4Samples>去声例字：咒，皱，昼，宙，骤，纣，胄，轴</tone4Samples>
+  </yinjie>
+  <yinjie name="zhu">
+    <desc>声母：zh，韵母：u</desc>
+    <tone1Samples>阴平例字：猪，朱，珠，诸，侏，株，诛，蛛</tone1Samples>
+    <tone2Samples>阳平例字：竹，逐，烛，竺，术，茿</tone2Samples>
+    <tone3Samples>上声例字：主，拄，渚，煮，属，褚，嘱，瞩</tone3Samples>
+    <tone4Samples>去声例字：住，祝，驻，注，助，柱，著，筑</tone4Samples>
+  </yinjie>
+  <yinjie name="zhua">
+    <desc>声母：zh，韵母：u附带元音a</desc>
+    <tone1Samples>阴平例字：抓，挝</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：爪</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+  <yinjie name="zhuai">
+    <desc>声母：zh，韵母：u附带韵母ai</desc>
+    <tone1Samples>阴平例字：拽</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：跩，转</tone3Samples>
+    <tone4Samples>去声例字：拽</tone4Samples>
+  </yinjie>
+  <yinjie name="zhuan">
+    <desc>声母：zh，韵母：u附带前鼻韵母an；uan拼读时会变音，按照wan的音拼读</desc>
+    <tone1Samples>阴平例字：专，砖，颛，蟤</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：转，孨</tone3Samples>
+    <tone4Samples>去声例字：转，赚，传，撰，篆，馔，啭，瑑</tone4Samples>
+  </yinjie>
+  <yinjie name="zhuang">
+    <desc>声母：zh，韵母：u附带后鼻韵母ang</desc>
+    <tone1Samples>阴平例字：装，庄，妆，桩</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：奘</tone3Samples>
+    <tone4Samples>去声例字：状，撞，壮，幢</tone4Samples>
+  </yinjie>
+  <yinjie name="zhui">
+    <desc>声母：zh，韵母：ui</desc>
+    <tone1Samples>阴平例字：追，锥，椎，隹，骓</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：坠，缀，赘，惴，笍，缒，甀，膇</tone4Samples>
+  </yinjie>
+  <yinjie name="zhun">
+    <desc>声母：zh，韵母：un</desc>
+    <tone1Samples>阴平例字：谆，啍，屯，迍，肫，窀，淳</tone1Samples>
+    <tone2Samples>阳平例字：无</tone2Samples>
+    <tone3Samples>上声例字：准，埻</tone3Samples>
+    <tone4Samples>去声例字：稕</tone4Samples>
+  </yinjie>
+  <yinjie name="zhuo">
+    <desc>声母：zh，韵母：u附带元音o</desc>
+    <tone1Samples>阴平例字：桌，捉，卓，涿，焯，倬，棁</tone1Samples>
+    <tone2Samples>阳平例字：啄，着，镯，灼，拙，浊，琢，茁</tone2Samples>
+    <tone3Samples>上声例字：无</tone3Samples>
+    <tone4Samples>去声例字：无</tone4Samples>
+  </yinjie>
+</Yinjies>

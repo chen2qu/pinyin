@@ -1,0 +1,233 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Android.Media;
+using Pinyin.Droid;
+using Xamarin.Forms;
+
+[assembly: Dependency(typeof(DroidAudioManager))]
+namespace Pinyin.Droid
+{
+	public class DroidAudioManager: IAudioManager
+	{
+		#region Private Variables
+
+		private readonly Dictionary<string, int> _sounds = new Dictionary<string, int>();
+
+		private readonly SoundPool _soundPool;
+
+		private MediaPlayer _backgroundMusic;
+		private string _backgroundSong = "";
+
+		//This is needed for iOS and Andriod because they do not await loading music
+		private bool _backgroundMusicLoading;
+
+		private bool _musicOn = true;
+		private float _backgroundMusicVolume = 0.5f;
+
+		#endregion
+
+		#region Computed Properties
+
+		public float BackgroundMusicVolume
+		{
+			get
+			{
+				return _backgroundMusicVolume;
+			}
+			set
+			{
+				_backgroundMusicVolume = value;
+
+				_backgroundMusic?.SetVolume(_backgroundMusicVolume, _backgroundMusicVolume);
+			}
+		}
+
+		public bool MusicOn
+		{
+			get { return _musicOn; }
+			set
+			{
+				_musicOn = value;
+
+				if (!MusicOn)
+					SuspendBackgroundMusic();
+				else
+#pragma warning disable 4014
+					RestartBackgroundMusic();
+#pragma warning restore 4014
+
+			}
+		}
+		public bool EffectsOn { get; set; } = true;
+
+		public float EffectsVolume { get; set; } = 1.0f;
+
+		public string SoundPath { get; set; } = "Sounds";
+		#endregion
+
+		#region Constructors
+
+		public DroidAudioManager()
+		{
+			var attributes = new AudioAttributes.Builder()
+				.SetUsage(AudioUsageKind.Game)
+				.SetContentType(AudioContentType.Music)
+				.Build();
+
+			_soundPool = new SoundPool.Builder()
+				.SetAudioAttributes(attributes)
+				.SetMaxStreams(2)  // this only allow two audios to be played at once
+				.Build();
+
+			//6, Stream.Music, 0
+
+
+			// Initialize
+			ActivateAudioSession();
+		}
+
+		#endregion
+
+		#region Public Methods
+
+		public void ActivateAudioSession()
+		{
+			//todo
+		}
+
+		public void DeactivateAudioSession()
+		{
+			_soundPool.AutoPause();
+			_backgroundMusic.Pause();
+		}
+
+		public void ReactivateAudioSession()
+		{
+			_soundPool.AutoResume();
+			RestartBackgroundMusic();
+		}
+
+		public async Task<bool> PlayBackgroundMusic(string filename)
+		{
+			// Music enabled?
+			if (!MusicOn || _backgroundMusicLoading) return false;
+
+			_backgroundMusicLoading = true;
+
+			// Any existing background music?
+			_backgroundMusic?.Stop();
+
+			_backgroundSong = filename;
+
+			// Initialize background music
+			var afd = Forms.Context.Assets.OpenFd(Path.Combine(SoundPath, filename));
+			_backgroundMusic = new MediaPlayer();
+			_backgroundMusic.SetVolume(BackgroundMusicVolume, BackgroundMusicVolume);
+			_backgroundMusic.Looping = true;
+			_backgroundMusic.SetDataSource(afd.FileDescriptor, afd.StartOffset, afd.Length);
+			_backgroundMusic.Prepare();
+			_backgroundMusic.Start();
+
+			_backgroundMusicLoading = false;
+
+			return _backgroundMusic != null;
+		}
+
+		public void StopBackgroundMusic()
+		{
+			// If any background music is playing, stop it
+			_backgroundSong = "";
+			_backgroundMusic?.Stop();
+		}
+
+		public void SuspendBackgroundMusic()
+		{
+			// If any background music is playing, stop it
+			_backgroundMusic?.Stop();
+		}
+
+		public async Task<bool> RestartBackgroundMusic()
+		{
+			// Music enabled?
+			if (!EffectsOn) return false;
+
+			// Was a song previously playing?
+			if (_backgroundSong == "") return false;
+
+			// Restart song to fix issue with wonky music after sleep
+			return await PlayBackgroundMusic(_backgroundSong);
+		}
+
+		//public async Task<bool> PlaySound(string filename)
+		//{
+		//	// Music enabled?
+		//	if (!MusicOn) return false;
+		//
+		//	var effectId = await NewSound(filename, EffectsVolume);
+		//	//_soundEffects.Add(effectId);
+		//
+		//	return effectId != 0;
+		//}
+
+		//private async Task<int> NewSound(string filename, float defaultVolume, int priority = 0, bool isLooping = false)
+		//{
+		//	if (!_sounds.ContainsKey(filename))
+		//	{
+		//		var file = Forms.Context.Assets.OpenFd(Path.Combine(SoundPath, filename));
+		//		var soundId = await _soundPool.LoadAsync(file, priority);
+		//		if (soundId == 0)
+		//			return 0;
+		//		_sounds.Add(filename, soundId);
+		//	}
+		//
+		//	return _soundPool.Play(_sounds[filename], defaultVolume, defaultVolume, priority, isLooping ? -1 : 0, 1f);
+		//
+		//}
+
+		#endregion
+
+		#region
+		// my own way to play sound 
+		private MediaPlayer mPlayer = null;
+
+		public async Task<bool> PlaySound(string filename)
+		{
+			try
+			{
+				if (mPlayer == null)
+				{
+					mPlayer = new MediaPlayer();
+					mPlayer.SetVolume(1.0f, 1.0f);
+				}
+				else
+				{
+					//mPlayer.Pause();
+					//mPlayer.Stop();
+					//mPlayer.Release();
+					mPlayer.Reset();
+				}
+
+				var file = Forms.Context.Assets.OpenFd(Path.Combine(SoundPath, filename));
+				mPlayer.SetDataSource(file.FileDescriptor, file.StartOffset, file.Length);
+				mPlayer.Prepare();
+				mPlayer.Start();
+
+				return true;
+			}
+			catch (Exception ex)
+			{
+				Console.Out.WriteLine(ex.StackTrace);
+				return false;
+			}
+		}
+
+  		#endregion
+
+
+
+
+	}
+}

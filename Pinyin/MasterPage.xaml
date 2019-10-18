@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="Pinyin.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="hamburger.png"
+			 Title="陪你读拼音">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand" BackgroundColor="White">
+			<ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="Default" >
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" TextColor="#1D8BF1"  /> 
+						<!-- <TextCell Text="{Binding Title}" TextColor="#1D8BF1" /> -->
+						<!--
+						<ViewCell>
+							<ViewCell.View>
+								<StackLayout VerticalOptions="EndAndExpand" >
+									<Label Text="{Binding Title}" TextColor="#1D8BF1" FontSize="Large" Margin="20,0,0,0"  VerticalTextAlignment="Center" />
+								</StackLayout>
+							</ViewCell.View>          
+			            </ViewCell>
+						-->
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
