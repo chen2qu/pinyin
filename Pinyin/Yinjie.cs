@@ -18,7 +18,19 @@ namespace Pinyin
 		public const string TonedU = "uūúǔù";
 		public const string TonedV = "üǖǘǚǜ";
 
-		public string GetString()
+        public readonly string[] ToneRules = {"", "有a直接加a上","有o没a加o上", "有e直接加e上", "有ü加ü上", "i和u并列加后面那个上", "声调只加在元音a o e i u ü上" };
+        public enum ToneRuleEnum
+        {
+            TONERULE_NONE,
+            TONERULE_A,
+            TONERULE_O,
+            TONERULE_E,
+            TONERULE_V,
+            TONERULE_IU,
+            TONERULE_VOWELS
+        }
+        
+        public string GetString()
 		{
 			return Shengmu + Yunmu;
 		}
@@ -31,18 +43,22 @@ namespace Pinyin
 			if (mYunmu.Contains("a"))
 			{
 				ym = mYunmu.Replace('a', TonedA[t]);
+                mToneRule = ToneRuleEnum.TONERULE_A;
 			}
 			else if (mYunmu.Contains("o"))
 			{
 				ym = mYunmu.Replace('o', TonedO[t]);
+                mToneRule = ToneRuleEnum.TONERULE_O;
 			}
 			else if (mYunmu.Contains("e"))
 			{
 				ym = mYunmu.Replace('e', TonedE[t]);
+                mToneRule = ToneRuleEnum.TONERULE_E;
 			}
 			else if (mYunmu.Contains("ü"))
 			{
 				ym = mYunmu.Replace('ü', TonedV[t]);
+                mToneRule = ToneRuleEnum.TONERULE_VOWELS;
 			}
 			else
 			{
@@ -52,11 +68,13 @@ namespace Pinyin
 				if (indexI >= 0 && indexU < 0)
 				{
 					ym = mYunmu.Replace('i', TonedI[t]);
+                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
 				}
 				else if (indexI < 0 && indexU >= 0)
 				{
 					ym = mYunmu.Replace('u', TonedU[t]);
-				}
+                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+                }
 				else if (indexI >= 0 && indexU >= 0)
 				{
 					if (indexI < indexU)
@@ -67,6 +85,7 @@ namespace Pinyin
 					{
 						ym = mYunmu.Replace('i', TonedI[t]);
 					}
+                    mToneRule = ToneRuleEnum.TONERULE_IU;
 				}
 				else
 				{
@@ -88,22 +107,26 @@ namespace Pinyin
 			{
 				ym = mYunmu.Replace('a', TonedA[t]);
 				tonedYunmuIndex = mYunmu.IndexOf('a');
-			}
+                mToneRule = ToneRuleEnum.TONERULE_A;
+            }
 			else if (mYunmu.Contains("o"))
 			{
 				ym = mYunmu.Replace('o', TonedO[t]);
 				tonedYunmuIndex = mYunmu.IndexOf('o');
-			}
+                mToneRule = ToneRuleEnum.TONERULE_O;
+            }
 			else if (mYunmu.Contains("e"))
 			{
 				ym = mYunmu.Replace('e', TonedE[t]);
 				tonedYunmuIndex = mYunmu.IndexOf('e');
-			}
+                mToneRule = ToneRuleEnum.TONERULE_E;
+            }
 			else if (mYunmu.Contains("ü"))
 			{
 				ym = mYunmu.Replace('ü', TonedV[t]);
 				tonedYunmuIndex = mYunmu.IndexOf('ü');
-			}
+                mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+            }
 			else
 			{
 				int indexI = mYunmu.IndexOf('i');
@@ -113,12 +136,14 @@ namespace Pinyin
 				{
 					ym = mYunmu.Replace('i', TonedI[t]);
 					tonedYunmuIndex = indexI;
-				}
+                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+                }
 				else if (indexI< 0 && indexU >= 0)
 				{
 					ym = mYunmu.Replace('u', TonedU[t]);
 					tonedYunmuIndex = indexU;
-				}
+                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+                }
 				else if (indexI >= 0 && indexU >= 0)
 				{
 					if (indexI<indexU)
@@ -131,7 +156,8 @@ namespace Pinyin
 						ym = mYunmu.Replace('i', TonedI[t]);
 						tonedYunmuIndex = indexI;
 					}
-				}
+                    mToneRule = ToneRuleEnum.TONERULE_IU;
+                }
 				else
 				{
 					// if it goes here, it should be an illegal pinyin, just return what it is
@@ -190,5 +216,18 @@ namespace Pinyin
 				mYunmu = value; 
 			}
 		}
+
+        private ToneRuleEnum mToneRule;
+        public ToneRuleEnum ToneRule
+        {
+            get
+            {
+                return mToneRule;
+            }
+            set
+            {
+                mToneRule = value;
+            }
+        }
 	}
 }

@@ -258,6 +258,7 @@ namespace Pinyin
 			Button btn = (Button)sender;
 			mYinjie.Shengmu = btn.Text;
 			mYinjie.Yunmu = "";
+            mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
 
 			if (mLastShengmuBtnTapped != null)
 			{
@@ -298,8 +299,9 @@ namespace Pinyin
 		void OnClickYunmu(object sender, EventArgs e)
 		{
 			Button btn = (Button)sender;
+            mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
 
-			if (mYinjie.Shengmu.Equals(""))
+            if (mYinjie.Shengmu.Equals(""))
 			{
 				mYinjie.Yunmu = btn.Text;
 
@@ -407,7 +409,11 @@ namespace Pinyin
 				}
 
 				fs.Spans.Add(new Span { Text = pinyinData.AllYinjies[yinjieIndex].Desc + "\n", ForegroundColor = Color.FromHex("#E8AD00") });
-				fs.Spans.Add(new Span { Text = samples });
+                if (mYinjie.ToneRule != Yinjie.ToneRuleEnum.TONERULE_NONE)
+                {
+                    fs.Spans.Add(new Span { Text = string.Format("声调规则: {0}\n", mYinjie.ToneRules[(int)mYinjie.ToneRule]), ForegroundColor = Color.LimeGreen });
+                }
+                fs.Spans.Add(new Span { Text = samples });
 
 			}
 			else

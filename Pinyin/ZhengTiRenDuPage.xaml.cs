@@ -49,7 +49,11 @@ namespace Pinyin
 				}
 
 				fs.Spans.Add(new Span { Text = pinyinData.AllYinjies[yinjieIndex].Desc + "\n", ForegroundColor = Color.FromHex("#E8AD00") });
-				fs.Spans.Add(new Span { Text = samples });
+                if (mYinjie.ToneRule != Yinjie.ToneRuleEnum.TONERULE_NONE)
+                {
+                    fs.Spans.Add(new Span { Text = string.Format("声调规则: {0}\n", mYinjie.ToneRules[(int)mYinjie.ToneRule]), ForegroundColor = Color.LimeGreen });
+                }
+                fs.Spans.Add(new Span { Text = samples });
 
 			}
 
@@ -91,6 +95,7 @@ namespace Pinyin
 			Button btn = (Button)sender;
 			mYinjie.Shengmu = "";
 			mYinjie.Yunmu = btn.Text;
+            mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
 
 			lblYinjie.Text = mYinjie.GetString();
 

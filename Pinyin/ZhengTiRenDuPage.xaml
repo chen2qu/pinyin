@@ -29,7 +29,7 @@
 				<Grid>
 					<Grid.RowDefinitions>
 						<RowDefinition Height="45"></RowDefinition>
-						<RowDefinition Height="45"></RowDefinition>
+						<RowDefinition Height="*"></RowDefinition>
 					</Grid.RowDefinitions>
 					<Grid.ColumnDefinitions>
 						<ColumnDefinition Width="*" />
@@ -82,7 +82,7 @@
 					/> -->
 
 					<Grid.RowDefinitions>
-						<RowDefinition Height="20"></RowDefinition>
+						<RowDefinition Height="25"></RowDefinition>
 						<RowDefinition Height="*"></RowDefinition>
 						<RowDefinition Height="*"></RowDefinition>
 						<RowDefinition Height="*"></RowDefinition>

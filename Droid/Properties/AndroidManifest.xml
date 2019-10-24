@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="18" android:versionName="1.5.1" package="net.zhhchq.pinyin" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="19" android:versionName="1.6.0" package="net.zhhchq.pinyin" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="28" />
 	<application android:icon="@drawable/icon512" android:label="陪你读拼音"></application>
 </manifest>
