@@ -58,15 +58,7 @@ namespace Pinyin
 				TargetType = typeof(ZhengTiRenDuPage)
 			});
 
-			// temporarily disable the share feature
-			//masterPageItems.Add(new MasterPageItem
-			//{
-			//	Title = "分享给好友",
-			//	IconSource = "share158_2.png",
-			//	TargetType = typeof(SharePage)
-			//});
-
-			masterPageItems.Add(new MasterPageItem
+            masterPageItems.Add(new MasterPageItem
 			{
 				Title = "常见问题",
 				IconSource = "QA96.png",
@@ -80,7 +72,15 @@ namespace Pinyin
 				TargetType = typeof(DeclarationPage)
 			});
 
-			listView.ItemsSource = masterPageItems;
+            //temporarily disable the share feature
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "关注公众号",
+                IconSource = "qrcode_gongzhonghao_96.png",
+                TargetType = typeof(SharePage)
+            });
+
+            listView.ItemsSource = masterPageItems;
 
 		}
 	}

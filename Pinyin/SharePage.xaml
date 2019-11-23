@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Pinyin.SharePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Pinyin.SharePage"
+             Title="关注公众号">
 	<ContentPage.Content>
 		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" >
 
 			<!-- <ScrollView BackgroundColor="White" >  -->
 
 				<ContentView Padding="10,10,0,0" BackgroundColor="White" >
-					<Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 
-						Text="请点击下面的二维码，将其保存成图片，就可以将它从微信或者QQ分享给好友了！" />
-				</ContentView>
+                <!--Text="请点击下面的二维码，将其保存成图片，然后打开微信扫一扫，右上角菜单选择“从相册选取二维码”，选择图片即可扫描关注我们的公众号；或者直接搜索微信公众号“花儿和铃铛”关注我们，给我们您的宝贵意见和建议，谢谢！" />-->
+                    <Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 						
+                            Text="请您截屏保存下面的图片，然后打开微信扫一扫，右上角菜单选择“从相册选取二维码”，选择图片即可扫描关注我们的公众号；或者直接搜索微信公众号“花儿和铃铛”关注我们。期待您的宝贵意见和建议，谢谢！" />
+                </ContentView>
 				<ContentView Padding="10,0,0,0" BackgroundColor="White" >
 					<Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 
-						Text="不管好友用的是安卓还是苹果手机都可以通过扫描这个二维码获取APP哦～～" />
+						Text="烦请您截屏，是我们依然想维持这APP不需要任何权限的初心，即便读写存储卡的权限也不要，请您谅解，谢谢！" />
 				</ContentView>
 
 				<ContentView Padding="50,10,50,10" BackgroundColor="White" >
 					<!-- <Image x:Name="imgQRCode" Source="QRCodeDuPinYin.png"  Aspect="AspectFit" HorizontalOptions="EndAndExpand" /> -->
-					<Image x:Name="imgQRCode" Source="qrcode_dupinyin512.jpg"  Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+                    <Image x:Name="imgQRCode" Source="qrcode_gongzhonghao.jpg"  Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
 				</ContentView>
 			<!-- </ScrollView>  -->
 		</StackLayout>

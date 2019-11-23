@@ -5,14 +5,14 @@
 	<ContentPage.Content>
 		<StackLayout Margin="0,0,0,0" Padding="0,0,0,0" BackgroundColor="White" >
 
-			<ScrollView BackgroundColor="White" >  <!-- remove this tag if you want two or more grids -->
+			<!-- <ScrollView BackgroundColor="White" > --> <!-- remove this tag if you want two or more grids -->
 				<Grid x:Name="grid1" RowSpacing="1" ColumnSpacing="1"> 
 
 					<Grid.RowDefinitions>
 						<RowDefinition Height="200"></RowDefinition>
 						<RowDefinition Height="200"></RowDefinition>
 						<RowDefinition Height="10"></RowDefinition>
-						<RowDefinition Height="100"></RowDefinition> 
+						<!--<RowDefinition Height="100"></RowDefinition>--> 
 					</Grid.RowDefinitions>
 
 					<Grid.ColumnDefinitions>
@@ -28,12 +28,11 @@
 					<Label Grid.Row="2" Grid.ColumnSpan="2" BackgroundColor="Gray" /> <!-- "#87CEFA" /> -->
 
 
-					<Image x:Name="imgQA" Grid.Row="3" Grid.Column="0" Source="QA96.png" WidthRequest="170" HeightRequest="100" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
-					<Image x:Name="imgThanks" Grid.Row="3" Grid.Column="1" Source="thanks96.png"  HeightRequest="180" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" />
+					<!--<Image x:Name="imgQA" Grid.Row="3" Grid.Column="0" Source="QA96.png" WidthRequest="170" HeightRequest="100" Aspect="AspectFit" HorizontalOptions="EndAndExpand" />
+					<Image x:Name="imgThanks" Grid.Row="3" Grid.Column="1" Source="thanks96.png"  HeightRequest="180" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" />-->
 
 				</Grid>
 
-				<!-- temporarily not enable the share feature 
 				<Grid x:Name="grid2" RowSpacing="1" ColumnSpacing="1"> 
 
 					<Grid.RowDefinitions>
@@ -48,11 +47,10 @@
 
 					<Image x:Name="imgQA" Grid.Row="0" Grid.Column="0" Source="QA96.png"  />
 					<Image x:Name="imgThanks" Grid.Row="0" Grid.Column="1" Source="thanks96.png"  />
-					<Image x:Name="imgShare" Grid.Row="0" Grid.Column="2" Source="share158_2.png"  />
+                    <Image x:Name="imgShare" Grid.Row="0" Grid.Column="2" Source="qrcode_gongzhonghao_96.png"  />
 
 				</Grid>
-				-->
-			</ScrollView>  
+			<!-- </ScrollView>  -->
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

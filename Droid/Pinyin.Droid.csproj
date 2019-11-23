@@ -1868,6 +1868,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\launchImage1242x2208.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\qrcode_gongzhonghao_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\qrcode_gongzhonghao.jpg" />
+  </ItemGroup>
   <Import Project="..\Pinyin\Pinyin.projitems" Label="Shared" Condition="Exists('..\Pinyin\Pinyin.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

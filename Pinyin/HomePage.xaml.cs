@@ -53,14 +53,14 @@ namespace Pinyin
 			};
 			imgThanks.GestureRecognizers.Add(thanksGestureRecognizer);
 
-			// temporarily do not enable the share feature
-			//var shareGestureRecognizer = new TapGestureRecognizer();
-			//shareGestureRecognizer.Tapped += (s, e) =>
-			// {
-			//	 Navigation.PushAsync(new SharePage());
-			// };
-			//imgShare.GestureRecognizers.Add(shareGestureRecognizer);
-		}
+            // temporarily do not enable the share feature
+            var shareGestureRecognizer = new TapGestureRecognizer();
+            shareGestureRecognizer.Tapped += (s, e) =>
+             {
+                 Navigation.PushAsync(new SharePage());
+             };
+            imgShare.GestureRecognizers.Add(shareGestureRecognizer);
+        }
 
 		void OnClickShengmu(object sender, EventArgs e)
 		{ }

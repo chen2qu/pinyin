@@ -2221,8 +2221,8 @@ namespace Pinyin.Droid
 			// aapt resource value: 0x7f0200a7
 			public const int mr_ic_play_light = 2130837671;
 			
-			// aapt resource value: 0x7f0200b6
-			public const int notification_template_icon_bg = 2130837686;
+			// aapt resource value: 0x7f0200b8
+			public const int notification_template_icon_bg = 2130837688;
 			
 			// aapt resource value: 0x7f0200a8
 			public const int orange158 = 2130837672;
@@ -2246,25 +2246,31 @@ namespace Pinyin.Droid
 			public const int qrcode_dupinyin512 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int QRCodeDuPinYin = 2130837679;
+			public const int qrcode_gongzhonghao = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int share158_2 = 2130837680;
+			public const int qrcode_gongzhonghao_96 = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int share96 = 2130837681;
+			public const int QRCodeDuPinYin = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int thanks158 = 2130837682;
+			public const int share158_2 = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int thanks96 = 2130837683;
+			public const int share96 = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int tomato158 = 2130837684;
+			public const int thanks158 = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int tomato158_nochar = 2130837685;
+			public const int thanks96 = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int tomato158 = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int tomato158_nochar = 2130837687;
 			
 			static Drawable()
 			{
