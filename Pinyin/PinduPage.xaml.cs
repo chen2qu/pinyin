@@ -260,7 +260,10 @@ namespace Pinyin
 			mYinjie.Yunmu = "";
             mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
 
-			if (mLastShengmuBtnTapped != null)
+            string soundFile = string.Format("{0}.MP3", mYinjie.Shengmu);
+            AudioManager.Instance.PlaySound(soundFile);
+
+            if (mLastShengmuBtnTapped != null)
 			{
 				mLastShengmuBtnTapped.BackgroundColor = Color.FromHex("#FAF0E6");
 			}
@@ -300,6 +303,10 @@ namespace Pinyin
 		{
 			Button btn = (Button)sender;
             mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
+
+            string yinjieWithV = btn.Text.Replace("ü", "v");
+            string soundFile = string.Format("{0}{1}.MP3", yinjieWithV, 1);
+            AudioManager.Instance.PlaySound(soundFile);
 
             if (mYinjie.Shengmu.Equals(""))
 			{

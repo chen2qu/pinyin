@@ -185,7 +185,11 @@ namespace Pinyin
 
 			lblYinjie.Text = mYinjie.GetString();
 
-			UpdateExplanation(ToneOfYinjie.TONE_NONE);
+            string yinjieWithV = mYinjie.GetString().Replace("ü", "v");
+            string soundFile = string.Format("{0}{1}.MP3", yinjieWithV, 1);
+            AudioManager.Instance.PlaySound(soundFile);
+
+            UpdateExplanation(ToneOfYinjie.TONE_NONE);
 
 			if (mLastBtnTapped != null)
 			{

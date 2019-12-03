@@ -99,7 +99,10 @@ namespace Pinyin
 
 			lblYinjie.Text = mYinjie.GetString();
 
-			UpdateExplanation(ToneOfYinjie.TONE_NONE);
+            string soundFile = string.Format("{0}1.MP3", mYinjie.Yunmu);
+            AudioManager.Instance.PlaySound(soundFile);
+
+            UpdateExplanation(ToneOfYinjie.TONE_NONE);
 
 			if (mLastBtnTapped != null)
 			{
