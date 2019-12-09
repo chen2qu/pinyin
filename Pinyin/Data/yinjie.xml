@@ -1254,7 +1254,7 @@
     <tone4Samples>去声例字：就，旧，咎，救，舅，疚，僦，鹫</tone4Samples>
   </yinjie>
   <yinjie name="ju">
-    <desc>声母：j，韵母：ü去掉两点后变成u</desc>
+    <desc>声母：j，韵母：ü碰到j写成u</desc>
     <tone1Samples>阴平例字：居，狙，驹，鞠，拘，车，据，雎</tone1Samples>
     <tone2Samples>阳平例字：鞠，局，菊，橘，桔，焗，锔，跼</tone2Samples>
     <tone3Samples>上声例字：举，矩，咀，莒，沮，榉，踽，龃</tone3Samples>
@@ -1268,14 +1268,14 @@
     <tone4Samples>去声例字：卷，圈，倦，眷，帣，绢，悁，隽</tone4Samples>
   </yinjie>
   <yinjie name="jue">
-    <desc>声母：j，韵母：üe写成ue</desc>
+    <desc>声母：j，韵母：üe碰到j写成ue</desc>
     <tone1Samples>阴平例字：撅，噘</tone1Samples>
     <tone2Samples>阳平例字：绝，觉，决，倔，厥，掘，爵，诀</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>
     <tone4Samples>去声例字：倔</tone4Samples>
   </yinjie>
   <yinjie name="jun">
-    <desc>声母：j，韵母：ün写成un</desc>
+    <desc>声母：j，韵母：ün碰到j写成un</desc>
     <tone1Samples>阴平例字：均，军，君，菌，钧，龟，皲，筠</tone1Samples>
     <tone2Samples>阳平例字：无</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>
@@ -2094,7 +2094,7 @@
     <tone4Samples>去声例字：无</tone4Samples>
   </yinjie>
   <yinjie name="qu">
-    <desc>声母q，韵母：ü去掉两点后变成u</desc>
+    <desc>声母q，韵母：ü碰到q去掉两点后变成u</desc>
     <tone1Samples>阴平例字：曲，屈，区，驱，趋，躯，蛐，岖</tone1Samples>
     <tone2Samples>阳平例字：渠，瞿，臞，欋，磲，蠼，劬，鸲</tone2Samples>
     <tone3Samples>上声例字：曲，苣，取，娶，竘，龋，蝺，竬</tone3Samples>
@@ -2108,14 +2108,14 @@
     <tone4Samples>去声例字：劝，券，牶</tone4Samples>
   </yinjie>
   <yinjie name="que">
-    <desc>声母：q，韵母：üe写成ue</desc>
+    <desc>声母：q，韵母：üe碰到q写成ue</desc>
     <tone1Samples>阴平例字：缺，阙，蒛，炔</tone1Samples>
     <tone2Samples>阳平例字：瘸</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>
     <tone4Samples>去声例字：却，阙，确，雀，鹊，阕，燩</tone4Samples>
   </yinjie>
   <yinjie name="qun">
-    <desc>声母：q，韵母：ün写成un</desc>
+    <desc>声母：q，韵母：ün碰到q写成un</desc>
     <tone1Samples>阴平例字：夋，逡，囷</tone1Samples>
     <tone2Samples>阳平例字：群，裙，宭</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>
@@ -2745,7 +2745,7 @@
     <tone4Samples>去声例字：秀，绣，袖，锈，嗅，宿，臭，岫</tone4Samples>
   </yinjie>
   <yinjie name="xu">
-    <desc>声母：x，韵母：u</desc>
+    <desc>声母：x，韵母：ü碰到x写成u</desc>
     <tone1Samples>阴平例字：需，须，虚，嘘，胥，圩，墟，戌</tone1Samples>
     <tone2Samples>阳平例字：徐</tone2Samples>
     <tone3Samples>上声例字：许，栩，诩，浒，呴，姁，湑，糈</tone3Samples>
@@ -2759,14 +2759,14 @@
     <tone4Samples>去声例字：炫，眩，铉，旋，绚，泫，渲，楦</tone4Samples>
   </yinjie>
   <yinjie name="xue">
-    <desc>声母：x，韵母：ue</desc>
+    <desc>声母：x，韵母：üe碰到x写成ue</desc>
     <tone1Samples>阴平例字：薛，靴，削</tone1Samples>
     <tone2Samples>阳平例字：学，穴，踅，泶，茓，鸴</tone2Samples>
     <tone3Samples>上声例字：雪，鳕</tone3Samples>
     <tone4Samples>去声例字：谑，狘，桖</tone4Samples>
   </yinjie>
   <yinjie name="xun">
-    <desc>声母：x，韵母：un</desc>
+    <desc>声母：x，韵母：ün碰到x写成un</desc>
     <tone1Samples>阴平例字：熏，勋，薰，醺，埙</tone1Samples>
     <tone2Samples>阳平例字：寻，巡，旬，询，循，荨，鲟，浔</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>

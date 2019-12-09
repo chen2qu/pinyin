@@ -63,13 +63,13 @@ namespace Pinyin
 			Shengmu smH = new Shengmu("h", btnShengmuH, "ha,hai,han,hang,hao,he,hei,hen,heng,hong,hou,hu,hua,huai,huan,huang,hui,hun,huo");
 			mAllShengmus.Add(smH);
 
-			Shengmu smJ = new Shengmu("j", btnShengmuJ, "ji,jia,jian,jiang,jiao,jie,jin,jing,jiong,jiu,ju,juan,jue,jun");
+			Shengmu smJ = new Shengmu("j", btnShengmuJ, "ji,jia,jian,jiang,jiao,jie,jin,jing,jiong,jiu,ju,jü,juan,jüan,jue,jüe,jun,jün");
 			mAllShengmus.Add(smJ);
 
-			Shengmu smQ = new Shengmu("q", btnShengmuQ, "qi,qia,qian,qiang,qiao,qie,qin,qing,qiong,qiu,qu,quan,que,qun");
+			Shengmu smQ = new Shengmu("q", btnShengmuQ, "qi,qia,qian,qiang,qiao,qie,qin,qing,qiong,qiu,qu,qü,quan,qüan,que,qüe,qun,qün");
 			mAllShengmus.Add(smQ);
 
-			Shengmu smX = new Shengmu("x", btnShengmuX, "xi,xia,xian,xiang,xiao,xie,xin,xing,xiong,xiu,xu,xuan,xue,xun");
+			Shengmu smX = new Shengmu("x", btnShengmuX, "xi,xia,xian,xiang,xiao,xie,xin,xing,xiong,xiu,xu,xü,xuan,xüan,xue,xüe,xun,xün");
 			mAllShengmus.Add(smX);
 
 			Shengmu smZH = new Shengmu("zh", btnShengmuZH, "zha,zhai,zhan,zhang,zhao,zhe,zhei,zhen,zheng,zhi,zhong,zhou,zhu,zhua,zhuai,zhuan,zhuang,zhui,zhun,zhuo");
@@ -292,7 +292,7 @@ namespace Pinyin
 			// TODO: 判断哪些韵母按钮可以跟选定的声母搭配，将按钮设置为可用，其他的按钮设置为不可用
 			ValidateYunmu(mYinjie.Shengmu);
 
-			lblYinjie.Text = mYinjie.GetString();
+			lblYinjie.Text = mYinjie.Shengmu;
 
 			UpdateExplanation(ToneOfYinjie.TONE_NONE);
 

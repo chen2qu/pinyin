@@ -9,6 +9,7 @@ namespace Pinyin
 		{
 			mShengmu = "";
 			mYunmu = "";
+            mYunmuRaw = "";
 		}
 
 		public const string TonedA = "aāáǎà";
@@ -32,69 +33,88 @@ namespace Pinyin
         
         public string GetString()
 		{
-			return Shengmu + Yunmu;
+            //         string ym = Yunmu;
+            //         if(IsShengmuJQX())
+            //         {
+            //             if(Yunmu.IndexOf('ü') >= 0)
+            //             {
+            //                 ym = Yunmu.Replace('ü', 'u');
+            //             }                
+            //         }
+            //return Shengmu + ym;
+            return Shengmu + Yunmu;
 		}
 
-		public string GetTonedString(ToneOfYinjie tone)
-		{
-			string ym = "";
-			int t = (int)tone;
+		//public string GetTonedString(ToneOfYinjie tone)
+		//{
+		//	string ym = "";
+		//	int t = (int)tone;
 
-			if (mYunmu.Contains("a"))
-			{
-				ym = mYunmu.Replace('a', TonedA[t]);
-                mToneRule = ToneRuleEnum.TONERULE_A;
-			}
-			else if (mYunmu.Contains("o"))
-			{
-				ym = mYunmu.Replace('o', TonedO[t]);
-                mToneRule = ToneRuleEnum.TONERULE_O;
-			}
-			else if (mYunmu.Contains("e"))
-			{
-				ym = mYunmu.Replace('e', TonedE[t]);
-                mToneRule = ToneRuleEnum.TONERULE_E;
-			}
-			else if (mYunmu.Contains("ü"))
-			{
-				ym = mYunmu.Replace('ü', TonedV[t]);
-                mToneRule = ToneRuleEnum.TONERULE_VOWELS;
-			}
-			else
-			{
-				int indexI = mYunmu.IndexOf('i');
-				int indexU = mYunmu.IndexOf('u');
+		//	if (mYunmu.Contains("a"))
+		//	{
+		//		ym = mYunmu.Replace('a', TonedA[t]);
+  //              mToneRule = ToneRuleEnum.TONERULE_A;
+		//	}
+		//	else if (mYunmu.Contains("o"))
+		//	{
+		//		ym = mYunmu.Replace('o', TonedO[t]);
+  //              mToneRule = ToneRuleEnum.TONERULE_O;
+		//	}
+		//	else if (mYunmu.Contains("e"))
+		//	{
+		//		ym = mYunmu.Replace('e', TonedE[t]);
+  //              mToneRule = ToneRuleEnum.TONERULE_E;
+		//	}
+		//	else if (mYunmu.Contains("ü"))
+		//	{
+  //              if (Shengmu.Equals("j") || Shengmu.Equals("q") || Shengmu.Equals("x"))
+  //              {
+  //                  ym = mYunmu.Replace('ü', TonedU[t]);
+  //                  mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+  //                  Console.WriteLine("mShengmu: {0}, mYunmu: {1}, ym: {2}", mShengmu, mYunmu, ym);
+  //              }
+  //              else
+  //              {
+  //                  ym = mYunmu.Replace('ü', TonedV[t]);
+  //                  mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+  //                  Console.WriteLine("mShengmu: {0}, mYunmu: {1}, ym: {2}", mShengmu, mYunmu, ym);
+  //              }
+		//	}
+		//	else
+		//	{
+		//		int indexI = mYunmu.IndexOf('i');
+		//		int indexU = mYunmu.IndexOf('u');
 
-				if (indexI >= 0 && indexU < 0)
-				{
-					ym = mYunmu.Replace('i', TonedI[t]);
-                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
-				}
-				else if (indexI < 0 && indexU >= 0)
-				{
-					ym = mYunmu.Replace('u', TonedU[t]);
-                    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
-                }
-				else if (indexI >= 0 && indexU >= 0)
-				{
-					if (indexI < indexU)
-					{
-						ym = mYunmu.Replace('u', TonedU[t]);
-					}
-					else
-					{
-						ym = mYunmu.Replace('i', TonedI[t]);
-					}
-                    mToneRule = ToneRuleEnum.TONERULE_IU;
-				}
-				else
-				{
-					// if it goes here, it should be an illegal pinyin, just return what it is
-					ym = mYunmu;
-				}
-			}
-			return mShengmu + ym;
-		}
+		//		if (indexI >= 0 && indexU < 0)
+		//		{
+		//			ym = mYunmu.Replace('i', TonedI[t]);
+  //                  mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+		//		}
+		//		else if (indexI < 0 && indexU >= 0)
+		//		{
+		//			ym = mYunmu.Replace('u', TonedU[t]);
+  //                  mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+  //              }
+		//		else if (indexI >= 0 && indexU >= 0)
+		//		{
+		//			if (indexI < indexU)
+		//			{
+		//				ym = mYunmu.Replace('u', TonedU[t]);
+		//			}
+		//			else
+		//			{
+		//				ym = mYunmu.Replace('i', TonedI[t]);
+		//			}
+  //                  mToneRule = ToneRuleEnum.TONERULE_IU;
+		//		}
+		//		else
+		//		{
+		//			// if it goes here, it should be an illegal pinyin, just return what it is
+		//			ym = mYunmu;
+		//		}
+		//	}
+		//	return mShengmu + ym;
+		//}
 
 		public FormattedString GetFormattedTonedString(ToneOfYinjie tone, Color shengmuColor, Color tonedYunmuColor, Color otherYunmuColor)
 		{
@@ -123,7 +143,19 @@ namespace Pinyin
             }
 			else if (mYunmu.Contains("ü"))
 			{
-				ym = mYunmu.Replace('ü', TonedV[t]);
+                //if (Shengmu.Equals("j") || Shengmu.Equals("q") || Shengmu.Equals("x"))
+                //{
+                //    ym = mYunmu.Replace('ü', TonedU[t]);
+                //    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+                //    //Console.WriteLine("mShengmu: {0}, mYunmu: {1}, ym: {2}", mShengmu, mYunmu, ym);
+                //}
+                //else
+                //{
+                //    ym = mYunmu.Replace('ü', TonedV[t]);
+                //    mToneRule = ToneRuleEnum.TONERULE_VOWELS;
+                //    //Console.WriteLine("mShengmu: {0}, mYunmu: {1}, ym: {2}", mShengmu, mYunmu, ym);
+                //}
+                ym = mYunmu.Replace('ü', TonedV[t]);
 				tonedYunmuIndex = mYunmu.IndexOf('ü');
                 mToneRule = ToneRuleEnum.TONERULE_VOWELS;
             }
@@ -191,6 +223,11 @@ namespace Pinyin
 			return fs;
 		}
 
+        private bool IsShengmuJQX()
+        {
+            return Shengmu.Equals("j") || Shengmu.Equals("q") || Shengmu.Equals("x");
+        }
+
 		private string mShengmu;
 		public string Shengmu
 		{
@@ -204,6 +241,7 @@ namespace Pinyin
 			}
 		}
 
+        private string mYunmuRaw;
 		private string mYunmu;
 		public string Yunmu
 		{
@@ -213,7 +251,15 @@ namespace Pinyin
 			}
 			set 
 			{ 
-				mYunmu = value; 
+				mYunmuRaw = value; 
+                if(IsShengmuJQX() && mYunmuRaw.IndexOf('ü')>=0)
+                {
+                    mYunmu = mYunmuRaw.Replace('ü', 'u');
+                }
+                else
+                {
+                    mYunmu = mYunmuRaw;
+                }
 			}
 		}
 
