@@ -12,7 +12,11 @@
                     <Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 						
                             Text="关注我们的微信公众号，您可以发现我们在孩子学习上的更多分享，或者告诉我们您发现的问题或者改进意见。" />
                 </ContentView>
-                <ContentView Padding="10,10,0,0" BackgroundColor="White" >
+            <ContentView Padding="10,10,0,0" BackgroundColor="White" >
+                <Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 						
+                            Text="我们的微信公众号中已加入口算练习功能，可以自定义条件生成题目，测试一定时间内能完成多少题，比如10以内三个数的加减混合运算一分钟测试，以帮助孩子练习数感，提升做题的速度和专注度。关注我们的公众号，点击下方的口算练习菜单，就可以开始练习。赶紧关注我们吧~" />
+            </ContentView>
+            <ContentView Padding="10,10,0,0" BackgroundColor="White" >
                     <Label HorizontalOptions="FillAndExpand" BackgroundColor="White" 						
                             Text="请您截屏保存下面的图片，然后打开微信扫一扫，点右上角菜单选择“从相册选取二维码”，选择图片即可扫描关注我们的公众号；或者直接搜索微信公众号“花儿和铃铛”关注我们。" />
                 </ContentView>

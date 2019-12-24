@@ -305,7 +305,7 @@ namespace Pinyin
             mYinjie.ToneRule = Yinjie.ToneRuleEnum.TONERULE_NONE;
 
             string yinjieWithV = btn.Text.Replace("ü", "v");
-            string soundFile = string.Format("{0}{1}.MP3", yinjieWithV, 1);
+            string soundFile = string.Format("{0}.MP3", yinjieWithV);
             AudioManager.Instance.PlaySound(soundFile);
 
             if (mYinjie.Shengmu.Equals(""))
