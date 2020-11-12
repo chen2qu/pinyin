@@ -34,7 +34,7 @@ namespace Pinyin
         public string GetString()
 		{
             //         string ym = Yunmu;
-            //         if(IsShengmuJQX())
+            //         if(IsShengmuJQXY())
             //         {
             //             if(Yunmu.IndexOf('ü') >= 0)
             //             {
@@ -223,9 +223,9 @@ namespace Pinyin
 			return fs;
 		}
 
-        private bool IsShengmuJQX()
+        private bool IsShengmuJQXY()
         {
-            return Shengmu.Equals("j") || Shengmu.Equals("q") || Shengmu.Equals("x");
+            return Shengmu.Equals("j") || Shengmu.Equals("q") || Shengmu.Equals("x") || Shengmu.Equals("y");
         }
 
 		private string mShengmu;
@@ -252,7 +252,7 @@ namespace Pinyin
 			set 
 			{ 
 				mYunmuRaw = value; 
-                if(IsShengmuJQX() && mYunmuRaw.IndexOf('ü')>=0)
+                if(IsShengmuJQXY() && mYunmuRaw.IndexOf('ü')>=0)
                 {
                     mYunmu = mYunmuRaw.Replace('ü', 'u');
                 }

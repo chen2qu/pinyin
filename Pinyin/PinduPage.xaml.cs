@@ -93,7 +93,7 @@ namespace Pinyin
 			Shengmu smS = new Shengmu("s", btnShengmuS, "sa,sai,san,sang,sao,se,sen,seng,si,song,sou,su,suan,sui,sun,suo");
 			mAllShengmus.Add(smS);
 
-			Shengmu smY = new Shengmu("y", btnShengmuY, "ya,yan,yang,yao,ye,yi,yin,ying,yo,yong,you,yu,yuan,yue,yun");
+			Shengmu smY = new Shengmu("y", btnShengmuY, "ya,yan,yang,yao,ye,yi,yin,ying,yo,yong,you,yu,yü,yuan,yüan,yue,yüe,yun,yün");
 			mAllShengmus.Add(smY);
 
 			Shengmu smW = new Shengmu("w", btnShengmuW, "wa,wai,wan,wang,wei,wen,weng,wo,wu");

@@ -2850,28 +2850,28 @@
     <tone4Samples>去声例字：又，右，幼，佑，鼬，诱，囿，宥</tone4Samples>
   </yinjie>
   <yinjie name="yu">
-    <desc>yu是整体认读音节</desc>
+    <desc>yu是整体认读音节; 韵母：ü碰到y写成u</desc>
     <tone1Samples>阴平例字：迂，淤，纡，瘀，箊</tone1Samples>
     <tone2Samples>阳平例字：于，鱼，余，愉，瑜，竽，愚，娱</tone2Samples>
     <tone3Samples>上声例字：与，雨，语，宇，羽，禹，屿，予</tone3Samples>
     <tone4Samples>去声例字：玉，遇，欲，育，域，预，郁，浴</tone4Samples>
   </yinjie>
   <yinjie name="yuan">
-    <desc>yuan是整体认读音节</desc>
+    <desc>yuan是整体认读音节; 韵母：üan碰到y写成uan</desc>
     <tone1Samples>阴平例字：冤，渊，鸢，鸳，剈，鹓，裷，蜎</tone1Samples>
     <tone2Samples>阳平例字：员，原，元，园，缘，圆，源，袁</tone2Samples>
     <tone3Samples>上声例字：远，盶</tone3Samples>
     <tone4Samples>去声例字：院，愿，怨，苑，垸，媛，掾，瑗</tone4Samples>
   </yinjie>
   <yinjie name="yue">
-    <desc>yue是整体认读音节</desc>
+    <desc>yue是整体认读音节; 韵母：üe碰到y写成ue</desc>
     <tone1Samples>阴平例字：约，曰，矱</tone1Samples>
     <tone2Samples>阳平例字：无</tone2Samples>
     <tone3Samples>上声例字：哕</tone3Samples>
     <tone4Samples>去声例字：月，越，悦，岳，乐，粤，跃，阅</tone4Samples>
   </yinjie>
   <yinjie name="yun">
-    <desc>yun是整体认读音节</desc>
+    <desc>yun是整体认读音节; 韵母：ün碰到y写成un</desc>
     <tone1Samples>阴平例字：晕，氲，蒀，煴，蝹，赟，馧</tone1Samples>
     <tone2Samples>阳平例字：云，芸，纭，匀，昀，耘，筠，眃</tone2Samples>
     <tone3Samples>上声例字：允，陨，殒，阭，狁，抎，夽，荺</tone3Samples>
