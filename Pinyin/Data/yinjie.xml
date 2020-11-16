@@ -498,7 +498,7 @@
     <tone4Samples>去声例字：蹭</tone4Samples>
   </yinjie>
   <yinjie name="ci">
-    <desc>ci是整体认读音节</desc>
+    <desc>ci是整体认读音节；声母：c，韵母：i</desc>
     <tone1Samples>阴平例字：呲，疵，差，刺，玼，跐</tone1Samples>
     <tone2Samples>阳平例字：词，辞，瓷，慈，雌，磁，茨，祠</tone2Samples>
     <tone3Samples>上声例字：此，佌，泚，玼，跐</tone3Samples>
@@ -610,7 +610,7 @@
     <tone4Samples>去声例字：称，秤，牚</tone4Samples>
   </yinjie>
   <yinjie name="chi">
-    <desc>chi是整体认读音节</desc>
+    <desc>chi是整体认读音节；声母：ch，韵母：i</desc>
     <tone1Samples>阴平例字：吃，痴，媸 ，哧，嗤，笞</tone1Samples>
     <tone2Samples>阳平例字：迟，池，驰，弛，持，匙，踟</tone2Samples>
     <tone3Samples>上声例字：尺，齿，侈，耻，豉，伬，褫</tone3Samples>
@@ -2164,7 +2164,7 @@
     <tone4Samples>去声例字：无</tone4Samples>
   </yinjie>
   <yinjie name="ri">
-    <desc>ri是整体认读音节</desc>
+    <desc>ri是整体认读音节；声母：r，韵母：i</desc>
     <tone1Samples>阴平例字：无</tone1Samples>
     <tone2Samples>阳平例字：无</tone2Samples>
     <tone3Samples>上声例字：无</tone3Samples>
@@ -2283,7 +2283,7 @@
     <tone4Samples>去声例字：无</tone4Samples>
   </yinjie>
   <yinjie name="si">
-    <desc>si是整体认读音节</desc>
+    <desc>si是整体认读音节；声母：s，韵母：i</desc>
     <tone1Samples>阴平例字：思，斯，丝，私，司，撕，嘶，厮</tone1Samples>
     <tone2Samples>阳平例字：无</tone2Samples>
     <tone3Samples>上声例字：死</tone3Samples>
@@ -2402,7 +2402,7 @@
     <tone4Samples>去声例字：胜，圣，盛，剩，晟，乘，嵊，墭</tone4Samples>
   </yinjie>
   <yinjie name="shi">
-    <desc>shi是整体认读音节</desc>
+    <desc>shi是整体认读音节；声母：sh，韵母：i</desc>
     <tone1Samples>阴平例字：师，施，诗，失，湿，尸，狮，虱</tone1Samples>
     <tone2Samples>阳平例字：十，实，石，食，识，时，拾，什</tone2Samples>
     <tone3Samples>上声例字：使，史，始，屎，矢，驶，豕</tone3Samples>
@@ -2668,7 +2668,7 @@
     <tone4Samples>去声例字：握，卧，沃，渥，龌，斡，硪，幄</tone4Samples>
   </yinjie>
   <yinjie name="wu">
-    <desc>wu是整体认读音节</desc>
+    <desc>wu是整体认读音节；声母：w，韵母：u</desc>
     <tone1Samples>阴平例字：乌，呜，屋，巫，污，钨，邬，洿</tone1Samples>
     <tone2Samples>阳平例字：无，吴，吾，芜，毋，梧，蜈，鼯</tone2Samples>
     <tone3Samples>上声例字：五，武，舞，午，伍，捂，侮，忤</tone3Samples>
@@ -2801,28 +2801,28 @@
     <tone4Samples>去声例字：要，鹞，药，耀，曜，钥，袎，筄</tone4Samples>
   </yinjie>
   <yinjie name="ye">
-    <desc>ye是整体认读音节</desc>
+    <desc>ye是整体认读音节；声母：y，韵母：e</desc>
     <tone1Samples>阴平例字：噎，椰，耶，掖，倻</tone1Samples>
     <tone2Samples>阳平例字：爷，揶，耶，铘</tone2Samples>
     <tone3Samples>上声例字：也，冶，野</tone3Samples>
     <tone4Samples>去声例字：夜，页，业，液，谒，叶，咽，曳</tone4Samples>
   </yinjie>
   <yinjie name="yi">
-    <desc>yi是整体认读音节</desc>
+    <desc>yi是整体认读音节；声母：y，韵母：i</desc>
     <tone1Samples>阴平例字：一，衣，依，伊，医，揖，漪，祎</tone1Samples>
     <tone2Samples>阳平例字：咦，姨，怡，移，宜，仪，疑，遗</tone2Samples>
     <tone3Samples>上声例字：以，已，乙，倚，椅，苡，蚁，旖</tone3Samples>
     <tone4Samples>去声例字：亿，意，易，义，亦，艺，翼，益</tone4Samples>
   </yinjie>
   <yinjie name="yin">
-    <desc>yin是整体认读音节</desc>
+    <desc>yin是整体认读音节；声母：y，韵母：in</desc>
     <tone1Samples>阴平例字：因，音，阴，殷，茵，荫，姻，喑</tone1Samples>
     <tone2Samples>阳平例字：银，淫，吟，寅，垠，霪，龈，崟</tone2Samples>
     <tone3Samples>上声例字：引，隐，瘾，尹，饮，蚓，吲，靷</tone3Samples>
     <tone4Samples>去声例字：饮，印，荫，胤，窨，，茚</tone4Samples>
   </yinjie>
   <yinjie name="ying">
-    <desc>ying是整体认读音节</desc>
+    <desc>ying是整体认读音节；声母：y，韵母：ing</desc>
     <tone1Samples>阴平例字：应，鹰，樱，婴，瑛，莺，缨，鹦</tone1Samples>
     <tone2Samples>阳平例字：赢，莹，营，迎，盈，蝇，荧，萦</tone2Samples>
     <tone3Samples>上声例字：影，郢，颍，瘿</tone3Samples>
@@ -2850,28 +2850,28 @@
     <tone4Samples>去声例字：又，右，幼，佑，鼬，诱，囿，宥</tone4Samples>
   </yinjie>
   <yinjie name="yu">
-    <desc>yu是整体认读音节; 韵母：ü碰到y写成u</desc>
+    <desc>yu是整体认读音节；声母：y，韵母：ü碰到y写成u</desc>
     <tone1Samples>阴平例字：迂，淤，纡，瘀，箊</tone1Samples>
     <tone2Samples>阳平例字：于，鱼，余，愉，瑜，竽，愚，娱</tone2Samples>
     <tone3Samples>上声例字：与，雨，语，宇，羽，禹，屿，予</tone3Samples>
     <tone4Samples>去声例字：玉，遇，欲，育，域，预，郁，浴</tone4Samples>
   </yinjie>
   <yinjie name="yuan">
-    <desc>yuan是整体认读音节; 韵母：üan碰到y写成uan</desc>
+    <desc>yuan是整体认读音节；声母：y，韵母：üan碰到y写成uan</desc>
     <tone1Samples>阴平例字：冤，渊，鸢，鸳，剈，鹓，裷，蜎</tone1Samples>
     <tone2Samples>阳平例字：员，原，元，园，缘，圆，源，袁</tone2Samples>
     <tone3Samples>上声例字：远，盶</tone3Samples>
     <tone4Samples>去声例字：院，愿，怨，苑，垸，媛，掾，瑗</tone4Samples>
   </yinjie>
   <yinjie name="yue">
-    <desc>yue是整体认读音节; 韵母：üe碰到y写成ue</desc>
+    <desc>yue是整体认读音节；声母：y，韵母：üe碰到y写成ue</desc>
     <tone1Samples>阴平例字：约，曰，矱</tone1Samples>
     <tone2Samples>阳平例字：无</tone2Samples>
     <tone3Samples>上声例字：哕</tone3Samples>
     <tone4Samples>去声例字：月，越，悦，岳，乐，粤，跃，阅</tone4Samples>
   </yinjie>
   <yinjie name="yun">
-    <desc>yun是整体认读音节; 韵母：ün碰到y写成un</desc>
+    <desc>yun是整体认读音节；声母：y，韵母：ün碰到y写成un</desc>
     <tone1Samples>阴平例字：晕，氲，蒀，煴，蝹，赟，馧</tone1Samples>
     <tone2Samples>阳平例字：云，芸，纭，匀，昀，耘，筠，眃</tone2Samples>
     <tone3Samples>上声例字：允，陨，殒，阭，狁，抎，夽，荺</tone3Samples>
@@ -2941,7 +2941,7 @@
     <tone4Samples>去声例字：赠，综，锃，缯，甑，熷</tone4Samples>
   </yinjie>
   <yinjie name="zi">
-    <desc>zi是整体认读音节</desc>
+    <desc>zi是整体认读音节；声母：z，韵母：i</desc>
     <tone1Samples>阴平例字：姿，咨，兹，滋，资，淄，锱，辎</tone1Samples>
     <tone2Samples>阳平例字：蓻</tone2Samples>
     <tone3Samples>上声例字：子，紫，仔，梓，籽，姊，秭，滓</tone3Samples>
@@ -3060,7 +3060,7 @@
     <tone4Samples>去声例字：正，挣，政，症，郑，证，铮，诤</tone4Samples>
   </yinjie>
   <yinjie name="zhi">
-    <desc>zhi是整体认读音节</desc>
+    <desc>zhi是整体认读音节；声母：zh，韵母：i</desc>
     <tone1Samples>阴平例字：之，知，支，只，芝，枝，汁，吱</tone1Samples>
     <tone2Samples>阳平例字：值，直，职，执，植，殖，侄，踯</tone2Samples>
     <tone3Samples>上声例字：只，指，纸，址，止，芷，旨，趾</tone3Samples>
